@@ -1,0 +1,2078 @@
+GRUWithAttentionWithGlove:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|███████████████████████████████████████| 4021/4021 [02:33<00:00, 26.21it/s, lr=1e-6, train_loss=0.703]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.48it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6915060187921807, 0.691086856911244
+=> Saving checkpoint
+Epoch 2/300: 100%|███████████████████████████████████████| 4021/4021 [02:30<00:00, 26.78it/s, lr=1e-6, train_loss=0.705]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.50it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6910314978547607, 0.6908417865485842
+=> Saving checkpoint
+Epoch 3/300: 100%|███████████████████████████████████████| 4021/4021 [02:35<00:00, 25.80it/s, lr=1e-6, train_loss=0.706]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.90it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6908780952586193, 0.6907130553874059
+=> Saving checkpoint
+Epoch 4/300: 100%|███████████████████████████████████████| 4021/4021 [02:33<00:00, 26.23it/s, lr=1e-6, train_loss=0.708]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.69it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907255303589926, 0.690634195657658
+=> Saving checkpoint
+Epoch 5/300: 100%|███████████████████████████████████████| 4021/4021 [02:27<00:00, 27.30it/s, lr=1e-6, train_loss=0.709]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.73it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6906810832450533, 0.6905752697711437
+=> Saving checkpoint
+Epoch 6/300: 100%|███████████████████████████████████████| 4021/4021 [02:32<00:00, 26.35it/s, lr=1e-6, train_loss=0.715]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.55it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6906472609518061, 0.6905195298299164
+=> Saving checkpoint
+Epoch 7/300: 100%|███████████████████████████████████████| 4021/4021 [02:35<00:00, 25.87it/s, lr=1e-6, train_loss=0.724]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.70it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907574809982064, 0.6904575995375101
+=> Saving checkpoint
+Epoch 8/300: 100%|███████████████████████████████████████| 4021/4021 [02:35<00:00, 25.87it/s, lr=1e-6, train_loss=0.642]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.67it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6904978244733347, 0.6903843369564526
+=> Saving checkpoint
+Epoch 9/300: 100%|███████████████████████████████████████| 4021/4021 [02:32<00:00, 26.43it/s, lr=1e-6, train_loss=0.704]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.50it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.690639772764399, 0.6902941334437186
+=> Saving checkpoint
+Epoch 10/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.88it/s, lr=1e-6, train_loss=0.659]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.95it/s]
+Accuracy: 0.5347507149073729
+F1 score: 0.6968567725210628
+Precision score: 0.534817209649341
+Recall score: 0.999767549976755
+Train and validation losses: 0.6904687149048563, 0.6901759789075339
+=> Saving checkpoint
+Epoch 11/300: 100%|██████████████████████████████████████| 4021/4021 [02:18<00:00, 29.01it/s, lr=1e-6, train_loss=0.717]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.66it/s]
+Accuracy: 0.5347507149073729
+F1 score: 0.6968567725210628
+Precision score: 0.534817209649341
+Recall score: 0.999767549976755
+Train and validation losses: 0.6902198412471137, 0.690016801444958
+=> Saving checkpoint
+Epoch 12/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.26it/s, lr=1e-6, train_loss=0.679]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.64it/s]
+Accuracy: 0.5347507149073729
+F1 score: 0.6968567725210628
+Precision score: 0.534817209649341
+Recall score: 0.999767549976755
+Train and validation losses: 0.6900835676413809, 0.6897901954281164
+=> Saving checkpoint
+Epoch 13/300: 100%|██████████████████████████████████████| 4021/4021 [02:27<00:00, 27.32it/s, lr=1e-6, train_loss=0.674]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.27it/s]
+Accuracy: 0.5347507149073729
+F1 score: 0.6968076486793064
+Precision score: 0.5348258706467661
+Recall score: 0.99953509995351
+Train and validation losses: 0.6898725322899134, 0.689464054038937
+=> Saving checkpoint
+Epoch 14/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.94it/s, lr=1e-6, train_loss=0.639]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.27it/s]
+Accuracy: 0.5352480417754569
+F1 score: 0.6969844357976653
+Precision score: 0.5351008215085885
+Recall score: 0.999302649930265
+Train and validation losses: 0.6895228485004489, 0.6889745317562437
+=> Saving checkpoint
+Epoch 15/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.79it/s, lr=1e-6, train_loss=0.671]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.00it/s]
+Accuracy: 0.535123710058436
+F1 score: 0.696090384459075
+Precision score: 0.535183102112236
+Recall score: 0.9953509995351
+Train and validation losses: 0.6889295979567174, 0.6881782217599288
+=> Saving checkpoint
+Epoch 16/300: 100%|██████████████████████████████████████| 4021/4021 [02:26<00:00, 27.41it/s, lr=1e-6, train_loss=0.708]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.79it/s]
+Accuracy: 0.5327614074350366
+F1 score: 0.6916639317361339
+Precision score: 0.534491503931017
+Recall score: 0.9797768479776848
+Train and validation losses: 0.6880790979166702, 0.686824692528006
+=> Saving checkpoint
+Epoch 17/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.80it/s, lr=1e-6, train_loss=0.722]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.70it/s]
+Accuracy: 0.5381076712669401
+F1 score: 0.6859413306281174
+Precision score: 0.5389929586820779
+Recall score: 0.9430497443049745
+Train and validation losses: 0.6865004442485818, 0.6844617826919669
+=> Saving checkpoint
+Epoch 18/300: 100%|██████████████████████████████████████| 4021/4021 [02:16<00:00, 29.45it/s, lr=1e-6, train_loss=0.697]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.37it/s]
+Accuracy: 0.5644659952753948
+F1 score: 0.6823252017774554
+Precision score: 0.5594052044609665
+Recall score: 0.8744769874476988
+Train and validation losses: 0.683557921353041, 0.6802662462884815
+=> Saving checkpoint
+Epoch 19/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.76it/s, lr=1e-6, train_loss=0.716]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.43it/s]
+Accuracy: 0.598781549173194
+F1 score: 0.6768152228342513
+Precision score: 0.5945803272919232
+Recall score: 0.7854486285448629
+Train and validation losses: 0.6784907423184008, 0.6731393107363054
+=> Saving checkpoint
+Epoch 20/300: 100%|██████████████████████████████████████| 4021/4021 [02:29<00:00, 26.96it/s, lr=1e-6, train_loss=0.683]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.31it/s]
+Accuracy: 0.6255128683327117
+F1 score: 0.6707477044162659
+Precision score: 0.633099463475031
+Recall score: 0.7131566713156672
+Train and validation losses: 0.6704214343796971, 0.6630276890682653
+=> Saving checkpoint
+Epoch 21/300: 100%|██████████████████████████████████████| 4021/4021 [02:28<00:00, 27.02it/s, lr=1e-6, train_loss=0.631]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.20it/s]
+Accuracy: 0.6440382941688425
+F1 score: 0.6667442672564311
+Precision score: 0.6677547213802751
+Recall score: 0.6657368665736867
+Train and validation losses: 0.6599240517014444, 0.6515228965173422
+=> Saving checkpoint
+Epoch 22/300: 100%|██████████████████████████████████████| 4021/4021 [02:14<00:00, 29.95it/s, lr=1e-6, train_loss=0.566]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.23it/s]
+Accuracy: 0.6506278751709561
+F1 score: 0.6604639922667955
+Precision score: 0.6877201811776548
+Recall score: 0.6352859135285913
+Train and validation losses: 0.6479494079995648, 0.6392913899767707
+=> Saving checkpoint
+Epoch 23/300: 100%|██████████████████████████████████████| 4021/4021 [02:22<00:00, 28.24it/s, lr=1e-6, train_loss=0.538]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.90it/s]
+Accuracy: 0.660077085664553
+F1 score: 0.6607098535616779
+Precision score: 0.7087326943556975
+Recall score: 0.6187819618781962
+Train and validation losses: 0.6354761454588262, 0.6266190082901277
+=> Saving checkpoint
+Epoch 24/300: 100%|███████████████████████████████████████| 4021/4021 [02:30<00:00, 26.77it/s, lr=1e-6, train_loss=0.72]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.11it/s]
+Accuracy: 0.6684073107049608
+F1 score: 0.660557464681176
+Precision score: 0.729957805907173
+Recall score: 0.6032078103207811
+Train and validation losses: 0.6228091183867333, 0.6143601014469537
+=> Saving checkpoint
+Epoch 25/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.55it/s, lr=1e-6, train_loss=0.458]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.46it/s]
+Accuracy: 0.6773591943304738
+F1 score: 0.6632931101595951
+Precision score: 0.7506607929515419
+Recall score: 0.5941422594142259
+Train and validation losses: 0.6106663422853132, 0.6032059040979647
+=> Saving checkpoint
+Epoch 26/300: 100%|██████████████████████████████████████| 4021/4021 [02:28<00:00, 27.15it/s, lr=1e-6, train_loss=0.697]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.97it/s]
+Accuracy: 0.6854407559368395
+F1 score: 0.6710868434737389
+Precision score: 0.7613569321533923
+Recall score: 0.599953509995351
+Train and validation losses: 0.6004513879300825, 0.5938798979843113
+=> Saving checkpoint
+Epoch 27/300: 100%|███████████████████████████████████████| 4021/4021 [02:32<00:00, 26.39it/s, lr=1e-6, train_loss=0.66]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.15it/s]
+Accuracy: 0.6922790003729952
+F1 score: 0.67188121437094
+Precision score: 0.7818574514038877
+Recall score: 0.5890283589028359
+Train and validation losses: 0.5916569641064245, 0.5866735570621537
+=> Saving checkpoint
+Epoch 28/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.47it/s, lr=1e-6, train_loss=0.627]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.26it/s]
+Accuracy: 0.6965062787517096
+F1 score: 0.6762170049078127
+Precision score: 0.7874575223972814
+Recall score: 0.592515109251511
+Train and validation losses: 0.5846886727509585, 0.5807885857184175
+=> Saving checkpoint
+Epoch 29/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.80it/s, lr=1e-6, train_loss=0.466]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.49it/s]
+Accuracy: 0.6991172448091508
+F1 score: 0.6774193548387096
+Precision score: 0.7940625
+Recall score: 0.5906555090655509
+Train and validation losses: 0.5788867552017757, 0.5757675128387173
+=> Saving checkpoint
+Epoch 30/300: 100%|██████████████████████████████████████| 4021/4021 [02:36<00:00, 25.69it/s, lr=1e-6, train_loss=0.624]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.08it/s]
+Accuracy: 0.7034688549048862
+F1 score: 0.6787013336925771
+Precision score: 0.8071131047741109
+Recall score: 0.5855416085541608
+Train and validation losses: 0.5737733056491301, 0.5713106727979292
+=> Saving checkpoint
+Epoch 31/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.98it/s, lr=1e-6, train_loss=0.511]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.31it/s]
+Accuracy: 0.7086907870197687
+F1 score: 0.6852921423774345
+Precision score: 0.8116449252306713
+Recall score: 0.5929800092980009
+Train and validation losses: 0.5686361236533428, 0.5671776169040805
+=> Saving checkpoint
+Epoch 32/300: 100%|███████████████████████████████████████| 4021/4021 [02:34<00:00, 26.08it/s, lr=1e-6, train_loss=1.14]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.39it/s]
+Accuracy: 0.711799079945294
+F1 score: 0.6904380341880342
+Precision score: 0.8113622096672944
+Recall score: 0.600883310088331
+Train and validation losses: 0.5641017788768674, 0.5632586425270285
+=> Saving checkpoint
+Epoch 33/300: 100%|██████████████████████████████████████| 4021/4021 [02:32<00:00, 26.38it/s, lr=1e-6, train_loss=0.706]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.25it/s]
+Accuracy: 0.7129180653984831
+F1 score: 0.6915987712034193
+Precision score: 0.81287284144427
+Recall score: 0.601813110181311
+Train and validation losses: 0.5599335089003498, 0.5594641588050613
+=> Saving checkpoint
+Epoch 34/300: 100%|███████████████████████████████████████| 4021/4021 [02:37<00:00, 25.60it/s, lr=1e-6, train_loss=0.85]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.72it/s]
+Accuracy: 0.7162750217580505
+F1 score: 0.695408435664709
+Precision score: 0.8166144200626959
+Recall score: 0.6055323105532311
+Train and validation losses: 0.556222037726064, 0.555588753660678
+=> Saving checkpoint
+Epoch 35/300: 100%|███████████████████████████████████████| 4021/4021 [02:29<00:00, 26.83it/s, lr=1e-6, train_loss=1.16]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.37it/s]
+Accuracy: 0.7212482904388909
+F1 score: 0.7028101802757158
+Precision score: 0.8177051202961135
+Recall score: 0.6162250116225012
+Train and validation losses: 0.551599908856366, 0.551619736755463
+=> Saving checkpoint
+Epoch 36/300: 100%|██████████████████████████████████████| 4021/4021 [02:36<00:00, 25.76it/s, lr=1e-6, train_loss=0.611]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.58it/s]
+Accuracy: 0.7237349247793112
+F1 score: 0.7065504490227152
+Precision score: 0.8180428134556575
+Recall score: 0.6218038121803812
+Train and validation losses: 0.5478362855115835, 0.5474508457611617
+=> Saving checkpoint
+Epoch 37/300: 100%|██████████████████████████████████████| 4021/4021 [02:28<00:00, 27.07it/s, lr=1e-6, train_loss=0.718]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.81it/s]
+Accuracy: 0.7259728956856895
+F1 score: 0.7093881856540084
+Precision score: 0.8196221815965874
+Recall score: 0.6252905625290562
+Train and validation losses: 0.5433285281977467, 0.5430083908807213
+=> Saving checkpoint
+Epoch 38/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 26.02it/s, lr=1e-6, train_loss=0.534]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.47it/s]
+Accuracy: 0.7298271789133408
+F1 score: 0.7176088369070825
+Precision score: 0.8137341585617448
+Recall score: 0.6417945141794514
+Train and validation losses: 0.5382232099782617, 0.5378635281300687
+=> Saving checkpoint
+Epoch 39/300: 100%|████████████████████████████████████████| 4021/4021 [02:33<00:00, 26.21it/s, lr=1e-6, train_loss=0.8]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.32it/s]
+Accuracy: 0.7324381449707821
+F1 score: 0.7215320910973085
+Precision score: 0.8137769994162288
+Recall score: 0.6480706648070664
+Train and validation losses: 0.5329567839541385, 0.5321930500847207
+=> Saving checkpoint
+Epoch 40/300: 100%|██████████████████████████████████████| 4021/4021 [02:26<00:00, 27.36it/s, lr=1e-6, train_loss=0.277]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 100.92it/s]
+Accuracy: 0.7349247793112023
+F1 score: 0.7263157894736842
+Precision score: 0.8110665137614679
+Recall score: 0.6576011157601116
+Train and validation losses: 0.5265258860340524, 0.5257429676371114
+=> Saving checkpoint
+Epoch 41/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.99it/s, lr=1e-6, train_loss=0.533]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.37it/s]
+Accuracy: 0.7362924281984334
+F1 score: 0.7305982471738854
+Precision score: 0.8053766451974237
+Recall score: 0.6685262668526267
+Train and validation losses: 0.5191378193585263, 0.5184971934876906
+=> Saving checkpoint
+Epoch 42/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.24it/s, lr=1e-6, train_loss=0.622]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.52it/s]
+Accuracy: 0.7386547308218326
+F1 score: 0.7378398603142928
+Precision score: 0.7960172228202368
+Recall score: 0.6875871687587168
+Train and validation losses: 0.5119231334449461, 0.5106166019798747
+=> Saving checkpoint
+Epoch 43/300: 100%|██████████████████████████████████████| 4021/4021 [02:26<00:00, 27.50it/s, lr=1e-6, train_loss=0.566]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.45it/s]
+Accuracy: 0.7416386920303369
+F1 score: 0.743393430476661
+Precision score: 0.7929399367755532
+Recall score: 0.699674569967457
+Train and validation losses: 0.503256488479331, 0.5026464810294967
+=> Saving checkpoint
+Epoch 44/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.23it/s, lr=1e-6, train_loss=0.662]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.56it/s]
+Accuracy: 0.7449956483899043
+F1 score: 0.7489288774635818
+Precision score: 0.791052495474528
+Recall score: 0.7110646211064621
+Train and validation losses: 0.49480458898379476, 0.4950388135688442
+=> Saving checkpoint
+Epoch 45/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.97it/s, lr=1e-6, train_loss=0.275]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.40it/s]
+Accuracy: 0.7488499316175556
+F1 score: 0.7580258744609487
+Precision score: 0.7820069204152249
+Recall score: 0.7354718735471873
+Train and validation losses: 0.48648983975735743, 0.48795090878667463
+=> Saving checkpoint
+Epoch 46/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.68it/s, lr=1e-6, train_loss=0.273]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.26it/s]
+Accuracy: 0.7507149073728708
+F1 score: 0.7615649898917826
+Precision score: 0.7796445093742391
+Recall score: 0.7443049744304975
+Train and validation losses: 0.4791094585178474, 0.4817548974696732
+=> Saving checkpoint
+Epoch 47/300: 100%|███████████████████████████████████████| 4021/4021 [02:32<00:00, 26.41it/s, lr=1e-6, train_loss=0.61]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 101.09it/s]
+Accuracy: 0.7529528782792491
+F1 score: 0.7677381648158972
+Precision score: 0.7721608276510699
+Recall score: 0.7633658763365876
+Train and validation losses: 0.47313311241161343, 0.4761139491117498
+=> Saving checkpoint
+Epoch 48/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.23it/s, lr=1e-6, train_loss=0.309]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.41it/s]
+Accuracy: 0.7558125077707323
+F1 score: 0.7747189722413398
+Precision score: 0.7647192028985508
+Recall score: 0.7849837284983728
+Train and validation losses: 0.4677213464943042, 0.4713422836398865
+=> Saving checkpoint
+Epoch 49/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.47it/s, lr=1e-6, train_loss=0.687]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.66it/s]
+Accuracy: 0.7571801566579635
+F1 score: 0.7785463204444948
+Precision score: 0.7600177108700464
+Recall score: 0.798000929800093
+Train and validation losses: 0.4621943539739011, 0.4670964488926275
+=> Saving checkpoint
+Epoch 50/300: 100%|████████████████████████████████████████| 4021/4021 [02:28<00:00, 27.06it/s, lr=1e-6, train_loss=0.5]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.26it/s]
+Accuracy: 0.7587964689792366
+F1 score: 0.7795454545454545
+Precision score: 0.7625611382836817
+Recall score: 0.7973035797303579
+Train and validation losses: 0.4579363987905948, 0.46337948840992826
+=> Saving checkpoint
+Epoch 51/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.85it/s, lr=1e-6, train_loss=0.246]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.23it/s]
+Accuracy: 0.762402088772846
+F1 score: 0.7867901372308379
+Precision score: 0.7564900236000858
+Recall score: 0.8196187819618782
+Train and validation losses: 0.4542316724188409, 0.46014136359628816
+=> Saving checkpoint
+Epoch 52/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.21it/s, lr=1e-6, train_loss=0.357]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.31it/s]
+Accuracy: 0.7642670645281612
+F1 score: 0.7889111556446226
+Precision score: 0.757051282051282
+Recall score: 0.8235704323570432
+Train and validation losses: 0.45061899218648055, 0.4569355669333257
+=> Saving checkpoint
+Epoch 53/300: 100%|███████████████████████████████████████| 4021/4021 [02:25<00:00, 27.58it/s, lr=1e-6, train_loss=0.73]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.29it/s]
+Accuracy: 0.7652617182643292
+F1 score: 0.7900822770736047
+Precision score: 0.7572463768115942
+Recall score: 0.8258949325894933
+Train and validation losses: 0.4470213375146251, 0.45402514437217245
+=> Saving checkpoint
+Epoch 54/300: 100%|██████████████████████████████████████| 4021/4021 [02:17<00:00, 29.33it/s, lr=1e-6, train_loss=0.391]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.16it/s]
+Accuracy: 0.7677483526047495
+F1 score: 0.7938644890752593
+Precision score: 0.755672268907563
+Recall score: 0.8361227336122734
+Train and validation losses: 0.44442357695542206, 0.451250252860115
+=> Saving checkpoint
+Epoch 55/300: 100%|██████████████████████████████████████| 4021/4021 [02:32<00:00, 26.32it/s, lr=1e-6, train_loss=0.408]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.19it/s]
+Accuracy: 0.7689916697749596
+F1 score: 0.7955545774647887
+Precision score: 0.7553280401170079
+Recall score: 0.8403068340306834
+Train and validation losses: 0.4412335918869316, 0.44864951858434005
+=> Saving checkpoint
+Epoch 56/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.20it/s, lr=1e-6, train_loss=0.421]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.90it/s]
+Accuracy: 0.7694889966430436
+F1 score: 0.7976424361493124
+Precision score: 0.7518518518518519
+Recall score: 0.8493723849372385
+Train and validation losses: 0.43883443013152296, 0.446362272712215
+=> Saving checkpoint
+Epoch 57/300: 100%|██████████████████████████████████████| 4021/4021 [02:28<00:00, 27.03it/s, lr=1e-6, train_loss=0.247]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.16it/s]
+Accuracy: 0.7713539723983588
+F1 score: 0.7967281971924395
+Precision score: 0.759536354056902
+Recall score: 0.8377498837749884
+Train and validation losses: 0.43681280784081, 0.44370464033726786
+=> Saving checkpoint
+Epoch 58/300: 100%|██████████████████████████████████████| 4021/4021 [02:32<00:00, 26.35it/s, lr=1e-6, train_loss=0.385]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.06it/s]
+Accuracy: 0.7694889966430436
+F1 score: 0.7984344422700587
+Precision score: 0.75
+Recall score: 0.8535564853556485
+Train and validation losses: 0.4344804882984706, 0.4420396383059309
+=> Saving checkpoint
+Epoch 59/300: 100%|██████████████████████████████████████| 4021/4021 [02:21<00:00, 28.44it/s, lr=1e-6, train_loss=0.236]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.34it/s]
+Accuracy: 0.7699863235111277
+F1 score: 0.799044101672822
+Precision score: 0.75
+Recall score: 0.8549511854951185
+Train and validation losses: 0.4322589222527994, 0.44010866565952006
+=> Saving checkpoint
+Epoch 60/300: 100%|██████████████████████████████████████| 4021/4021 [02:29<00:00, 26.98it/s, lr=1e-6, train_loss=0.265]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.25it/s]
+Accuracy: 0.7706079820962327
+F1 score: 0.7982504100601422
+Precision score: 0.7536650836258517
+Recall score: 0.8484425848442585
+Train and validation losses: 0.4296151112808617, 0.4380748251464151
+=> Saving checkpoint
+Epoch 61/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.65it/s, lr=1e-6, train_loss=0.154]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.54it/s]
+Accuracy: 0.7708566455302748
+F1 score: 0.799040453603751
+Precision score: 0.7525159170260833
+Recall score: 0.8516968851696886
+Train and validation losses: 0.4290070411209754, 0.4367874462942539
+=> Saving checkpoint
+Epoch 62/300: 100%|██████████████████████████████████████| 4021/4021 [02:28<00:00, 27.07it/s, lr=1e-6, train_loss=0.252]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.54it/s]
+Accuracy: 0.7713539723983588
+F1 score: 0.8009955632507304
+Precision score: 0.7493419720591212
+Recall score: 0.8602975360297536
+Train and validation losses: 0.4277922147169276, 0.4355306793189428
+=> Saving checkpoint
+Epoch 63/300: 100%|██████████████████████████████████████| 4021/4021 [02:36<00:00, 25.62it/s, lr=1e-6, train_loss=0.281]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.10it/s]
+Accuracy: 0.7706079820962327
+F1 score: 0.8003894839337877
+Precision score: 0.7486338797814208
+Recall score: 0.8598326359832636
+Train and validation losses: 0.42522262565159763, 0.43425635907939725
+=> Saving checkpoint
+Epoch 64/300: 100%|███████████████████████████████████████| 4021/4021 [02:29<00:00, 26.83it/s, lr=1e-6, train_loss=0.55]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.25it/s]
+Accuracy: 0.7714783041153799
+F1 score: 0.8018969605518431
+Precision score: 0.747588424437299
+Recall score: 0.8647140864714087
+Train and validation losses: 0.4241558469524359, 0.4331876126638286
+=> Saving checkpoint
+Epoch 65/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.96it/s, lr=1e-6, train_loss=0.689]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.19it/s]
+Accuracy: 0.772597289568569
+F1 score: 0.8031428263911312
+Precision score: 0.7478452595710563
+Recall score: 0.8672710367271037
+Train and validation losses: 0.4230550199217151, 0.43222638083692216
+=> Saving checkpoint
+Epoch 66/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.79it/s, lr=1e-6, train_loss=0.464]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.08it/s]
+Accuracy: 0.7737162750217581
+F1 score: 0.804258980425898
+Precision score: 0.7483987189751802
+Recall score: 0.8691306369130637
+Train and validation losses: 0.42167621512809994, 0.4312696888057837
+=> Saving checkpoint
+Epoch 67/300: 100%|██████████████████████████████████████| 4021/4021 [02:36<00:00, 25.65it/s, lr=1e-6, train_loss=0.446]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.17it/s]
+Accuracy: 0.7753325873430312
+F1 score: 0.8028798952765354
+Precision score: 0.7564234326824255
+Recall score: 0.8554160855416085
+Train and validation losses: 0.4213690549460395, 0.4302321985089933
+=> Saving checkpoint
+Epoch 68/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.89it/s, lr=1e-6, train_loss=0.206]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.35it/s]
+Accuracy: 0.7748352604749471
+F1 score: 0.8051640667025283
+Precision score: 0.7494492289204887
+Recall score: 0.8698279869827987
+Train and validation losses: 0.41978885325029014, 0.42957740342596296
+=> Saving checkpoint
+Epoch 69/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.13it/s, lr=1e-6, train_loss=0.488]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.24it/s]
+Accuracy: 0.7759542459281362
+F1 score: 0.8029739776951673
+Precision score: 0.7580511973575558
+Recall score: 0.8535564853556485
+Train and validation losses: 0.41938626228673515, 0.42853836218454316
+=> Saving checkpoint
+Epoch 70/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.49it/s, lr=1e-6, train_loss=0.341]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.10it/s]
+Accuracy: 0.7753325873430312
+F1 score: 0.8060950745788175
+Precision score: 0.7486545744468807
+Recall score: 0.8730822873082287
+Train and validation losses: 0.41798133884728683, 0.42822874370392106
+=> Saving checkpoint
+Epoch 71/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 26.02it/s, lr=1e-6, train_loss=0.531]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.23it/s]
+Accuracy: 0.7755812507770732
+F1 score: 0.8048859582747812
+Precision score: 0.7522731865023237
+Recall score: 0.8654114365411436
+Train and validation losses: 0.4169834995217523, 0.4273667657714537
+=> Saving checkpoint
+Epoch 72/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.96it/s, lr=1e-6, train_loss=0.274]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.10it/s]
+Accuracy: 0.7755812507770732
+F1 score: 0.8060182697474476
+Precision score: 0.7495502698380971
+Recall score: 0.8716875871687587
+Train and validation losses: 0.41666390993362545, 0.42679268161712536
+=> Saving checkpoint
+Epoch 73/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.83it/s, lr=1e-6, train_loss=0.638]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.12it/s]
+Accuracy: 0.7760785776451573
+F1 score: 0.805822102425876
+Precision score: 0.7514578725115625
+Recall score: 0.8686657368665737
+Train and validation losses: 0.4149813065205758, 0.42602214962984647
+=> Saving checkpoint
+Epoch 74/300: 100%|██████████████████████████████████████| 4021/4021 [02:37<00:00, 25.59it/s, lr=1e-6, train_loss=0.213]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.98it/s]
+Accuracy: 0.7767002362302623
+F1 score: 0.8059636992221262
+Precision score: 0.7529269277351635
+Recall score: 0.8670385867038587
+Train and validation losses: 0.4149860282333832, 0.42539248508669686
+=> Saving checkpoint
+Epoch 75/300: 100%|██████████████████████████████████████| 4021/4021 [02:29<00:00, 26.82it/s, lr=1e-6, train_loss=0.234]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.36it/s]
+Accuracy: 0.7763272410791993
+F1 score: 0.8067876704972613
+Precision score: 0.7498502695148732
+Recall score: 0.8730822873082287
+Train and validation losses: 0.4139314689584312, 0.4248527196285946
+=> Saving checkpoint
+Epoch 76/300: 100%|██████████████████████████████████████| 4021/4021 [02:27<00:00, 27.23it/s, lr=1e-6, train_loss=0.251]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.05it/s]
+Accuracy: 0.7763272410791993
+F1 score: 0.8066215199398044
+Precision score: 0.750249950009998
+Recall score: 0.8721524872152487
+Train and validation losses: 0.4126848762044746, 0.4242500240764549
+=> Saving checkpoint
+Epoch 77/300: 100%|██████████████████████████████████████| 4021/4021 [02:27<00:00, 27.29it/s, lr=1e-6, train_loss=0.676]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.30it/s]
+Accuracy: 0.7780678851174935
+F1 score: 0.8057882711348058
+Precision score: 0.7574146042135406
+Recall score: 0.8607624360762436
+Train and validation losses: 0.412585636433163, 0.42343794340434415
+=> Saving checkpoint
+Epoch 78/300: 100%|██████████████████████████████████████| 4021/4021 [02:32<00:00, 26.43it/s, lr=1e-6, train_loss=0.172]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.89it/s]
+Accuracy: 0.7769488996643044
+F1 score: 0.8055495339258617
+Precision score: 0.7546709991876523
+Recall score: 0.8637842863784286
+Train and validation losses: 0.4115624628554371, 0.42296748198420697
+=> Saving checkpoint
+Epoch 79/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.62it/s, lr=1e-6, train_loss=0.275]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.99it/s]
+Accuracy: 0.7784408802685565
+F1 score: 0.8089212953034527
+Precision score: 0.7507961783439491
+Recall score: 0.8768014876801488
+Train and validation losses: 0.410939104318641, 0.4225844816632465
+=> Saving checkpoint
+Epoch 80/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.59it/s, lr=1e-6, train_loss=0.633]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.97it/s]
+Accuracy: 0.7791868705706826
+F1 score: 0.8096054888507719
+Precision score: 0.7512932749701552
+Recall score: 0.8777312877731288
+Train and validation losses: 0.41015227994488057, 0.42213181714725423
+=> Saving checkpoint
+Epoch 81/300: 100%|██████████████████████████████████████| 4021/4021 [02:36<00:00, 25.75it/s, lr=1e-6, train_loss=0.533]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.09it/s]
+Accuracy: 0.7781922168345144
+F1 score: 0.8091978609625669
+Precision score: 0.749405705229794
+Recall score: 0.8793584379358438
+Train and validation losses: 0.4098478004584648, 0.42205945058738736
+=> Saving checkpoint
+Epoch 82/300: 100%|██████████████████████████████████████| 4021/4021 [02:32<00:00, 26.42it/s, lr=1e-6, train_loss=0.359]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.01it/s]
+Accuracy: 0.7791868705706826
+F1 score: 0.8103779628443306
+Precision score: 0.7494075829383886
+Recall score: 0.8821478382147838
+Train and validation losses: 0.4096020133107404, 0.4212658616508659
+=> Saving checkpoint
+Epoch 83/300: 100%|██████████████████████████████████████| 4021/4021 [02:37<00:00, 25.57it/s, lr=1e-6, train_loss=0.493]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.21it/s]
+Accuracy: 0.7784408802685565
+F1 score: 0.8100618205073545
+Precision score: 0.7480314960629921
+Recall score: 0.8833100883310089
+Train and validation losses: 0.4090623813812167, 0.4209558653532274
+=> Saving checkpoint
+Epoch 84/300: 100%|██████████████████████████████████████| 4021/4021 [02:32<00:00, 26.42it/s, lr=1e-6, train_loss=0.287]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.55it/s]
+Accuracy: 0.7800571925898296
+F1 score: 0.8102542100182345
+Precision score: 0.7522405895239992
+Recall score: 0.8779637377963738
+Train and validation losses: 0.40731671407172126, 0.4200417028414178
+=> Saving checkpoint
+Epoch 85/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.86it/s, lr=1e-6, train_loss=0.541]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.94it/s]
+Accuracy: 0.7801815243068507
+F1 score: 0.8104631217838765
+Precision score: 0.7520891364902507
+Recall score: 0.8786610878661087
+Train and validation losses: 0.40797716918549887, 0.41968395837229006
+=> Saving checkpoint
+Epoch 86/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.16it/s, lr=1e-6, train_loss=0.458]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.18it/s]
+Accuracy: 0.7810518463259978
+F1 score: 0.8107469102632993
+Precision score: 0.7539476314211473
+Recall score: 0.8768014876801488
+Train and validation losses: 0.40678510040015137, 0.41909044272420004
+=> Saving checkpoint
+Epoch 87/300: 100%|██████████████████████████████████████| 4021/4021 [02:36<00:00, 25.62it/s, lr=1e-6, train_loss=0.237]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.02it/s]
+Accuracy: 0.7830411537983339
+F1 score: 0.812021975654422
+Precision score: 0.7566753663922907
+Recall score: 0.8761041376104137
+Train and validation losses: 0.40578700810785734, 0.41851746781764343
+=> Saving checkpoint
+Epoch 88/300: 100%|███████████████████████████████████████| 4021/4021 [02:36<00:00, 25.73it/s, lr=1e-6, train_loss=0.24]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.70it/s]
+Accuracy: 0.783662812383439
+F1 score: 0.8120544394037589
+Precision score: 0.7584745762711864
+Recall score: 0.8737796373779637
+Train and validation losses: 0.4063820641328486, 0.4180295726554709
+=> Saving checkpoint
+Epoch 89/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.92it/s, lr=1e-6, train_loss=0.372]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.37it/s]
+Accuracy: 0.783289817232376
+F1 score: 0.8118320198639749
+Precision score: 0.7579117113485184
+Recall score: 0.8740120874012087
+Train and validation losses: 0.405522652284456, 0.41760224661980544
+=> Saving checkpoint
+Epoch 90/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 26.09it/s, lr=1e-6, train_loss=0.202]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.08it/s]
+Accuracy: 0.7814248414770608
+F1 score: 0.8119383825417201
+Precision score: 0.7520808561236623
+Recall score: 0.8821478382147838
+Train and validation losses: 0.4046714765239054, 0.41771697852330997
+Epoch 91/300: 100%|██████████████████████████████████████| 4021/4021 [02:26<00:00, 27.54it/s, lr=1e-6, train_loss=0.344]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.13it/s]
+Accuracy: 0.783662812383439
+F1 score: 0.8123786931205521
+Precision score: 0.7576427996781979
+Recall score: 0.8756392375639238
+Train and validation losses: 0.40450130949374513, 0.4168227116538445
+=> Saving checkpoint
+Epoch 92/300: 100%|██████████████████████████████████████| 4021/4021 [02:28<00:00, 27.09it/s, lr=1e-6, train_loss=0.699]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.78it/s]
+Accuracy: 0.783538480666418
+F1 score: 0.8130971551261407
+Precision score: 0.7554358667464592
+Recall score: 0.8802882380288238
+Train and validation losses: 0.4042329435945261, 0.4166840724647045
+=> Saving checkpoint
+Epoch 93/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.47it/s, lr=1e-6, train_loss=0.213]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.23it/s]
+Accuracy: 0.7862737784408803
+F1 score: 0.8116577188561411
+Precision score: 0.7676683937823834
+Recall score: 0.8609948860994886
+Train and validation losses: 0.4032366640274722, 0.41567320201479296
+=> Saving checkpoint
+Epoch 94/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.85it/s, lr=1e-6, train_loss=0.318]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.37it/s]
+Accuracy: 0.7844088026855651
+F1 score: 0.8126215690512211
+Precision score: 0.7592891760904685
+Recall score: 0.8740120874012087
+Train and validation losses: 0.40305286239637156, 0.41552038755356735
+=> Saving checkpoint
+Epoch 95/300: 100%|███████████████████████████████████████| 4021/4021 [02:33<00:00, 26.22it/s, lr=1e-6, train_loss=0.17]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.17it/s]
+Accuracy: 0.783289817232376
+F1 score: 0.8137223469060596
+Precision score: 0.7531157270029674
+Recall score: 0.8849372384937239
+Train and validation losses: 0.4024650573103256, 0.41553596824140954
+Epoch 96/300: 100%|██████████████████████████████████████| 4021/4021 [02:31<00:00, 26.48it/s, lr=1e-6, train_loss=0.359]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.18it/s]
+Accuracy: 0.7841601392515231
+F1 score: 0.8129310344827586
+Precision score: 0.7577340297308156
+Recall score: 0.8768014876801488
+Train and validation losses: 0.40198581780218284, 0.4148679869305009
+=> Saving checkpoint
+Epoch 97/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.90it/s, lr=1e-6, train_loss=0.376]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.31it/s]
+Accuracy: 0.7849061295536491
+F1 score: 0.8126894759636206
+Precision score: 0.7606404539927036
+Recall score: 0.8723849372384938
+Train and validation losses: 0.4009748074733086, 0.41433724182959697
+=> Saving checkpoint
+Epoch 98/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.32it/s, lr=1e-6, train_loss=0.0879]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.13it/s]
+Accuracy: 0.7851547929876912
+F1 score: 0.8134715025906736
+Precision score: 0.7593712212817413
+Recall score: 0.8758716875871687
+Train and validation losses: 0.4005751957604094, 0.41416475049425544
+=> Saving checkpoint
+Epoch 99/300: 100%|██████████████████████████████████████| 4021/4021 [02:32<00:00, 26.36it/s, lr=1e-6, train_loss=0.533]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.31it/s]
+Accuracy: 0.7840358075345021
+F1 score: 0.8144429013994231
+Precision score: 0.7535085985372604
+Recall score: 0.8860994886099489
+Train and validation losses: 0.4003693549593855, 0.41428825352711246
+Epoch 100/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.04it/s, lr=1e-6, train_loss=0.435]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.35it/s]
+Accuracy: 0.7854034564217331
+F1 score: 0.8133650519031141
+Precision score: 0.7604124545086939
+Recall score: 0.8742445374244537
+Train and validation losses: 0.4000426218561222, 0.4132743398871858
+=> Saving checkpoint
+Epoch 101/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.80it/s, lr=1e-6, train_loss=0.51]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.17it/s]
+Accuracy: 0.7863981101579013
+F1 score: 0.8132608695652174
+Precision score: 0.763781135157207
+Recall score: 0.8695955369595537
+Train and validation losses: 0.39957329725721114, 0.4126935572979998
+=> Saving checkpoint
+Epoch 102/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.21it/s, lr=1e-6, train_loss=0.777]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.36it/s]
+Accuracy: 0.7845331344025861
+F1 score: 0.8135155493382116
+Precision score: 0.7573632538569425
+Recall score: 0.8786610878661087
+Train and validation losses: 0.39922883962293787, 0.4127253061160445
+Epoch 103/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.82it/s, lr=1e-6, train_loss=0.388]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.27it/s]
+Accuracy: 0.7871441004600274
+F1 score: 0.8135482465693749
+Precision score: 0.7653688524590164
+Recall score: 0.8682008368200836
+Train and validation losses: 0.399757869632438, 0.41192555046134866
+=> Saving checkpoint
+Epoch 104/300: 100%|█████████████████████████████████████| 4021/4021 [02:24<00:00, 27.75it/s, lr=1e-6, train_loss=0.483]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.29it/s]
+Accuracy: 0.7863981101579013
+F1 score: 0.8142702702702703
+Precision score: 0.7611156022635408
+Recall score: 0.8754067875406788
+Train and validation losses: 0.39895603968188614, 0.41197991635554115
+Epoch 105/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.77it/s, lr=1e-6, train_loss=0.561]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.07it/s]
+Accuracy: 0.7872684321770483
+F1 score: 0.813596252315067
+Precision score: 0.76563461144146
+Recall score: 0.8679683867968386
+Train and validation losses: 0.39815670537705133, 0.41131246448207504
+=> Saving checkpoint
+Epoch 106/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.46it/s, lr=1e-6, train_loss=0.298]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 96.85it/s]
+Accuracy: 0.7849061295536491
+F1 score: 0.8133764832793959
+Precision score: 0.7588566827697263
+Recall score: 0.8763365876336587
+Train and validation losses: 0.3981336532496481, 0.41133933540278117
+Epoch 107/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.92it/s, lr=1e-6, train_loss=0.428]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.11it/s]
+Accuracy: 0.7877657590451325
+F1 score: 0.813013473545843
+Precision score: 0.7688004972032318
+Recall score: 0.8626220362622036
+Train and validation losses: 0.39793296662307265, 0.41063919496791024
+=> Saving checkpoint
+Epoch 108/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.52it/s, lr=1e-6, train_loss=0.331]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.99it/s]
+Accuracy: 0.7875170956110904
+F1 score: 0.8127533691245754
+Precision score: 0.7687046632124352
+Recall score: 0.8621571362157137
+Train and validation losses: 0.39718789136135896, 0.41032358374683625
+=> Saving checkpoint
+Epoch 109/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 26.10it/s, lr=1e-6, train_loss=0.47]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.30it/s]
+Accuracy: 0.7861494467238592
+F1 score: 0.8141745894554884
+Precision score: 0.7605974969721437
+Recall score: 0.8758716875871687
+Train and validation losses: 0.39686167115626775, 0.41034332989616906
+Epoch 110/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.49it/s, lr=1e-6, train_loss=0.244]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.47it/s]
+Accuracy: 0.7868954370259853
+F1 score: 0.814582431847685
+Precision score: 0.7618373128288143
+Recall score: 0.8751743375174338
+Train and validation losses: 0.39622796540100147, 0.41015847755140566
+=> Saving checkpoint
+Epoch 111/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.22it/s, lr=1e-6, train_loss=0.259]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.08it/s]
+Accuracy: 0.7878900907621534
+F1 score: 0.8119903019616487
+Precision score: 0.7720033528918693
+Recall score: 0.8563458856345886
+Train and validation losses: 0.39647543627061865, 0.4094293400234215
+=> Saving checkpoint
+Epoch 112/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.20it/s, lr=1e-6, train_loss=0.364]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.40it/s]
+Accuracy: 0.7860251150068382
+F1 score: 0.8140464613722312
+Precision score: 0.7605491621239653
+Recall score: 0.8756392375639238
+Train and validation losses: 0.3956141332991271, 0.40954499360670155
+Epoch 113/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.85it/s, lr=1e-6, train_loss=0.351]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.11it/s]
+Accuracy: 0.7882630859132165
+F1 score: 0.8149516462023253
+Precision score: 0.7651499693940013
+Recall score: 0.8716875871687587
+Train and validation losses: 0.39650317225294884, 0.4090597044572856
+=> Saving checkpoint
+Epoch 114/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.00it/s, lr=1e-6, train_loss=0.266]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.05it/s]
+Accuracy: 0.7855277881387542
+F1 score: 0.8137752348051387
+Precision score: 0.7597258617214271
+Recall score: 0.8761041376104137
+Train and validation losses: 0.39570917183747784, 0.40913426921986207
+Epoch 115/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.59it/s, lr=1e-6, train_loss=0.275]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.11it/s]
+Accuracy: 0.7871441004600274
+F1 score: 0.8146383715894326
+Precision score: 0.7624645318200243
+Recall score: 0.8744769874476988
+Train and validation losses: 0.3955254723345483, 0.40861260187562193
+=> Saving checkpoint
+Epoch 116/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.51it/s, lr=1e-6, train_loss=0.692]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.35it/s]
+Accuracy: 0.7882630859132165
+F1 score: 0.8149918522542097
+Precision score: 0.7650418111360392
+Recall score: 0.8719200371920037
+Train and validation losses: 0.3945931098276823, 0.40821089419104883
+=> Saving checkpoint
+Epoch 117/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.15it/s, lr=1e-6, train_loss=0.543]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.95it/s]
+Accuracy: 0.7881387541961955
+F1 score: 0.8134034165571616
+Precision score: 0.768944099378882
+Recall score: 0.8633193863319386
+Train and validation losses: 0.39459218956100217, 0.40784030049765263
+=> Saving checkpoint
+Epoch 118/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.23it/s, lr=1e-6, train_loss=0.457]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.40it/s]
+Accuracy: 0.7876414273281114
+F1 score: 0.8140648813411714
+Precision score: 0.7655610155610155
+Recall score: 0.8691306369130637
+Train and validation losses: 0.39468480157810665, 0.40769313421900244
+=> Saving checkpoint
+Epoch 119/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.81it/s, lr=1e-6, train_loss=0.512]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.04it/s]
+Accuracy: 0.7867711053089643
+F1 score: 0.8158488134865242
+Precision score: 0.7581321093594093
+Recall score: 0.8830776383077639
+Train and validation losses: 0.3945040774231258, 0.40815929438044907
+Epoch 120/300: 100%|█████████████████████████████████████| 4021/4021 [02:26<00:00, 27.48it/s, lr=1e-6, train_loss=0.779]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.65it/s]
+Accuracy: 0.7878900907621534
+F1 score: 0.8142826039625517
+Precision score: 0.7657657657657657
+Recall score: 0.8693630869363087
+Train and validation losses: 0.39441947989097226, 0.4070922370451997
+=> Saving checkpoint
+Epoch 121/300: 100%|█████████████████████████████████████| 4021/4021 [02:24<00:00, 27.75it/s, lr=1e-6, train_loss=0.478]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.14it/s]
+Accuracy: 0.7877657590451325
+F1 score: 0.8138292071109172
+Precision score: 0.7665913293610027
+Recall score: 0.8672710367271037
+Train and validation losses: 0.39421184371820556, 0.4067827595405236
+=> Saving checkpoint
+Epoch 122/300: 100%|█████████████████████████████████████| 4021/4021 [02:26<00:00, 27.44it/s, lr=1e-6, train_loss=0.426]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 96.50it/s]
+Accuracy: 0.7883874176302375
+F1 score: 0.8120583038869258
+Precision score: 0.7734539335296592
+Recall score: 0.8547187354718735
+Train and validation losses: 0.3931702401987454, 0.4063448518714599
+=> Saving checkpoint
+Epoch 123/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.27it/s, lr=1e-6, train_loss=0.273]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.06it/s]
+Accuracy: 0.7886360810642795
+F1 score: 0.8142482517482518
+Precision score: 0.7682474226804124
+Recall score: 0.8661087866108786
+Train and validation losses: 0.393208083903032, 0.4063254247510261
+=> Saving checkpoint
+Epoch 124/300: 100%|█████████████████████████████████████| 4021/4021 [02:27<00:00, 27.31it/s, lr=1e-6, train_loss=0.243]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.22it/s]
+Accuracy: 0.7878900907621534
+F1 score: 0.8148871527777778
+Precision score: 0.7641432641432642
+Recall score: 0.8728498372849838
+Train and validation losses: 0.39300053275461977, 0.40638868897694125
+Epoch 125/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.18it/s, lr=1e-6, train_loss=0.328]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.24it/s]
+Accuracy: 0.7890090762153426
+F1 score: 0.8147986467314199
+Precision score: 0.7679489816910101
+Recall score: 0.8677359367735937
+Train and validation losses: 0.39232903371202105, 0.4057779617452065
+=> Saving checkpoint
+Epoch 126/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.17it/s, lr=1e-6, train_loss=0.182]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.92it/s]
+Accuracy: 0.7893820713664056
+F1 score: 0.8146202670168528
+Precision score: 0.7696443341604632
+Recall score: 0.8651789865178987
+Train and validation losses: 0.39215897120909665, 0.40532398065755787
+=> Saving checkpoint
+Epoch 127/300: 100%|█████████████████████████████████████| 4021/4021 [02:25<00:00, 27.65it/s, lr=1e-6, train_loss=0.242]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.20it/s]
+Accuracy: 0.7893820713664056
+F1 score: 0.8143358176238492
+Precision score: 0.7704272086271257
+Recall score: 0.8635518363551836
+Train and validation losses: 0.3918462061411008, 0.40506697564050703
+=> Saving checkpoint
+Epoch 128/300: 100%|█████████████████████████████████████| 4021/4021 [02:24<00:00, 27.80it/s, lr=1e-6, train_loss=0.257]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.41it/s]
+Accuracy: 0.7896307348004475
+F1 score: 0.8147985989492119
+Precision score: 0.7699627637567232
+Recall score: 0.8651789865178987
+Train and validation losses: 0.39133478538474836, 0.4048282661147519
+=> Saving checkpoint
+Epoch 129/300: 100%|█████████████████████████████████████| 4021/4021 [02:28<00:00, 27.08it/s, lr=1e-6, train_loss=0.156]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.08it/s]
+Accuracy: 0.7900037299515106
+F1 score: 0.8149852119618797
+Precision score: 0.7706650093225605
+Recall score: 0.8647140864714087
+Train and validation losses: 0.39160735514598627, 0.404546488748556
+=> Saving checkpoint
+Epoch 130/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.12it/s, lr=1e-6, train_loss=0.477]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.22it/s]
+Accuracy: 0.7881387541961955
+F1 score: 0.8160224573526236
+Precision score: 0.7618951612903225
+Recall score: 0.8784286378428637
+Train and validation losses: 0.3908420878753633, 0.4049698526880317
+Epoch 131/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.65it/s, lr=1e-6, train_loss=0.365]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.94it/s]
+Accuracy: 0.7890090762153426
+F1 score: 0.8158836931756537
+Precision score: 0.7650050864699899
+Recall score: 0.8740120874012087
+Train and validation losses: 0.39156677661376993, 0.4045390156273606
+=> Saving checkpoint
+Epoch 132/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.85it/s, lr=1e-6, train_loss=0.386]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.12it/s]
+Accuracy: 0.7895064030834266
+F1 score: 0.8149119930031704
+Precision score: 0.7692466460268318
+Recall score: 0.8663412366341237
+Train and validation losses: 0.39053813508764795, 0.4039585978277842
+=> Saving checkpoint
+Epoch 133/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.83it/s, lr=1e-6, train_loss=0.402]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.48it/s]
+Accuracy: 0.7883874176302375
+F1 score: 0.8155613350671869
+Precision score: 0.7639058059277304
+Recall score: 0.8747094374709438
+Train and validation losses: 0.3899489655338915, 0.40406599802670495
+Epoch 134/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.93it/s, lr=1e-6, train_loss=0.572]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.42it/s]
+Accuracy: 0.7907497202536367
+F1 score: 0.8147087966530882
+Precision score: 0.773896674335913
+Recall score: 0.8600650860065086
+Train and validation losses: 0.3899817315134776, 0.4032670833285209
+=> Saving checkpoint
+Epoch 135/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.85it/s, lr=1e-6, train_loss=0.693]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.05it/s]
+Accuracy: 0.7893820713664056
+F1 score: 0.815989572018249
+Precision score: 0.765905383360522
+Recall score: 0.8730822873082287
+Train and validation losses: 0.3897545974974022, 0.40332490044310837
+Epoch 136/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.36it/s, lr=1e-6, train_loss=0.476]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.51it/s]
+Accuracy: 0.7908740519706577
+F1 score: 0.8156510302498904
+Precision score: 0.7716715055993364
+Recall score: 0.8649465364946537
+Train and validation losses: 0.3893273625447809, 0.4027721131698156
+=> Saving checkpoint
+Epoch 137/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.27it/s, lr=1e-6, train_loss=0.24]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.23it/s]
+Accuracy: 0.7921173691408678
+F1 score: 0.8157778757161745
+Precision score: 0.7754503560955174
+Recall score: 0.8605299860529986
+Train and validation losses: 0.38936518876447634, 0.4023996515266197
+=> Saving checkpoint
+Epoch 138/300: 100%|█████████████████████████████████████| 4021/4021 [02:29<00:00, 26.92it/s, lr=1e-6, train_loss=0.308]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.33it/s]
+Accuracy: 0.7919930374238469
+F1 score: 0.8149950237752958
+Precision score: 0.777262180974478
+Recall score: 0.8565783356578336
+Train and validation losses: 0.38937764984292195, 0.40215189056933875
+=> Saving checkpoint
+Epoch 139/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.33it/s, lr=1e-6, train_loss=0.317]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.36it/s]
+Accuracy: 0.7917443739898048
+F1 score: 0.8148148148148148
+Precision score: 0.7769344296858528
+Recall score: 0.8565783356578336
+Train and validation losses: 0.38860250017574455, 0.4019271409227911
+=> Saving checkpoint
+Epoch 140/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.84it/s, lr=1e-6, train_loss=0.696]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.87it/s]
+Accuracy: 0.7918687057068258
+F1 score: 0.8138759172781854
+Precision score: 0.7800511508951407
+Recall score: 0.8507670850767085
+Train and validation losses: 0.38909297205069543, 0.4017344726875395
+=> Saving checkpoint
+Epoch 141/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.92it/s, lr=1e-6, train_loss=0.27]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.09it/s]
+Accuracy: 0.7907497202536367
+F1 score: 0.8169259218970956
+Precision score: 0.7677366591699039
+Recall score: 0.8728498372849838
+Train and validation losses: 0.38840295111395007, 0.4019636227240116
+Epoch 142/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.76it/s, lr=1e-6, train_loss=0.479]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.80it/s]
+Accuracy: 0.7908740519706577
+F1 score: 0.8173724212812161
+Precision score: 0.7669111654441728
+Recall score: 0.8749418874941888
+Train and validation losses: 0.3879199503163361, 0.40215215321711706
+Epoch 143/300: 100%|████████████████████████████████████| 4021/4021 [02:29<00:00, 26.84it/s, lr=1e-6, train_loss=0.0982]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.24it/s]
+Accuracy: 0.7918687057068258
+F1 score: 0.8172489082969432
+Precision score: 0.7704816797035817
+Recall score: 0.8700604370060437
+Train and validation losses: 0.3877542810604899, 0.40125406784733114
+=> Saving checkpoint
+Epoch 144/300: 100%|█████████████████████████████████████| 4021/4021 [02:37<00:00, 25.60it/s, lr=1e-6, train_loss=0.329]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.43it/s]
+Accuracy: 0.7914957105557627
+F1 score: 0.8176182707993475
+Precision score: 0.7682403433476395
+Recall score: 0.8737796373779637
+Train and validation losses: 0.38790304971651796, 0.4011115052313294
+=> Saving checkpoint
+Epoch 145/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.46it/s, lr=1e-6, train_loss=0.332]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.98it/s]
+Accuracy: 0.7919930374238469
+F1 score: 0.8162548050521692
+Precision score: 0.7736831147199666
+Recall score: 0.8637842863784286
+Train and validation losses: 0.3872482900592751, 0.40061033083122244
+=> Saving checkpoint
+Epoch 146/300: 100%|██████████████████████████████████████| 4021/4021 [02:27<00:00, 27.23it/s, lr=1e-6, train_loss=0.37]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.18it/s]
+Accuracy: 0.7927390277259729
+F1 score: 0.8161464652034852
+Precision score: 0.776495278069255
+Recall score: 0.8600650860065086
+Train and validation losses: 0.3874875705925902, 0.40019690056533275
+=> Saving checkpoint
+Epoch 147/300: 100%|██████████████████████████████████████| 4021/4021 [02:35<00:00, 25.88it/s, lr=1e-6, train_loss=0.51]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.38it/s]
+Accuracy: 0.7923660325749099
+F1 score: 0.8186359687228497
+Precision score: 0.7682429677945373
+Recall score: 0.8761041376104137
+Train and validation losses: 0.38633060169972994, 0.4007947868898985
+Epoch 148/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.33it/s, lr=1e-6, train_loss=0.907]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.99it/s]
+Accuracy: 0.793982344896183
+F1 score: 0.8157045934823712
+Precision score: 0.782043079547878
+Recall score: 0.8523942352394235
+Train and validation losses: 0.38668952346426194, 0.3996532400884845
+=> Saving checkpoint
+Epoch 149/300: 100%|█████████████████████████████████████| 4021/4021 [02:28<00:00, 27.15it/s, lr=1e-6, train_loss=0.208]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.04it/s]
+Accuracy: 0.7929876911600149
+F1 score: 0.8154306617891587
+Precision score: 0.7794024157660522
+Recall score: 0.8549511854951185
+Train and validation losses: 0.3865833091925949, 0.3994850814972021
+=> Saving checkpoint
+Epoch 150/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.46it/s, lr=1e-6, train_loss=0.275]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.11it/s]
+Accuracy: 0.79360934974512
+F1 score: 0.8176625659050967
+Precision score: 0.7750937109537692
+Recall score: 0.8651789865178987
+Train and validation losses: 0.3859717426218233, 0.39940939785331253
+=> Saving checkpoint
+Epoch 151/300: 100%|█████████████████████████████████████| 4021/4021 [02:27<00:00, 27.27it/s, lr=1e-6, train_loss=0.264]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.39it/s]
+Accuracy: 0.793112022877036
+F1 score: 0.8190517616354936
+Precision score: 0.7695136902329383
+Recall score: 0.8754067875406788
+Train and validation losses: 0.3861376615623334, 0.3996293723757266
+Epoch 152/300: 100%|█████████████████████████████████████| 4021/4021 [02:25<00:00, 27.56it/s, lr=1e-6, train_loss=0.362]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.36it/s]
+Accuracy: 0.7951013303493721
+F1 score: 0.8152880520062766
+Precision score: 0.7872294372294373
+Recall score: 0.8454207345420734
+Train and validation losses: 0.38602374275338885, 0.39885363388051154
+=> Saving checkpoint
+Epoch 153/300: 100%|█████████████████████████████████████| 4021/4021 [02:27<00:00, 27.24it/s, lr=1e-6, train_loss=0.521]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.20it/s]
+Accuracy: 0.793858013179162
+F1 score: 0.816389811738649
+Precision score: 0.7796108291032149
+Recall score: 0.8568107856810786
+Train and validation losses: 0.385913485079333, 0.39851357312002783
+=> Saving checkpoint
+Epoch 154/300: 100%|█████████████████████████████████████| 4021/4021 [02:29<00:00, 26.90it/s, lr=1e-6, train_loss=0.432]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.06it/s]
+Accuracy: 0.793858013179162
+F1 score: 0.8163491360212671
+Precision score: 0.7797291578501905
+Recall score: 0.8565783356578336
+Train and validation losses: 0.38554033725917364, 0.3982525574650697
+=> Saving checkpoint
+Epoch 155/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.09it/s, lr=1e-6, train_loss=0.349]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.21it/s]
+Accuracy: 0.7946040034812881
+F1 score: 0.8181417877586966
+Precision score: 0.7770807193642827
+Recall score: 0.8637842863784286
+Train and validation losses: 0.3853180584379858, 0.39826125348316394
+Epoch 156/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.87it/s, lr=1e-6, train_loss=0.548]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.24it/s]
+Accuracy: 0.7951013303493721
+F1 score: 0.8161945126031676
+Precision score: 0.7845197255574614
+Recall score: 0.8505346350534635
+Train and validation losses: 0.3848779122624245, 0.39785710217294173
+=> Saving checkpoint
+Epoch 157/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.82it/s, lr=1e-6, train_loss=0.376]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.68it/s]
+Accuracy: 0.7949769986323512
+F1 score: 0.8187712935487417
+Precision score: 0.7765269960391912
+Recall score: 0.8658763365876336
+Train and validation losses: 0.3840035010340909, 0.3977618413212641
+=> Saving checkpoint
+Epoch 158/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 25.97it/s, lr=1e-6, train_loss=0.363]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.94it/s]
+Accuracy: 0.7947283351983091
+F1 score: 0.8189891459269817
+Precision score: 0.7750570657812824
+Recall score: 0.8682008368200836
+Train and validation losses: 0.3843628863311398, 0.3977129279319234
+=> Saving checkpoint
+Epoch 159/300: 100%|█████████████████████████████████████| 4021/4021 [02:30<00:00, 26.69it/s, lr=1e-6, train_loss=0.175]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.93it/s]
+Accuracy: 0.7957229889344772
+F1 score: 0.819945205479452
+Precision score: 0.7756583039601908
+Recall score: 0.8695955369595537
+Train and validation losses: 0.3847771251203112, 0.3973418948005433
+=> Saving checkpoint
+Epoch 160/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.72it/s, lr=1e-6, train_loss=0.333]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.95it/s]
+Accuracy: 0.7954743255004352
+F1 score: 0.8195678402983437
+Precision score: 0.7759086188992731
+Recall score: 0.8684332868433287
+Train and validation losses: 0.3838753672828539, 0.3973216200302953
+=> Saving checkpoint
+Epoch 161/300: 100%|█████████████████████████████████████| 4021/4021 [02:30<00:00, 26.69it/s, lr=1e-6, train_loss=0.234]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.96it/s]
+Accuracy: 0.7962203158025613
+F1 score: 0.8196324419500385
+Precision score: 0.7782654127481714
+Recall score: 0.8656438865643886
+Train and validation losses: 0.38363949445976575, 0.3967896677001896
+=> Saving checkpoint
+Epoch 162/300: 100%|█████████████████████████████████████| 4021/4021 [02:22<00:00, 28.23it/s, lr=1e-6, train_loss=0.556]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.88it/s]
+Accuracy: 0.7968419743876662
+F1 score: 0.82126449354627
+Precision score: 0.7756198347107438
+Recall score: 0.8726173872617388
+Train and validation losses: 0.38361277770379815, 0.39685069017341845
+Epoch 163/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.98it/s, lr=1e-6, train_loss=0.25]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.16it/s]
+Accuracy: 0.7965933109536243
+F1 score: 0.8188662533215235
+Precision score: 0.7818181818181819
+Recall score: 0.8596001859600186
+Train and validation losses: 0.3834848653060032, 0.39628080685787775
+=> Saving checkpoint
+Epoch 164/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.75it/s, lr=1e-6, train_loss=0.549]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.72it/s]
+Accuracy: 0.7959716523685192
+F1 score: 0.8188541781653604
+Precision score: 0.7796930838763927
+Recall score: 0.8621571362157137
+Train and validation losses: 0.38285567978611484, 0.3961704206962146
+=> Saving checkpoint
+Epoch 165/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.16it/s, lr=1e-6, train_loss=0.74]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.02it/s]
+Accuracy: 0.7960959840855403
+F1 score: 0.8190644307149162
+Precision score: 0.7795044099118018
+Recall score: 0.8628544862854486
+Train and validation losses: 0.383349304657927, 0.3960359554911851
+=> Saving checkpoint
+Epoch 166/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.00it/s, lr=1e-6, train_loss=0.728]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.06it/s]
+Accuracy: 0.7967176426706453
+F1 score: 0.8179895357898253
+Precision score: 0.7848750267036958
+Recall score: 0.8540213854021386
+Train and validation losses: 0.38276275561289114, 0.39551152990645844
+=> Saving checkpoint
+Epoch 167/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.85it/s, lr=1e-6, train_loss=0.357]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.05it/s]
+Accuracy: 0.7958473206514982
+F1 score: 0.8215217391304348
+Precision score: 0.7715394038383013
+Recall score: 0.8784286378428637
+Train and validation losses: 0.3828015579473532, 0.396324268151556
+Epoch 168/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.41it/s, lr=1e-6, train_loss=0.685]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.35it/s]
+Accuracy: 0.7973393012557504
+F1 score: 0.8190899001109878
+Precision score: 0.7837723024638913
+Recall score: 0.8577405857740585
+Train and validation losses: 0.3824217948526166, 0.3951505799731517
+=> Saving checkpoint
+Epoch 169/300: 100%|█████████████████████████████████████| 4021/4021 [02:29<00:00, 26.90it/s, lr=1e-6, train_loss=0.448]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.18it/s]
+Accuracy: 0.7959716523685192
+F1 score: 0.8160932421831223
+Precision score: 0.7879246916251893
+Recall score: 0.8463505346350535
+Train and validation losses: 0.38244980850804283, 0.3949920048466911
+=> Saving checkpoint
+Epoch 170/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.59it/s, lr=1e-6, train_loss=0.328]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.98it/s]
+Accuracy: 0.7972149695387293
+F1 score: 0.8186770428015564
+Precision score: 0.7845727679522694
+Recall score: 0.8558809855880986
+Train and validation losses: 0.381912864374543, 0.3947866893082739
+=> Saving checkpoint
+Epoch 171/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.73it/s, lr=1e-6, train_loss=0.25]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.09it/s]
+Accuracy: 0.7973393012557504
+F1 score: 0.8200883002207505
+Precision score: 0.7807902480033627
+Recall score: 0.8635518363551836
+Train and validation losses: 0.381995314774811, 0.39480210366708857
+Epoch 172/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.26it/s, lr=1e-6, train_loss=0.421]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.24it/s]
+Accuracy: 0.7978366281238344
+F1 score: 0.8189309576837417
+Precision score: 0.7860196665241557
+Recall score: 0.8547187354718735
+Train and validation losses: 0.3814288536864904, 0.394482561557463
+=> Saving checkpoint
+Epoch 173/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.82it/s, lr=1e-6, train_loss=0.634]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.01it/s]
+Accuracy: 0.7980852915578764
+F1 score: 0.8217343578485181
+Precision score: 0.7784941763727121
+Recall score: 0.8700604370060437
+Train and validation losses: 0.38149741956664424, 0.39458085112940244
+Epoch 174/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.68it/s, lr=1e-6, train_loss=0.607]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.09it/s]
+Accuracy: 0.7973393012557504
+F1 score: 0.8171005385996409
+Precision score: 0.7898047722342734
+Recall score: 0.8463505346350535
+Train and validation losses: 0.3814799550953614, 0.3940219705180074
+=> Saving checkpoint
+Epoch 175/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.53it/s, lr=1e-6, train_loss=0.251]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.96it/s]
+Accuracy: 0.7988312818600025
+F1 score: 0.8208988266548595
+Precision score: 0.7836010143702451
+Recall score: 0.8619246861924686
+Train and validation losses: 0.38086260683988343, 0.3939265885444036
+=> Saving checkpoint
+Epoch 176/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.91it/s, lr=1e-6, train_loss=0.318]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.14it/s]
+Accuracy: 0.7984582867089395
+F1 score: 0.818253167395448
+Precision score: 0.7903400476499892
+Recall score: 0.8482101348210135
+Train and validation losses: 0.38036109842415605, 0.39361901183577463
+=> Saving checkpoint
+Epoch 177/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.88it/s, lr=1e-6, train_loss=0.553]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.19it/s]
+Accuracy: 0.7987069501429814
+F1 score: 0.8219509512812053
+Precision score: 0.7800041744938426
+Recall score: 0.8686657368665737
+Train and validation losses: 0.3805128759177607, 0.3936848346714234
+Epoch 178/300: 100%|█████████████████████████████████████| 4021/4021 [02:29<00:00, 26.85it/s, lr=1e-6, train_loss=0.405]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.91it/s]
+Accuracy: 0.7987069501429814
+F1 score: 0.8216371047702986
+Precision score: 0.7809424083769634
+Recall score: 0.8668061366806137
+Train and validation losses: 0.3807833310943009, 0.3937312210308273
+Epoch 179/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.61it/s, lr=1e-6, train_loss=0.204]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.28it/s]
+Accuracy: 0.7989556135770235
+F1 score: 0.8187829205424185
+Precision score: 0.7905215321359014
+Recall score: 0.8491399349139935
+Train and validation losses: 0.3807266940645553, 0.39301554814988293
+=> Saving checkpoint
+Epoch 180/300: 100%|█████████████████████████████████████| 4021/4021 [02:09<00:00, 30.98it/s, lr=1e-6, train_loss=0.478]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.17it/s]
+Accuracy: 0.7992042770110656
+F1 score: 0.8214877860064109
+Precision score: 0.7831401475237092
+Recall score: 0.8637842863784286
+Train and validation losses: 0.38062318653892935, 0.39318944726909544
+Epoch 181/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.91it/s, lr=1e-6, train_loss=0.624]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.25it/s]
+Accuracy: 0.7994529404451075
+F1 score: 0.8190283855043196
+Precision score: 0.7915853394057688
+Recall score: 0.8484425848442585
+Train and validation losses: 0.3800982921811604, 0.39264019991958116
+=> Saving checkpoint
+Epoch 182/300: 100%|█████████████████████████████████████| 4021/4021 [02:28<00:00, 27.16it/s, lr=1e-6, train_loss=0.236]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.74it/s]
+Accuracy: 0.8003232624642547
+F1 score: 0.820838911200357
+Precision score: 0.7891462891462891
+Recall score: 0.8551836355183635
+Train and validation losses: 0.379909984280583, 0.39240021953659193
+=> Saving checkpoint
+Epoch 183/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.80it/s, lr=1e-6, train_loss=0.411]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.18it/s]
+Accuracy: 0.8003232624642547
+F1 score: 0.8213173119715176
+Precision score: 0.7876653862569356
+Recall score: 0.8579730357973036
+Train and validation losses: 0.3793238753893428, 0.39228500500617636
+=> Saving checkpoint
+Epoch 184/300: 100%|██████████████████████████████████████| 4021/4021 [02:37<00:00, 25.53it/s, lr=1e-6, train_loss=0.66]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.26it/s]
+Accuracy: 0.8001989307472336
+F1 score: 0.820225976059962
+Precision score: 0.7905973689885702
+Recall score: 0.8521617852161785
+Train and validation losses: 0.3797183138533993, 0.39211176823135874
+=> Saving checkpoint
+Epoch 185/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.63it/s, lr=1e-6, train_loss=0.339]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.52it/s]
+Accuracy: 0.7998259355961705
+F1 score: 0.8226481603877506
+Precision score: 0.7818257956448911
+Recall score: 0.8679683867968386
+Train and validation losses: 0.379548473939118, 0.39271054633709773
+Epoch 186/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.87it/s, lr=1e-6, train_loss=0.283]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.25it/s]
+Accuracy: 0.8016909113514857
+F1 score: 0.8221652358122422
+Precision score: 0.7900149989286479
+Recall score: 0.8570432357043236
+Train and validation losses: 0.379372234764057, 0.3917535300983142
+=> Saving checkpoint
+Epoch 187/300: 100%|█████████████████████████████████████| 4021/4021 [02:37<00:00, 25.59it/s, lr=1e-6, train_loss=0.355]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.01it/s]
+Accuracy: 0.8005719258982966
+F1 score: 0.822054581761704
+Precision score: 0.7862903225806451
+Recall score: 0.8612273361227336
+Train and validation losses: 0.3795423234070127, 0.391719889047576
+=> Saving checkpoint
+Epoch 188/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.44it/s, lr=1e-6, train_loss=0.377]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.05it/s]
+Accuracy: 0.8013179162004227
+F1 score: 0.8216915866993975
+Precision score: 0.7901287553648069
+Recall score: 0.8558809855880986
+Train and validation losses: 0.37964482419053824, 0.3913684899383641
+=> Saving checkpoint
+Epoch 189/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.30it/s, lr=1e-6, train_loss=0.319]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.87it/s]
+Accuracy: 0.7995772721621286
+F1 score: 0.8236323851203501
+Precision score: 0.7780074410913601
+Recall score: 0.8749418874941888
+Train and validation losses: 0.37835018655057795, 0.3923991483397352
+Epoch 190/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.27it/s, lr=1e-6, train_loss=0.214]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.92it/s]
+Accuracy: 0.8015665796344648
+F1 score: 0.822508896797153
+Precision score: 0.7884861407249467
+Recall score: 0.8596001859600186
+Train and validation losses: 0.37842201620031835, 0.3912666296330882
+=> Saving checkpoint
+Epoch 191/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.25it/s, lr=1e-6, train_loss=0.524]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.91it/s]
+Accuracy: 0.8013179162004227
+F1 score: 0.8202070207020702
+Precision score: 0.7948102921936328
+Recall score: 0.8472803347280334
+Train and validation losses: 0.37807122159988293, 0.3908951892434188
+=> Saving checkpoint
+Epoch 192/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 25.99it/s, lr=1e-6, train_loss=0.225]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.52it/s]
+Accuracy: 0.7999502673131916
+F1 score: 0.822933861560471
+Precision score: 0.7814002089864159
+Recall score: 0.8691306369130637
+Train and validation losses: 0.3785629730198687, 0.39140106110868766
+Epoch 193/300: 100%|██████████████████████████████████████| 4021/4021 [02:36<00:00, 25.77it/s, lr=1e-6, train_loss=0.36]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.71it/s]
+Accuracy: 0.8028098968046748
+F1 score: 0.823503227242377
+Precision score: 0.7899231426131511
+Recall score: 0.8600650860065086
+Train and validation losses: 0.377991938530413, 0.3906051610776077
+=> Saving checkpoint
+Epoch 194/300: 100%|█████████████████████████████████████| 4021/4021 [02:28<00:00, 27.05it/s, lr=1e-6, train_loss=0.336]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.96it/s]
+Accuracy: 0.8030585602387169
+F1 score: 0.8238042269187986
+Precision score: 0.7898890784982935
+Recall score: 0.8607624360762436
+Train and validation losses: 0.37841665261772267, 0.39039758692086335
+=> Saving checkpoint
+Epoch 195/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 25.95it/s, lr=1e-6, train_loss=0.237]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.22it/s]
+Accuracy: 0.8023125699365908
+F1 score: 0.8217089033415564
+Precision score: 0.7937608318890814
+Recall score: 0.8516968851696886
+Train and validation losses: 0.3779958438524757, 0.39022992521517025
+=> Saving checkpoint
+Epoch 196/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.84it/s, lr=1e-6, train_loss=0.255]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.90it/s]
+Accuracy: 0.8024369016536118
+F1 score: 0.8211189913317573
+Precision score: 0.7961143855053482
+Recall score: 0.8477452347745235
+Train and validation losses: 0.37676641968530794, 0.3901107464796654
+=> Saving checkpoint
+Epoch 197/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.79it/s, lr=1e-6, train_loss=0.417]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.90it/s]
+Accuracy: 0.8025612333706329
+F1 score: 0.8211711711711712
+Precision score: 0.7964176496286588
+Recall score: 0.8475127847512784
+Train and validation losses: 0.37790617472970445, 0.38993272820772756
+=> Saving checkpoint
+Epoch 198/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.01it/s, lr=1e-6, train_loss=0.361]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.27it/s]
+Accuracy: 0.8008205893323387
+F1 score: 0.8234905244601146
+Precision score: 0.7827817343946376
+Recall score: 0.8686657368665737
+Train and validation losses: 0.3769153481387797, 0.39045834277662084
+Epoch 199/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.20it/s, lr=1e-6, train_loss=0.231]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.35it/s]
+Accuracy: 0.8026855650876539
+F1 score: 0.8236078692897633
+Precision score: 0.7891373801916933
+Recall score: 0.8612273361227336
+Train and validation losses: 0.37732652833166924, 0.3898057976837601
+=> Saving checkpoint
+Epoch 200/300: 100%|█████████████████████████████████████| 4021/4021 [02:28<00:00, 27.04it/s, lr=1e-6, train_loss=0.589]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.04it/s]
+Accuracy: 0.8016909113514857
+F1 score: 0.8236594803758983
+Precision score: 0.7853679106051022
+Recall score: 0.8658763365876336
+Train and validation losses: 0.3765056042565328, 0.38984685039580996
+Epoch 201/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.36it/s, lr=1e-6, train_loss=0.374]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.70it/s]
+Accuracy: 0.8031828919557379
+F1 score: 0.8238566818738178
+Precision score: 0.7901814300960512
+Recall score: 0.8605299860529986
+Train and validation losses: 0.3763100123827366, 0.3893887529031153
+=> Saving checkpoint
+Epoch 202/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.31it/s, lr=1e-6, train_loss=0.576]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.12it/s]
+Accuracy: 0.8028098968046748
+F1 score: 0.8210336267208305
+Precision score: 0.7978070175438596
+Recall score: 0.8456531845653185
+Train and validation losses: 0.37587020344067773, 0.38922165760633426
+=> Saving checkpoint
+Epoch 203/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 25.97it/s, lr=1e-6, train_loss=0.421]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.33it/s]
+Accuracy: 0.8028098968046748
+F1 score: 0.822515666965085
+Precision score: 0.7930513595166163
+Recall score: 0.8542538354253836
+Train and validation losses: 0.3768420330818777, 0.3889682221135669
+=> Saving checkpoint
+Epoch 204/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.83it/s, lr=1e-6, train_loss=0.207]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.12it/s]
+Accuracy: 0.8029342285216959
+F1 score: 0.8239866740699612
+Precision score: 0.788858175632575
+Recall score: 0.8623895862389587
+Train and validation losses: 0.37662827912569824, 0.38901281773777413
+Epoch 205/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 25.98it/s, lr=1e-6, train_loss=0.633]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.28it/s]
+Accuracy: 0.8030585602387169
+F1 score: 0.8223816999327204
+Precision score: 0.7944107452339688
+Recall score: 0.8523942352394235
+Train and validation losses: 0.3757974567307306, 0.3886921864917602
+=> Saving checkpoint
+Epoch 206/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.84it/s, lr=1e-6, train_loss=0.389]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.12it/s]
+Accuracy: 0.8024369016536118
+F1 score: 0.8196981731532963
+Precision score: 0.8007093770782532
+Recall score: 0.8396094839609484
+Train and validation losses: 0.37627869021718185, 0.3887916048951669
+Epoch 207/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.25it/s, lr=1e-6, train_loss=0.483]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.83it/s]
+Accuracy: 0.8025612333706329
+F1 score: 0.823868677905945
+Precision score: 0.7878659312685617
+Recall score: 0.8633193863319386
+Train and validation losses: 0.37582988607507495, 0.38889113554979116
+Epoch 208/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.25it/s, lr=1e-6, train_loss=0.409]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.97it/s]
+Accuracy: 0.803928882257864
+F1 score: 0.8233844775450778
+Precision score: 0.7944672574022045
+Recall score: 0.8544862854486286
+Train and validation losses: 0.3756002835091875, 0.3883286255558075
+=> Saving checkpoint
+Epoch 209/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.03it/s, lr=1e-6, train_loss=0.417]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.77it/s]
+Accuracy: 0.8040532139748849
+F1 score: 0.8241071428571428
+Precision score: 0.7926148561614427
+Recall score: 0.8582054858205486
+Train and validation losses: 0.37558887095404364, 0.38832448396246666
+=> Saving checkpoint
+Epoch 210/300: 100%|█████████████████████████████████████| 4021/4021 [02:24<00:00, 27.73it/s, lr=1e-6, train_loss=0.315]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.91it/s]
+Accuracy: 0.804301877408927
+F1 score: 0.8231858009436082
+Precision score: 0.7965217391304348
+Recall score: 0.8516968851696886
+Train and validation losses: 0.3756761702624824, 0.38822195640252255
+=> Saving checkpoint
+Epoch 211/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.14it/s, lr=1e-6, train_loss=0.24]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.25it/s]
+Accuracy: 0.8035558871068009
+F1 score: 0.8217106747912435
+Precision score: 0.7984649122807017
+Recall score: 0.8463505346350535
+Train and validation losses: 0.37537767819261647, 0.3879587111502116
+=> Saving checkpoint
+Epoch 212/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.64it/s, lr=1e-6, train_loss=0.521]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.21it/s]
+Accuracy: 0.8031828919557379
+F1 score: 0.8212309429700734
+Precision score: 0.7985943334065452
+Recall score: 0.8451882845188284
+Train and validation losses: 0.37521869928183005, 0.3878641559947912
+=> Saving checkpoint
+Epoch 213/300: 100%|█████████████████████████████████████| 4021/4021 [02:30<00:00, 26.80it/s, lr=1e-6, train_loss=0.397]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.01it/s]
+Accuracy: 0.804301877408927
+F1 score: 0.82306654676259
+Precision score: 0.7969090117544624
+Recall score: 0.8509995350999535
+Train and validation losses: 0.3751343578930311, 0.38769684581245273
+=> Saving checkpoint
+Epoch 214/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.12it/s, lr=1e-6, train_loss=0.256]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.89it/s]
+Accuracy: 0.8028098968046748
+F1 score: 0.8243243243243243
+Precision score: 0.7873465933135845
+Recall score: 0.8649465364946537
+Train and validation losses: 0.3749245790326011, 0.3883582360961032
+Epoch 215/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.84it/s, lr=1e-6, train_loss=0.611]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.31it/s]
+Accuracy: 0.8020639065025488
+F1 score: 0.8246309759859
+Precision score: 0.7837102177554439
+Recall score: 0.8700604370060437
+Train and validation losses: 0.37529185540706395, 0.38839736573812855
+Epoch 216/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.63it/s, lr=1e-6, train_loss=0.287]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.36it/s]
+Accuracy: 0.804799204277011
+F1 score: 0.8244633273703041
+Precision score: 0.7942697113313227
+Recall score: 0.8570432357043236
+Train and validation losses: 0.3745446053311114, 0.3874603228765738
+=> Saving checkpoint
+Epoch 217/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.39it/s, lr=1e-6, train_loss=0.373]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.06it/s]
+Accuracy: 0.804799204277011
+F1 score: 0.8240304864380184
+Precision score: 0.7956709956709956
+Recall score: 0.8544862854486286
+Train and validation losses: 0.37421417099860765, 0.38721531263143416
+=> Saving checkpoint
+Epoch 218/300: 100%|█████████████████████████████████████| 4021/4021 [02:29<00:00, 26.81it/s, lr=1e-6, train_loss=0.429]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.59it/s]
+Accuracy: 0.8045505408429691
+F1 score: 0.823608617594255
+Precision score: 0.7960954446854663
+Recall score: 0.8530915853091585
+Train and validation losses: 0.37457567837864747, 0.3871150824517219
+=> Saving checkpoint
+Epoch 219/300: 100%|██████████████████████████████████████| 4021/4021 [02:18<00:00, 29.06it/s, lr=1e-6, train_loss=0.43]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.32it/s]
+Accuracy: 0.80467487255999
+F1 score: 0.8241745942921097
+Precision score: 0.7947334340600043
+Recall score: 0.8558809855880986
+Train and validation losses: 0.37328437009066145, 0.3871218610284609
+Epoch 220/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.96it/s, lr=1e-6, train_loss=0.19]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.30it/s]
+Accuracy: 0.804301877408927
+F1 score: 0.8228674319153725
+Precision score: 0.7975567190226877
+Recall score: 0.8498372849837285
+Train and validation losses: 0.3747076729518213, 0.3868075253230855
+=> Saving checkpoint
+Epoch 221/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.73it/s, lr=1e-6, train_loss=0.421]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.77it/s]
+Accuracy: 0.803804550540843
+F1 score: 0.8244325767690254
+Precision score: 0.7906530089628682
+Recall score: 0.8612273361227336
+Train and validation losses: 0.37465269658441225, 0.3871869575176721
+Epoch 222/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.07it/s, lr=1e-6, train_loss=0.983]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.11it/s]
+Accuracy: 0.803307223672759
+F1 score: 0.8216057735678846
+Precision score: 0.7978537012702585
+Recall score: 0.8468154346815435
+Train and validation losses: 0.37380859569489616, 0.38666930772127145
+=> Saving checkpoint
+Epoch 223/300: 100%|█████████████████████████████████████| 4021/4021 [02:30<00:00, 26.79it/s, lr=1e-6, train_loss=0.388]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.79it/s]
+Accuracy: 0.803928882257864
+F1 score: 0.8224698862996735
+Precision score: 0.7974241432001746
+Recall score: 0.8491399349139935
+Train and validation losses: 0.3743684043407392, 0.38644854360580383
+=> Saving checkpoint
+Epoch 224/300: 100%|█████████████████████████████████████| 4021/4021 [02:36<00:00, 25.62it/s, lr=1e-6, train_loss=0.197]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.22it/s]
+Accuracy: 0.805172199428074
+F1 score: 0.823991912838369
+Precision score: 0.797217996087807
+Recall score: 0.8526266852626685
+Train and validation losses: 0.3738899387535494, 0.3864866110679525
+Epoch 225/300: 100%|█████████████████████████████████████| 4021/4021 [02:37<00:00, 25.50it/s, lr=1e-6, train_loss=0.445]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.83it/s]
+Accuracy: 0.8035558871068009
+F1 score: 0.821991888237945
+Precision score: 0.7975513773502405
+Recall score: 0.8479776847977685
+Train and validation losses: 0.3743501229295533, 0.3862024080915521
+=> Saving checkpoint
+Epoch 226/300: 100%|█████████████████████████████████████| 4021/4021 [02:37<00:00, 25.55it/s, lr=1e-6, train_loss=0.211]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.96it/s]
+Accuracy: 0.8056695262961582
+F1 score: 0.824873949579832
+Precision score: 0.7962362102530824
+Recall score: 0.8556485355648535
+Train and validation losses: 0.37355579965111185, 0.3861539812377148
+=> Saving checkpoint
+Epoch 227/300: 100%|█████████████████████████████████████| 4021/4021 [02:32<00:00, 26.42it/s, lr=1e-6, train_loss=0.329]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.08it/s]
+Accuracy: 0.8049235359940321
+F1 score: 0.8234897063786702
+Precision score: 0.7979071288423807
+Recall score: 0.8507670850767085
+Train and validation losses: 0.3734788599902812, 0.3860649506766979
+=> Saving checkpoint
+Epoch 228/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 25.98it/s, lr=1e-6, train_loss=0.233]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.07it/s]
+Accuracy: 0.804426209125948
+F1 score: 0.8246963111556893
+Precision score: 0.7921216013701563
+Recall score: 0.8600650860065086
+Train and validation losses: 0.37307588801249303, 0.3861345303361536
+Epoch 229/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.06it/s, lr=1e-6, train_loss=0.246]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.96it/s]
+Accuracy: 0.8054208628621161
+F1 score: 0.8220175139315364
+Precision score: 0.8047205522155422
+Recall score: 0.8400743840074384
+Train and validation losses: 0.372973876995088, 0.3859164083087687
+=> Saving checkpoint
+Epoch 230/300: 100%|█████████████████████████████████████| 4021/4021 [02:33<00:00, 26.28it/s, lr=1e-6, train_loss=0.229]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.15it/s]
+Accuracy: 0.8055451945791371
+F1 score: 0.8223938223938224
+Precision score: 0.8039520426287744
+Recall score: 0.8417015341701534
+Train and validation losses: 0.37247744768494784, 0.38573555877176713
+=> Saving checkpoint
+Epoch 231/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.54it/s, lr=1e-6, train_loss=0.467]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.26it/s]
+Accuracy: 0.8062911848812632
+F1 score: 0.822389420884633
+Precision score: 0.8069351230425056
+Recall score: 0.8384472338447234
+Train and validation losses: 0.37336449732958116, 0.38576202241937163
+Epoch 232/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.62it/s, lr=1e-6, train_loss=0.295]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.55it/s]
+Accuracy: 0.8049235359940321
+F1 score: 0.8234499831214133
+Precision score: 0.7980370774263904
+Recall score: 0.8505346350534635
+Train and validation losses: 0.37235441127061486, 0.38536713707444087
+=> Saving checkpoint
+Epoch 233/300: 100%|█████████████████████████████████████| 4021/4021 [02:17<00:00, 29.19it/s, lr=1e-6, train_loss=0.268]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.82it/s]
+Accuracy: 0.804799204277011
+F1 score: 0.8231981981981982
+Precision score: 0.7983835736129314
+Recall score: 0.8496048349604834
+Train and validation losses: 0.37309927132107584, 0.3853708611797564
+Epoch 234/300: 100%|█████████████████████████████████████| 4021/4021 [02:34<00:00, 26.11it/s, lr=1e-6, train_loss=0.388]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.10it/s]
+Accuracy: 0.8057938580131792
+F1 score: 0.8247307001795332
+Precision score: 0.797180043383948
+Recall score: 0.8542538354253836
+Train and validation losses: 0.3723209541213639, 0.38519609826718776
+=> Saving checkpoint
+Epoch 235/300: 100%|█████████████████████████████████████| 4021/4021 [02:29<00:00, 26.82it/s, lr=1e-6, train_loss=0.352]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.80it/s]
+Accuracy: 0.8066641800323262
+F1 score: 0.8229131078464867
+Precision score: 0.8066532708193793
+Recall score: 0.8398419339841934
+Train and validation losses: 0.3721398141891046, 0.3853037592216171
+Epoch 236/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.59it/s, lr=1e-6, train_loss=0.223]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.57it/s]
+Accuracy: 0.8057938580131792
+F1 score: 0.8268292682926829
+Precision score: 0.7903772785078423
+Recall score: 0.8668061366806137
+Train and validation losses: 0.37210743571220495, 0.3856377454148698
+Epoch 237/300: 100%|█████████████████████████████████████| 4021/4021 [02:29<00:00, 26.86it/s, lr=1e-6, train_loss=0.718]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.32it/s]
+Accuracy: 0.8057938580131792
+F1 score: 0.8239007891770012
+Precision score: 0.7999124343257443
+Recall score: 0.8493723849372385
+Train and validation losses: 0.37145637818657323, 0.38495081126741754
+=> Saving checkpoint
+Epoch 238/300: 100%|█████████████████████████████████████| 4021/4021 [02:31<00:00, 26.47it/s, lr=1e-6, train_loss=0.341]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.64it/s]
+Accuracy: 0.8056695262961582
+F1 score: 0.8239666629124901
+Precision score: 0.7992134585973345
+Recall score: 0.8503021850302185
+Train and validation losses: 0.3724034366227299, 0.38472991151398206
+=> Saving checkpoint
+Epoch 239/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.79it/s, lr=1e-6, train_loss=0.271]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.94it/s]
+Accuracy: 0.8064155165982843
+F1 score: 0.8250758341759353
+Precision score: 0.7984344422700587
+Recall score: 0.8535564853556485
+Train and validation losses: 0.3722150236589603, 0.38463051865991965
+=> Saving checkpoint
+Epoch 240/300: 100%|█████████████████████████████████████| 4021/4021 [02:35<00:00, 25.81it/s, lr=1e-6, train_loss=0.378]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 97.93it/s]
+Accuracy: 0.8057938580131792
+F1 score: 0.8259416090929351
+Precision score: 0.793236301369863
+Recall score: 0.8614597861459786
+Train and validation losses: 0.37210036223549076, 0.38481383667573715
+Epoch 241/300: 100%|█████████████████████████████████████| 4021/4021 [02:27<00:00, 27.35it/s, lr=1e-6, train_loss=0.798]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.35it/s]
+Accuracy: 0.8056695262961582
+F1 score: 0.826236798221234
+Precision score: 0.7918176006818666
+Recall score: 0.8637842863784286
+Train and validation losses: 0.3716880228519588, 0.3851361059755916
+Epoch 242/300: 100%|█████████████████████████████████████| 4021/4021 [02:26<00:00, 27.42it/s, lr=1e-6, train_loss=0.334]
+Evaluating valid dataset of 8043 instances: 100%|███████████████████████████████████| 1006/1006 [00:10<00:00, 98.33it/s]
+Accuracy: 0.8059181897302001
+F1 score: 0.8258006918870662
+Precision score: 0.7941618373041425
+Recall score: 0.8600650860065086
+Train and validation losses: 0.3716770508399549, 0.38474215757449864
+Early stopping at epoch 242
+Train losses per epoch: [0.6915060187921807, 0.6910314978547607, 0.6908780952586193, 0.6907255303589926, 0.6906810832450533, 0.6906472609518061, 0.6907574809982064, 0.6904978244733347, 0.690639772764399, 0.6904687149048563, 0.6902198412471137, 0.6900835676413809, 0.6898725322899134, 0.6895228485004489, 0.6889295979567174, 0.6880790979166702, 0.6865004442485818, 0.683557921353041, 0.6784907423184008, 0.6704214343796971, 0.6599240517014444, 0.6479494079995648, 0.6354761454588262, 0.6228091183867333, 0.6106663422853132, 0.6004513879300825, 0.5916569641064245, 0.5846886727509585, 0.5788867552017757, 0.5737733056491301, 0.5686361236533428, 0.5641017788768674, 0.5599335089003498, 0.556222037726064, 0.551599908856366, 0.5478362855115835, 0.5433285281977467, 0.5382232099782617, 0.5329567839541385, 0.5265258860340524, 0.5191378193585263, 0.5119231334449461, 0.503256488479331, 0.49480458898379476, 0.48648983975735743, 0.4791094585178474, 0.47313311241161343, 0.4677213464943042, 0.4621943539739011, 0.4579363987905948, 0.4542316724188409, 0.45061899218648055, 0.4470213375146251, 0.44442357695542206, 0.4412335918869316, 0.43883443013152296, 0.43681280784081, 0.4344804882984706, 0.4322589222527994, 0.4296151112808617, 0.4290070411209754, 0.4277922147169276, 0.42522262565159763, 0.4241558469524359, 0.4230550199217151, 0.42167621512809994, 0.4213690549460395, 0.41978885325029014, 0.41938626228673515, 0.41798133884728683, 0.4169834995217523, 0.41666390993362545, 0.4149813065205758, 0.4149860282333832, 0.4139314689584312, 0.4126848762044746, 0.412585636433163, 0.4115624628554371, 0.410939104318641, 0.41015227994488057, 0.4098478004584648, 0.4096020133107404, 0.4090623813812167, 0.40731671407172126, 0.40797716918549887, 0.40678510040015137, 0.40578700810785734, 0.4063820641328486, 0.405522652284456, 0.4046714765239054, 0.40450130949374513, 0.4042329435945261, 0.4032366640274722, 0.40305286239637156, 0.4024650573103256, 0.40198581780218284, 0.4009748074733086, 0.4005751957604094, 0.4003693549593855, 0.4000426218561222, 0.39957329725721114, 0.39922883962293787, 0.399757869632438, 0.39895603968188614, 0.39815670537705133, 0.3981336532496481, 0.39793296662307265, 0.39718789136135896, 0.39686167115626775, 0.39622796540100147, 0.39647543627061865, 0.3956141332991271, 0.39650317225294884, 0.39570917183747784, 0.3955254723345483, 0.3945931098276823, 0.39459218956100217, 0.39468480157810665, 0.3945040774231258, 0.39441947989097226, 0.39421184371820556, 0.3931702401987454, 0.393208083903032, 0.39300053275461977, 0.39232903371202105, 0.39215897120909665, 0.3918462061411008, 0.39133478538474836, 0.39160735514598627, 0.3908420878753633, 0.39156677661376993, 0.39053813508764795, 0.3899489655338915, 0.3899817315134776, 0.3897545974974022, 0.3893273625447809, 0.38936518876447634, 0.38937764984292195, 0.38860250017574455, 0.38909297205069543, 0.38840295111395007, 0.3879199503163361, 0.3877542810604899, 0.38790304971651796, 0.3872482900592751, 0.3874875705925902, 0.38633060169972994, 0.38668952346426194, 0.3865833091925949, 0.3859717426218233, 0.3861376615623334, 0.38602374275338885, 0.385913485079333, 0.38554033725917364, 0.3853180584379858, 0.3848779122624245, 0.3840035010340909, 0.3843628863311398, 0.3847771251203112, 0.3838753672828539, 0.38363949445976575, 0.38361277770379815, 0.3834848653060032, 0.38285567978611484, 0.383349304657927, 0.38276275561289114, 0.3828015579473532, 0.3824217948526166, 0.38244980850804283, 0.381912864374543, 0.381995314774811, 0.3814288536864904, 0.38149741956664424, 0.3814799550953614, 0.38086260683988343, 0.38036109842415605, 0.3805128759177607, 0.3807833310943009, 0.3807266940645553, 0.38062318653892935, 0.3800982921811604, 0.379909984280583, 0.3793238753893428, 0.3797183138533993, 0.379548473939118, 0.379372234764057, 0.3795423234070127, 0.37964482419053824, 0.37835018655057795, 0.37842201620031835, 0.37807122159988293, 0.3785629730198687, 0.377991938530413, 0.37841665261772267, 0.3779958438524757, 0.37676641968530794, 0.37790617472970445, 0.3769153481387797, 0.37732652833166924, 0.3765056042565328, 0.3763100123827366, 0.37587020344067773, 0.3768420330818777, 0.37662827912569824, 0.3757974567307306, 0.37627869021718185, 0.37582988607507495, 0.3756002835091875, 0.37558887095404364, 0.3756761702624824, 0.37537767819261647, 0.37521869928183005, 0.3751343578930311, 0.3749245790326011, 0.37529185540706395, 0.3745446053311114, 0.37421417099860765, 0.37457567837864747, 0.37328437009066145, 0.3747076729518213, 0.37465269658441225, 0.37380859569489616, 0.3743684043407392, 0.3738899387535494, 0.3743501229295533, 0.37355579965111185, 0.3734788599902812, 0.37307588801249303, 0.372973876995088, 0.37247744768494784, 0.37336449732958116, 0.37235441127061486, 0.37309927132107584, 0.3723209541213639, 0.3721398141891046, 0.37210743571220495, 0.37145637818657323, 0.3724034366227299, 0.3722150236589603, 0.37210036223549076, 0.3716880228519588, 0.3716770508399549]
+Valid losses per epoch: [0.691086856911244, 0.6908417865485842, 0.6907130553874059, 0.690634195657658, 0.6905752697711437, 0.6905195298299164, 0.6904575995375101, 0.6903843369564526, 0.6902941334437186, 0.6901759789075339, 0.690016801444958, 0.6897901954281164, 0.689464054038937, 0.6889745317562437, 0.6881782217599288, 0.686824692528006, 0.6844617826919669, 0.6802662462884815, 0.6731393107363054, 0.6630276890682653, 0.6515228965173422, 0.6392913899767707, 0.6266190082901277, 0.6143601014469537, 0.6032059040979647, 0.5938798979843113, 0.5866735570621537, 0.5807885857184175, 0.5757675128387173, 0.5713106727979292, 0.5671776169040805, 0.5632586425270285, 0.5594641588050613, 0.555588753660678, 0.551619736755463, 0.5474508457611617, 0.5430083908807213, 0.5378635281300687, 0.5321930500847207, 0.5257429676371114, 0.5184971934876906, 0.5106166019798747, 0.5026464810294967, 0.4950388135688442, 0.48795090878667463, 0.4817548974696732, 0.4761139491117498, 0.4713422836398865, 0.4670964488926275, 0.46337948840992826, 0.46014136359628816, 0.4569355669333257, 0.45402514437217245, 0.451250252860115, 0.44864951858434005, 0.446362272712215, 0.44370464033726786, 0.4420396383059309, 0.44010866565952006, 0.4380748251464151, 0.4367874462942539, 0.4355306793189428, 0.43425635907939725, 0.4331876126638286, 0.43222638083692216, 0.4312696888057837, 0.4302321985089933, 0.42957740342596296, 0.42853836218454316, 0.42822874370392106, 0.4273667657714537, 0.42679268161712536, 0.42602214962984647, 0.42539248508669686, 0.4248527196285946, 0.4242500240764549, 0.42343794340434415, 0.42296748198420697, 0.4225844816632465, 0.42213181714725423, 0.42205945058738736, 0.4212658616508659, 0.4209558653532274, 0.4200417028414178, 0.41968395837229006, 0.41909044272420004, 0.41851746781764343, 0.4180295726554709, 0.41760224661980544, 0.41771697852330997, 0.4168227116538445, 0.4166840724647045, 0.41567320201479296, 0.41552038755356735, 0.41553596824140954, 0.4148679869305009, 0.41433724182959697, 0.41416475049425544, 0.41428825352711246, 0.4132743398871858, 0.4126935572979998, 0.4127253061160445, 0.41192555046134866, 0.41197991635554115, 0.41131246448207504, 0.41133933540278117, 0.41063919496791024, 0.41032358374683625, 0.41034332989616906, 0.41015847755140566, 0.4094293400234215, 0.40954499360670155, 0.4090597044572856, 0.40913426921986207, 0.40861260187562193, 0.40821089419104883, 0.40784030049765263, 0.40769313421900244, 0.40815929438044907, 0.4070922370451997, 0.4067827595405236, 0.4063448518714599, 0.4063254247510261, 0.40638868897694125, 0.4057779617452065, 0.40532398065755787, 0.40506697564050703, 0.4048282661147519, 0.404546488748556, 0.4049698526880317, 0.4045390156273606, 0.4039585978277842, 0.40406599802670495, 0.4032670833285209, 0.40332490044310837, 0.4027721131698156, 0.4023996515266197, 0.40215189056933875, 0.4019271409227911, 0.4017344726875395, 0.4019636227240116, 0.40215215321711706, 0.40125406784733114, 0.4011115052313294, 0.40061033083122244, 0.40019690056533275, 0.4007947868898985, 0.3996532400884845, 0.3994850814972021, 0.39940939785331253, 0.3996293723757266, 0.39885363388051154, 0.39851357312002783, 0.3982525574650697, 0.39826125348316394, 0.39785710217294173, 0.3977618413212641, 0.3977129279319234, 0.3973418948005433, 0.3973216200302953, 0.3967896677001896, 0.39685069017341845, 0.39628080685787775, 0.3961704206962146, 0.3960359554911851, 0.39551152990645844, 0.396324268151556, 0.3951505799731517, 0.3949920048466911, 0.3947866893082739, 0.39480210366708857, 0.394482561557463, 0.39458085112940244, 0.3940219705180074, 0.3939265885444036, 0.39361901183577463, 0.3936848346714234, 0.3937312210308273, 0.39301554814988293, 0.39318944726909544, 0.39264019991958116, 0.39240021953659193, 0.39228500500617636, 0.39211176823135874, 0.39271054633709773, 0.3917535300983142, 0.391719889047576, 0.3913684899383641, 0.3923991483397352, 0.3912666296330882, 0.3908951892434188, 0.39140106110868766, 0.3906051610776077, 0.39039758692086335, 0.39022992521517025, 0.3901107464796654, 0.38993272820772756, 0.39045834277662084, 0.3898057976837601, 0.38984685039580996, 0.3893887529031153, 0.38922165760633426, 0.3889682221135669, 0.38901281773777413, 0.3886921864917602, 0.3887916048951669, 0.38889113554979116, 0.3883286255558075, 0.38832448396246666, 0.38822195640252255, 0.3879587111502116, 0.3878641559947912, 0.38769684581245273, 0.3883582360961032, 0.38839736573812855, 0.3874603228765738, 0.38721531263143416, 0.3871150824517219, 0.3871218610284609, 0.3868075253230855, 0.3871869575176721, 0.38666930772127145, 0.38644854360580383, 0.3864866110679525, 0.3862024080915521, 0.3861539812377148, 0.3860649506766979, 0.3861345303361536, 0.3859164083087687, 0.38573555877176713, 0.38576202241937163, 0.38536713707444087, 0.3853708611797564, 0.38519609826718776, 0.3853037592216171, 0.3856377454148698, 0.38495081126741754, 0.38472991151398206, 0.38463051865991965, 0.38481383667573715, 0.3851361059755916, 0.38474215757449864]
+Trained GRUWithAttentionWithgloveEmbeddings model in 39292.0915 seconds
+=> Loading checkpoint
+Evaluating test dataset of 10052 instances: 100%|██████████████████████████████████| 1257/1257 [00:10<00:00, 117.65it/s]
+Accuracy: 0.8051134102666136
+F1 score: 0.8195301704283741
+Precision score: 0.8118269757254973
+Recall score: 0.8273809523809523
+GRUWithGlove:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|███████████████████████████████████████| 4021/4021 [02:31<00:00, 26.52it/s, lr=1e-6, train_loss=0.699]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 102.77it/s]
+Accuracy: 0.4651249533756061
+F1 score: 0.0
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0
+Recall score: 0.0
+Train and validation losses: 0.6964688722513944, 0.6946699385259071
+=> Saving checkpoint
+Epoch 2/300: 100%|███████████████████████████████████████| 4021/4021 [02:29<00:00, 26.92it/s, lr=1e-6, train_loss=0.694]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.79it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6936097800568602, 0.692725060652075
+=> Saving checkpoint
+Epoch 3/300: 100%|████████████████████████████████████████| 4021/4021 [02:33<00:00, 26.15it/s, lr=1e-6, train_loss=0.69]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.76it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6922685691326657, 0.6917103181183931
+=> Saving checkpoint
+Epoch 4/300: 100%|███████████████████████████████████████| 4021/4021 [02:33<00:00, 26.12it/s, lr=1e-6, train_loss=0.681]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 102.75it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6914483246237625, 0.6911776379254418
+=> Saving checkpoint
+Epoch 5/300: 100%|████████████████████████████████████████| 4021/4021 [02:32<00:00, 26.36it/s, lr=1e-6, train_loss=0.68]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.47it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6909988810695306, 0.6909271369042027
+=> Saving checkpoint
+Epoch 6/300: 100%|███████████████████████████████████████| 4021/4021 [02:25<00:00, 27.62it/s, lr=1e-6, train_loss=0.692]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.76it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6909984243476429, 0.690806498169662
+=> Saving checkpoint
+Epoch 7/300: 100%|███████████████████████████████████████| 4021/4021 [02:21<00:00, 28.36it/s, lr=1e-6, train_loss=0.714]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.44it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6908606765015864, 0.6907533068898658
+=> Saving checkpoint
+Epoch 8/300: 100%|███████████████████████████████████████| 4021/4021 [02:23<00:00, 28.12it/s, lr=1e-6, train_loss=0.677]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.59it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.690895576288498, 0.6907263450309723
+=> Saving checkpoint
+Epoch 9/300: 100%|███████████████████████████████████████| 4021/4021 [02:27<00:00, 27.21it/s, lr=1e-6, train_loss=0.659]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.87it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907762746050772, 0.6907126841322329
+=> Saving checkpoint
+Epoch 10/300: 100%|██████████████████████████████████████| 4021/4021 [02:20<00:00, 28.62it/s, lr=1e-6, train_loss=0.683]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 102.89it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907706486737067, 0.6907076510354492
+=> Saving checkpoint
+Epoch 11/300: 100%|██████████████████████████████████████| 4021/4021 [02:26<00:00, 27.51it/s, lr=1e-6, train_loss=0.734]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.71it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6908481599708838, 0.6907040801484352
+=> Saving checkpoint
+Epoch 12/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.66it/s, lr=1e-6, train_loss=0.698]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.50it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907553412492701, 0.6907026799132763
+=> Saving checkpoint
+Epoch 13/300: 100%|██████████████████████████████████████| 4021/4021 [02:24<00:00, 27.87it/s, lr=1e-7, train_loss=0.711]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.72it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6908051212519978, 0.6907025233770223
+=> Saving checkpoint
+Epoch 14/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.68it/s, lr=1e-7, train_loss=0.711]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 102.86it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907631261999172, 0.6907024653128554
+=> Saving checkpoint
+Epoch 15/300: 100%|██████████████████████████████████████| 4021/4021 [02:34<00:00, 25.96it/s, lr=1e-7, train_loss=0.698]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.07it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907348491249615, 0.6907023552279349
+=> Saving checkpoint
+Epoch 16/300: 100%|██████████████████████████████████████| 4021/4021 [02:25<00:00, 27.61it/s, lr=1e-7, train_loss=0.728]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.70it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6906716323883134, 0.6907023219891618
+=> Saving checkpoint
+Epoch 17/300: 100%|██████████████████████████████████████| 4021/4021 [02:30<00:00, 26.65it/s, lr=1e-8, train_loss=0.672]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.37it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907639738132455, 0.6907022901131192
+=> Saving checkpoint
+Epoch 18/300: 100%|██████████████████████████████████████| 4021/4021 [02:33<00:00, 26.26it/s, lr=1e-8, train_loss=0.733]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.13it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6908016556295344, 0.6907022908241089
+Epoch 19/300: 100%|██████████████████████████████████████| 4021/4021 [02:28<00:00, 27.00it/s, lr=1e-8, train_loss=0.646]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 103.52it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6907925248234997, 0.69070233117278
+Epoch 20/300: 100%|███████████████████████████████████████| 4021/4021 [02:29<00:00, 26.84it/s, lr=1e-8, train_loss=0.68]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 1006/1006 [00:09<00:00, 102.73it/s]
+Accuracy: 0.5348750466243939
+F1 score: 0.6969623329283111
+Precision score: 0.5348750466243939
+Recall score: 1.0
+Train and validation losses: 0.6908420465147279, 0.6907023250701176
+Early stopping at epoch 20
+Train losses per epoch: [0.6964688722513944, 0.6936097800568602, 0.6922685691326657, 0.6914483246237625, 0.6909988810695306, 0.6909984243476429, 0.6908606765015864, 0.690895576288498, 0.6907762746050772, 0.6907706486737067, 0.6908481599708838, 0.6907553412492701, 0.6908051212519978, 0.6907631261999172, 0.6907348491249615, 0.6906716323883134, 0.6907639738132455, 0.6908016556295344, 0.6907925248234997, 0.6908420465147279]
+Valid losses per epoch: [0.6946699385259071, 0.692725060652075, 0.6917103181183931, 0.6911776379254418, 0.6909271369042027, 0.690806498169662, 0.6907533068898658, 0.6907263450309723, 0.6907126841322329, 0.6907076510354492, 0.6907040801484352, 0.6907026799132763, 0.6907025233770223, 0.6907024653128554, 0.6907023552279349, 0.6907023219891618, 0.6907022901131192, 0.6907022908241089, 0.69070233117278, 0.6907023250701176]
+Trained GRUWithgloveEmbeddings model in 3170.1814 seconds
+=> Loading checkpoint
+Evaluating test dataset of 10052 instances: 100%|██████████████████████████████████| 1257/1257 [00:09<00:00, 131.37it/s]
+Accuracy: 0.5348189415041783
+F1 score: 0.6969147005444646
+Precision score: 0.5348189415041783
+Recall score: 1.0

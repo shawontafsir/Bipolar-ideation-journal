@@ -1,0 +1,2364 @@
+GRU with Attention:
+Fold 1/5
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 1: Epoch 1/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 76.19it/s, lr=1e-6, train_loss=0.754]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 590.13it/s]
+Accuracy: 0.5502921795349994
+F1 score: 0.6963821035843196
+Precision score: 0.545000656943897
+Recall score: 0.9642026964202697
+Train and validation losses: 0.6885196447728108, 0.6842054116797021
+=> Saving checkpoint
+Fold 1: Epoch 2/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 69.60it/s, lr=1e-6, train_loss=0.663]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.58it/s]
+Accuracy: 0.5812507770732314
+F1 score: 0.6958092485549133
+Precision score: 0.5689807976366322
+Recall score: 0.895397489539749
+Train and validation losses: 0.6813218440065806, 0.6751416717798525
+=> Saving checkpoint
+Fold 1: Epoch 3/300: 100%|█████████████████████████████| 2011/2011 [00:27<00:00, 73.49it/s, lr=1e-6, train_loss=0.654]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 591.92it/s]
+Accuracy: 0.6394380206390651
+F1 score: 0.7037188393951778
+Precision score: 0.6277798031352534
+Recall score: 0.800557880055788
+Train and validation losses: 0.6695918998926922, 0.6579973140720344
+=> Saving checkpoint
+Fold 1: Epoch 4/300: 100%|█████████████████████████████| 2011/2011 [00:27<00:00, 72.24it/s, lr=1e-6, train_loss=0.662]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 587.30it/s]
+Accuracy: 0.7190103195325127
+F1 score: 0.7380013911430559
+Precision score: 0.7361239592969473
+Recall score: 0.7398884239888424
+Train and validation losses: 0.6491249228875356, 0.6296729522481354
+=> Saving checkpoint
+Fold 1: Epoch 5/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 74.65it/s, lr=1e-6, train_loss=0.575]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 611.02it/s]
+Accuracy: 0.7650130548302873
+F1 score: 0.7674132414472065
+Precision score: 0.8153765690376569
+Recall score: 0.7247791724779172
+Train and validation losses: 0.6166361776351454, 0.588197473799495
+=> Saving checkpoint
+Fold 1: Epoch 6/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 74.70it/s, lr=1e-6, train_loss=0.553]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.84it/s]
+Accuracy: 0.8090264826557255
+F1 score: 0.8117647058823529
+Precision score: 0.8584758942457231
+Recall score: 0.7698744769874477
+Train and validation losses: 0.5691758533249679, 0.5277462104561315
+=> Saving checkpoint
+Fold 1: Epoch 7/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 75.37it/s, lr=1e-6, train_loss=0.382]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 609.95it/s]
+Accuracy: 0.8602511500683825
+F1 score: 0.8664131209888282
+Precision score: 0.8864299610894941
+Recall score: 0.8472803347280334
+Train and validation losses: 0.5010265202619495, 0.4435786197839627
+=> Saving checkpoint
+Fold 1: Epoch 8/300: 100%|█████████████████████████████| 2011/2011 [00:27<00:00, 72.98it/s, lr=1e-6, train_loss=0.337]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.77it/s]
+Accuracy: 0.907372870819346
+F1 score: 0.914495581315276
+Precision score: 0.903196554069372
+Recall score: 0.9260808926080892
+Train and validation losses: 0.40822419720553216, 0.33796399979894726
+=> Saving checkpoint
+Fold 1: Epoch 9/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 76.82it/s, lr=1e-6, train_loss=0.157]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 586.13it/s]
+Accuracy: 0.9322392142235484
+F1 score: 0.9382716049382716
+Precision score: 0.9149547161475591
+Recall score: 0.9628079962807996
+Train and validation losses: 0.30280470893653927, 0.23799236580936856
+=> Saving checkpoint
+Fold 1: Epoch 10/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.81it/s, lr=1e-6, train_loss=0.0974]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 592.15it/s]
+Accuracy: 0.9434290687554395
+F1 score: 0.948254293187763
+Precision score: 0.9283010465375194
+Recall score: 0.9690841469084147
+Train and validation losses: 0.21654467540318428, 0.17495905510918283
+=> Saving checkpoint
+Fold 1: Epoch 11/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.17it/s, lr=1e-6, train_loss=0.0808]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.51it/s]
+Accuracy: 0.9502673131915952
+F1 score: 0.9542543458371455
+Precision score: 0.9392165691130122
+Recall score: 0.9697814969781497
+Train and validation losses: 0.16645371843979673, 0.14332454140570244
+=> Saving checkpoint
+Fold 1: Epoch 12/300: 100%|████████████████████████████| 2011/2011 [00:23<00:00, 84.23it/s, lr=1e-6, train_loss=0.253]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.16it/s]
+Accuracy: 0.9533756061171205
+F1 score: 0.9569410954185326
+Precision score: 0.9455411844792376
+Recall score: 0.9686192468619247
+Train and validation losses: 0.1409050767490115, 0.12768522804976992
+=> Saving checkpoint
+Fold 1: Epoch 13/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.04it/s, lr=1e-6, train_loss=0.0268]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.65it/s]
+Accuracy: 0.9563595673256248
+F1 score: 0.9595947968228388
+Precision score: 0.9505131128848346
+Recall score: 0.9688516968851697
+Train and validation losses: 0.126490084185811, 0.1184129994640323
+=> Saving checkpoint
+Fold 1: Epoch 14/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 74.20it/s, lr=1e-6, train_loss=0.0327]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 587.93it/s]
+Accuracy: 0.9599651871192341
+F1 score: 0.9628775651371916
+Precision score: 0.9551692589204026
+Recall score: 0.9707112970711297
+Train and validation losses: 0.11672853153478678, 0.11181251590453073
+=> Saving checkpoint
+Fold 1: Epoch 15/300: 100%|████████████████████████████| 2011/2011 [00:25<00:00, 77.45it/s, lr=1e-6, train_loss=0.252]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 609.02it/s]
+Accuracy: 0.9615814994405073
+F1 score: 0.9643475250951886
+Precision score: 0.9573883161512028
+Recall score: 0.9714086471408647
+Train and validation losses: 0.1104214286970272, 0.10674489227588294
+=> Saving checkpoint
+Fold 1: Epoch 16/300: 100%|██████████████████████████| 2011/2011 [00:25<00:00, 78.47it/s, lr=1e-6, train_loss=0.00587]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.29it/s]
+Accuracy: 0.9634464751958225
+F1 score: 0.9660664819944599
+Precision score: 0.9594222833562586
+Recall score: 0.9728033472803347
+Train and validation losses: 0.10451558175599106, 0.10257260632936363
+=> Saving checkpoint
+Fold 1: Epoch 17/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 74.58it/s, lr=1e-6, train_loss=0.199]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.79it/s]
+Accuracy: 0.9639438020639065
+F1 score: 0.9664351851851852
+Precision score: 0.9624250806823421
+Recall score: 0.9704788470478847
+Train and validation losses: 0.09969640488994286, 0.09926658367764049
+=> Saving checkpoint
+Fold 1: Epoch 18/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 71.88it/s, lr=1e-6, train_loss=0.0307]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 612.19it/s]
+Accuracy: 0.9644411289319905
+F1 score: 0.9668828161185734
+Precision score: 0.9633133364097831
+Recall score: 0.9704788470478847
+Train and validation losses: 0.09547904417106778, 0.09653343613283565
+=> Saving checkpoint
+Fold 1: Epoch 19/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 74.26it/s, lr=1e-6, train_loss=0.0631]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.74it/s]
+Accuracy: 0.9656844461022007
+F1 score: 0.9680481592961334
+Precision score: 0.9642527675276753
+Recall score: 0.9718735471873547
+Train and validation losses: 0.09260496533485542, 0.09426636489248921
+=> Saving checkpoint
+Fold 1: Epoch 20/300: 100%|██████████████████████████| 2011/2011 [00:26<00:00, 76.96it/s, lr=1e-6, train_loss=0.00402]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 611.01it/s]
+Accuracy: 0.9653114509511377
+F1 score: 0.9676746611053181
+Precision score: 0.9646569646569647
+Recall score: 0.9707112970711297
+Train and validation losses: 0.08967106823783047, 0.09234980610199273
+=> Saving checkpoint
+Fold 1: Epoch 21/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 74.52it/s, lr=1e-6, train_loss=0.774]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 611.67it/s]
+Accuracy: 0.9664304364043268
+F1 score: 0.9687572321221939
+Precision score: 0.964516129032258
+Recall score: 0.9730357973035797
+Train and validation losses: 0.08746787882062654, 0.09078532128056019
+=> Saving checkpoint
+Fold 1: Epoch 22/300: 100%|███████████████████████████| 2011/2011 [00:24<00:00, 82.43it/s, lr=1e-6, train_loss=0.0221]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 615.47it/s]
+Accuracy: 0.9663061046873057
+F1 score: 0.9685797101449275
+Precision score: 0.9662271570668517
+Recall score: 0.9709437470943747
+Train and validation losses: 0.08490729199044873, 0.08949573919321475
+=> Saving checkpoint
+Fold 1: Epoch 23/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 76.05it/s, lr=1e-6, train_loss=0.202]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.40it/s]
+Accuracy: 0.9671764267064528
+F1 score: 0.9693877551020408
+Precision score: 0.967144840351689
+Recall score: 0.9716410971641097
+Train and validation losses: 0.08298456210938057, 0.08825355932851568
+=> Saving checkpoint
+Fold 1: Epoch 24/300: 100%|██████████████████████████| 2011/2011 [00:26<00:00, 74.57it/s, lr=1e-6, train_loss=0.00934]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 609.39it/s]
+Accuracy: 0.9675494218575158
+F1 score: 0.9697250898967638
+Precision score: 0.9678166242185691
+Recall score: 0.9716410971641097
+Train and validation losses: 0.0811005485122991, 0.08732843419137017
+=> Saving checkpoint
+Fold 1: Epoch 25/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.46it/s, lr=1e-6, train_loss=0.0097]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 612.26it/s]
+Accuracy: 0.9681710804426209
+F1 score: 0.9703222814746116
+Precision score: 0.9678538390379279
+Recall score: 0.9728033472803347
+Train and validation losses: 0.07994367818978872, 0.08638624546477279
+=> Saving checkpoint
+Fold 1: Epoch 26/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 76.84it/s, lr=1e-6, train_loss=0.0286]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.69it/s]
+Accuracy: 0.9680467487255999
+F1 score: 0.9701613839544874
+Precision score: 0.9691486893992113
+Recall score: 0.9711761971176197
+Train and validation losses: 0.07734624252407772, 0.0856902534359692
+=> Saving checkpoint
+Fold 1: Epoch 27/300: 100%|████████████████████████████| 2011/2011 [00:23<00:00, 84.02it/s, lr=1e-6, train_loss=0.171]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 611.93it/s]
+Accuracy: 0.969041402461768
+F1 score: 0.9711170397865677
+Precision score: 0.9692058346839546
+Recall score: 0.9730357973035797
+Train and validation losses: 0.07598666999985064, 0.08484499873852665
+=> Saving checkpoint
+Fold 1: Epoch 28/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 76.27it/s, lr=1e-6, train_loss=0.0182]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 577.26it/s]
+Accuracy: 0.969041402461768
+F1 score: 0.9710969239698201
+Precision score: 0.9698585671226524
+Recall score: 0.9723384472338448
+Train and validation losses: 0.0757515097001298, 0.08413907111748298
+=> Saving checkpoint
+Fold 1: Epoch 29/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.69it/s, lr=1e-6, train_loss=0.00262]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 594.94it/s]
+Accuracy: 0.968917070744747
+F1 score: 0.9709639953542393
+Precision score: 0.9702878365831012
+Recall score: 0.9716410971641097
+Train and validation losses: 0.07273382245871404, 0.08346894136805895
+=> Saving checkpoint
+Fold 1: Epoch 30/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 76.99it/s, lr=1e-6, train_loss=0.0565]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.12it/s]
+Accuracy: 0.9681710804426209
+F1 score: 0.9702117756574354
+Precision score: 0.9713420316868593
+Recall score: 0.9690841469084147
+Train and validation losses: 0.07207444975069714, 0.08292938467688214
+=> Saving checkpoint
+Fold 1: Epoch 31/300: 100%|██████████████████████████| 2011/2011 [00:22<00:00, 88.63it/s, lr=1e-6, train_loss=0.00363]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 614.61it/s]
+Accuracy: 0.968917070744747
+F1 score: 0.9709369913973495
+Precision score: 0.9711627906976744
+Recall score: 0.9707112970711297
+Train and validation losses: 0.0703705359081965, 0.0822692056143449
+=> Saving checkpoint
+Fold 1: Epoch 32/300: 100%|████████████████████████████| 2011/2011 [00:24<00:00, 82.22it/s, lr=1e-6, train_loss=0.358]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.20it/s]
+Accuracy: 0.9695387293298521
+F1 score: 0.9715414101521663
+Precision score: 0.9709774785233342
+Recall score: 0.9721059972105998
+Train and validation losses: 0.06949935263531742, 0.08166669516742718
+=> Saving checkpoint
+Fold 1: Epoch 33/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.83it/s, lr=1e-6, train_loss=0.00781]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.59it/s]
+Accuracy: 0.969041402461768
+F1 score: 0.971043144551692
+Precision score: 0.9716080986734932
+Recall score: 0.9704788470478847
+Train and validation losses: 0.0682293150528468, 0.08117499268913704
+=> Saving checkpoint
+Fold 1: Epoch 34/300: 100%|██████████████████████████| 2011/2011 [00:26<00:00, 75.46it/s, lr=1e-6, train_loss=0.00494]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 613.69it/s]
+Accuracy: 0.9705333830660201
+F1 score: 0.9724770642201835
+Precision score: 0.9716871663959156
+Recall score: 0.9732682473268247
+Train and validation losses: 0.06719875144386689, 0.0805755953258644
+=> Saving checkpoint
+Fold 1: Epoch 35/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 73.46it/s, lr=1e-6, train_loss=0.055]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.43it/s]
+Accuracy: 0.969165734178789
+F1 score: 0.9711426576681406
+Precision score: 0.9722739981360671
+Recall score: 0.9700139470013946
+Train and validation losses: 0.06530141013620948, 0.08029848723866742
+=> Saving checkpoint
+Fold 1: Epoch 36/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 76.21it/s, lr=1e-6, train_loss=0.0809]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 594.48it/s]
+Accuracy: 0.9710307099341042
+F1 score: 0.9729541497388277
+Precision score: 0.9717134245304893
+Recall score: 0.9741980474198048
+Train and validation losses: 0.06438477866503042, 0.07970719046591712
+=> Saving checkpoint
+Fold 1: Epoch 37/300: 100%|██████████████████████████| 2011/2011 [00:25<00:00, 78.74it/s, lr=1e-6, train_loss=0.00228]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 611.61it/s]
+Accuracy: 0.9699117244809151
+F1 score: 0.9718473708701721
+Precision score: 0.9727526781555659
+Recall score: 0.9709437470943747
+Train and validation losses: 0.06296063472952394, 0.07940269404745459
+=> Saving checkpoint
+Fold 1: Epoch 38/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.72it/s, lr=1e-6, train_loss=0.00847]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.07it/s]
+Accuracy: 0.9702847196319782
+F1 score: 0.9722060704733109
+Precision score: 0.9727717011868746
+Recall score: 0.9716410971641097
+Train and validation losses: 0.06233946147570706, 0.07901597887492381
+=> Saving checkpoint
+Fold 1: Epoch 39/300: 100%|██████████████████████████| 2011/2011 [00:26<00:00, 76.53it/s, lr=1e-6, train_loss=0.00278]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.50it/s]
+Accuracy: 0.9712793733681462
+F1 score: 0.9731613802718717
+Precision score: 0.972822299651568
+Recall score: 0.9735006973500697
+Train and validation losses: 0.06063288992727226, 0.07862637387648795
+=> Saving checkpoint
+Fold 1: Epoch 40/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 74.35it/s, lr=1e-6, train_loss=0.00383]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.11it/s]
+Accuracy: 0.9699117244809151
+F1 score: 0.9718342644320298
+Precision score: 0.9731934731934732
+Recall score: 0.9704788470478847
+Train and validation losses: 0.05953676834719164, 0.07844746994501754
+=> Saving checkpoint
+Fold 1: Epoch 41/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 76.89it/s, lr=1e-6, train_loss=0.0228]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 615.74it/s]
+Accuracy: 0.9707820465000622
+F1 score: 0.9726712408419583
+Precision score: 0.9732371421922271
+Recall score: 0.9721059972105998
+Train and validation losses: 0.059137014050574116, 0.07803271484406661
+=> Saving checkpoint
+Fold 1: Epoch 42/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.80it/s, lr=1e-6, train_loss=0.0541]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 589.42it/s]
+Accuracy: 0.9712793733681462
+F1 score: 0.9731613802718717
+Precision score: 0.972822299651568
+Recall score: 0.9735006973500697
+Train and validation losses: 0.05725260440911774, 0.07770627044501416
+=> Saving checkpoint
+Fold 1: Epoch 43/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.89it/s, lr=1e-6, train_loss=0.00643]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.56it/s]
+Accuracy: 0.9712793733681462
+F1 score: 0.9731551423590935
+Precision score: 0.9730420636765048
+Recall score: 0.9732682473268247
+Train and validation losses: 0.056564160662426276, 0.0774600418126229
+=> Saving checkpoint
+Fold 1: Epoch 44/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 71.86it/s, lr=1e-6, train_loss=0.221]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.10it/s]
+Accuracy: 0.9719010319532513
+F1 score: 0.973763640585094
+Precision score: 0.9726345083487941
+Recall score: 0.9748953974895398
+Train and validation losses: 0.05564154400405706, 0.07734618993789869
+=> Saving checkpoint
+Fold 1: Epoch 45/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 75.18it/s, lr=1e-6, train_loss=0.0345]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.21it/s]
+Accuracy: 0.9721496953872933
+F1 score: 0.9739958207569074
+Precision score: 0.9728664192949907
+Recall score: 0.9751278475127848
+Train and validation losses: 0.05475887579815383, 0.0771352675883192
+=> Saving checkpoint
+Fold 1: Epoch 46/300: 100%|██████████████████████████| 2011/2011 [00:26<00:00, 75.85it/s, lr=1e-6, train_loss=0.00986]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.47it/s]
+Accuracy: 0.9714037050851673
+F1 score: 0.9732682473268247
+Precision score: 0.9732682473268247
+Recall score: 0.9732682473268247
+Train and validation losses: 0.05343065291861038, 0.07689433503156773
+=> Saving checkpoint
+Fold 1: Epoch 47/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.64it/s, lr=1e-6, train_loss=0.00484]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.47it/s]
+Accuracy: 0.9721496953872933
+F1 score: 0.9740018570102136
+Precision score: 0.9726471951784886
+Recall score: 0.9753602975360297
+Train and validation losses: 0.05216429803623136, 0.07703170384394716
+Fold 1: Epoch 48/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.74it/s, lr=1e-6, train_loss=0.00481]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.44it/s]
+Accuracy: 0.9719010319532513
+F1 score: 0.9737331473733147
+Precision score: 0.9737331473733147
+Recall score: 0.9737331473733147
+Train and validation losses: 0.05109044950399159, 0.07661367007336814
+=> Saving checkpoint
+Fold 1: Epoch 49/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.75it/s, lr=1e-6, train_loss=0.00805]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 615.39it/s]
+Accuracy: 0.9721496953872933
+F1 score: 0.9739897816999535
+Precision score: 0.9730858468677495
+Recall score: 0.9748953974895398
+Train and validation losses: 0.04972424972725408, 0.07676359533948386
+Fold 1: Epoch 50/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.66it/s, lr=1e-6, train_loss=0.00368]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 614.54it/s]
+Accuracy: 0.9721496953872933
+F1 score: 0.9739716476876598
+Precision score: 0.9737453531598513
+Recall score: 0.9741980474198048
+Train and validation losses: 0.049182932521511805, 0.07669651918620089
+Fold 1: Epoch 51/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.01it/s, lr=1e-6, train_loss=0.0205]
+Evaluating valid dataset of 8043 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 612.55it/s]
+Accuracy: 0.9719010319532513
+F1 score: 0.9737270402232039
+Precision score: 0.9739534883720931
+Recall score: 0.9735006973500697
+Train and validation losses: 0.048333727098332904, 0.07662289634601085
+Early stopping at epoch 51
+Fold 1: Train losses per epoch: [0.6885196447728108, 0.6813218440065806, 0.6695918998926922, 0.6491249228875356, 0.6166361776351454, 0.5691758533249679, 0.5010265202619495, 0.40822419720553216, 0.30280470893653927, 0.21654467540318428, 0.16645371843979673, 0.1409050767490115, 0.126490084185811, 0.11672853153478678, 0.1104214286970272, 0.10451558175599106, 0.09969640488994286, 0.09547904417106778, 0.09260496533485542, 0.08967106823783047, 0.08746787882062654, 0.08490729199044873, 0.08298456210938057, 0.0811005485122991, 0.07994367818978872, 0.07734624252407772, 0.07598666999985064, 0.0757515097001298, 0.07273382245871404, 0.07207444975069714, 0.0703705359081965, 0.06949935263531742, 0.0682293150528468, 0.06719875144386689, 0.06530141013620948, 0.06438477866503042, 0.06296063472952394, 0.06233946147570706, 0.06063288992727226, 0.05953676834719164, 0.059137014050574116, 0.05725260440911774, 0.056564160662426276, 0.05564154400405706, 0.05475887579815383, 0.05343065291861038, 0.05216429803623136, 0.05109044950399159, 0.04972424972725408, 0.049182932521511805, 0.048333727098332904]
+Fold 1: Valid losses per epoch: [0.6842054116797021, 0.6751416717798525, 0.6579973140720344, 0.6296729522481354, 0.588197473799495, 0.5277462104561315, 0.4435786197839627, 0.33796399979894726, 0.23799236580936856, 0.17495905510918283, 0.14332454140570244, 0.12768522804976992, 0.1184129994640323, 0.11181251590453073, 0.10674489227588294, 0.10257260632936363, 0.09926658367764049, 0.09653343613283565, 0.09426636489248921, 0.09234980610199273, 0.09078532128056019, 0.08949573919321475, 0.08825355932851568, 0.08732843419137017, 0.08638624546477279, 0.0856902534359692, 0.08484499873852665, 0.08413907111748298, 0.08346894136805895, 0.08292938467688214, 0.0822692056143449, 0.08166669516742718, 0.08117499268913704, 0.0805755953258644, 0.08029848723866742, 0.07970719046591712, 0.07940269404745459, 0.07901597887492381, 0.07862637387648795, 0.07844746994501754, 0.07803271484406661, 0.07770627044501416, 0.0774600418126229, 0.07734618993789869, 0.0771352675883192, 0.07689433503156773, 0.07703170384394716, 0.07661367007336814, 0.07676359533948386, 0.07669651918620089, 0.07662289634601085]
+Fold 2/5
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 2: Epoch 1/300: 100%|██████████████████████████████| 2011/2011 [00:28<00:00, 70.53it/s, lr=1e-6, train_loss=0.65]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 585.36it/s]
+Accuracy: 0.5371798060184034
+F1 score: 0.6956166175989532
+Precision score: 0.5365207518607291
+Recall score: 0.9888398046965822
+Train and validation losses: 0.689755694152466, 0.6863617625672584
+=> Saving checkpoint
+Fold 2: Epoch 2/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 68.83it/s, lr=1e-6, train_loss=0.704]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 585.85it/s]
+Accuracy: 0.5603083809997513
+F1 score: 0.6927888792354474
+Precision score: 0.5530586766541823
+Recall score: 0.9269937223901418
+Train and validation losses: 0.684708952755551, 0.6799300189757679
+=> Saving checkpoint
+Fold 2: Epoch 3/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 67.87it/s, lr=1e-6, train_loss=0.678]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 558.84it/s]
+Accuracy: 0.6221089281273315
+F1 score: 0.7003254116950991
+Precision score: 0.6080479452054794
+Recall score: 0.8256219483840967
+Train and validation losses: 0.6764489930106419, 0.6672427295216509
+=> Saving checkpoint
+Fold 2: Epoch 4/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 69.33it/s, lr=1e-6, train_loss=0.711]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 592.33it/s]
+Accuracy: 0.694354638149714
+F1 score: 0.7225733634311512
+Precision score: 0.7021276595744681
+Recall score: 0.7442455242966752
+Train and validation losses: 0.6601463755169418, 0.6436786880313047
+=> Saving checkpoint
+Fold 2: Epoch 5/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 68.23it/s, lr=1e-6, train_loss=0.577]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 594.22it/s]
+Accuracy: 0.7562795324546133
+F1 score: 0.7579051383399209
+Precision score: 0.8084321475625823
+Recall score: 0.713322483143455
+Train and validation losses: 0.6308755029024383, 0.6054121573450078
+=> Saving checkpoint
+Fold 2: Epoch 6/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 71.24it/s, lr=1e-6, train_loss=0.565]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 594.95it/s]
+Accuracy: 0.8027853767719473
+F1 score: 0.7982188295165394
+Precision score: 0.8814273672379882
+Recall score: 0.7293652638921181
+Train and validation losses: 0.5847318090798546, 0.5462841625597558
+=> Saving checkpoint
+Fold 2: Epoch 7/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 67.05it/s, lr=1e-6, train_loss=0.406]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 585.78it/s]
+Accuracy: 0.8624720218851032
+F1 score: 0.868864121413327
+Precision score: 0.8865231067021534
+Recall score: 0.8518949081608929
+Train and validation losses: 0.5127901052699523, 0.45371110414415894
+=> Saving checkpoint
+Fold 2: Epoch 8/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 68.17it/s, lr=1e-6, train_loss=0.323]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.25it/s]
+Accuracy: 0.9105943795075851
+F1 score: 0.9181186653000797
+Precision score: 0.8997767857142858
+Recall score: 0.9372239014182748
+Train and validation losses: 0.4061399773170793, 0.3318897342942581
+=> Saving checkpoint
+Fold 2: Epoch 9/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 75.83it/s, lr=1e-6, train_loss=0.211]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 609.33it/s]
+Accuracy: 0.9347177319074857
+F1 score: 0.9403747870528109
+Precision score: 0.9191829484902309
+Recall score: 0.9625668449197861
+Train and validation losses: 0.28516136714470797, 0.22546273231447098
+=> Saving checkpoint
+Fold 2: Epoch 10/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.32it/s, lr=1e-6, train_loss=0.0616]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.73it/s]
+Accuracy: 0.9425516040785874
+F1 score: 0.9473684210526315
+Precision score: 0.9287469287469288
+Recall score: 0.9667519181585678
+Train and validation losses: 0.20006343547286293, 0.1695514969661032
+=> Saving checkpoint
+Fold 2: Epoch 11/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 67.41it/s, lr=1e-6, train_loss=0.0751]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.85it/s]
+Accuracy: 0.946779408107436
+F1 score: 0.9509286860811741
+Precision score: 0.9380230717032345
+Recall score: 0.9641943734015346
+Train and validation losses: 0.15693983881239243, 0.14441961734731557
+=> Saving checkpoint
+Fold 2: Epoch 12/300: 100%|████████████████████████████| 2011/2011 [00:30<00:00, 65.66it/s, lr=1e-6, train_loss=0.332]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.56it/s]
+Accuracy: 0.9495150460084556
+F1 score: 0.9533333333333334
+Precision score: 0.9427142532393726
+Recall score: 0.9641943734015346
+Train and validation losses: 0.13607787337637642, 0.13107599926442204
+=> Saving checkpoint
+Fold 2: Epoch 13/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 71.72it/s, lr=1e-6, train_loss=0.144]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.37it/s]
+Accuracy: 0.9526237254414325
+F1 score: 0.9561716323478661
+Precision score: 0.9462659380692168
+Recall score: 0.9662869100209254
+Train and validation losses: 0.12236237081535593, 0.1221629847211404
+=> Saving checkpoint
+Fold 2: Epoch 14/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.53it/s, lr=1e-6, train_loss=0.0408]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 590.12it/s]
+Accuracy: 0.9551106689878139
+F1 score: 0.958443651433176
+Precision score: 0.949156406748746
+Recall score: 0.9679144385026738
+Train and validation losses: 0.11417745437041436, 0.11566561863204061
+=> Saving checkpoint
+Fold 2: Epoch 15/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.47it/s, lr=1e-6, train_loss=0.0526]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.87it/s]
+Accuracy: 0.9564784879383238
+F1 score: 0.9596309111880046
+Precision score: 0.9521629663538567
+Recall score: 0.9672169262962101
+Train and validation losses: 0.10705418579284082, 0.11066950070921694
+=> Saving checkpoint
+Fold 2: Epoch 16/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 69.90it/s, lr=1e-6, train_loss=0.112]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.08it/s]
+Accuracy: 0.9594628201939815
+F1 score: 0.9624077490774908
+Precision score: 0.9547014413177762
+Recall score: 0.9702394791908858
+Train and validation losses: 0.10195248576889786, 0.10666834465163218
+=> Saving checkpoint
+Fold 2: Epoch 17/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 74.28it/s, lr=1e-6, train_loss=0.319]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.67it/s]
+Accuracy: 0.9610793334991296
+F1 score: 0.9638359329867129
+Precision score: 0.9579696830500689
+Recall score: 0.9697744710532434
+Train and validation losses: 0.09783370335239497, 0.10352198438252327
+=> Saving checkpoint
+Fold 2: Epoch 18/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.47it/s, lr=1e-6, train_loss=0.0244]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.33it/s]
+Accuracy: 0.961825416563044
+F1 score: 0.9644552506657404
+Precision score: 0.9605627306273062
+Recall score: 0.9683794466403162
+Train and validation losses: 0.09441441233899242, 0.10119272047231644
+=> Saving checkpoint
+Fold 2: Epoch 19/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 71.38it/s, lr=1e-6, train_loss=0.264]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.62it/s]
+Accuracy: 0.9624471524496394
+F1 score: 0.9651028426161312
+Precision score: 0.9593383873190903
+Recall score: 0.9709369913973495
+Train and validation losses: 0.09201856780762972, 0.09899910015218834
+=> Saving checkpoint
+Fold 2: Epoch 20/300: 100%|████████████████████████████| 2011/2011 [00:23<00:00, 85.50it/s, lr=1e-6, train_loss=0.265]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.35it/s]
+Accuracy: 0.9631932355135538
+F1 score: 0.9657089898053753
+Precision score: 0.962364350034634
+Recall score: 0.9690769588467798
+Train and validation losses: 0.08850808272278099, 0.09746295064002661
+=> Saving checkpoint
+Fold 2: Epoch 21/300: 100%|███████████████████████████| 2011/2011 [00:24<00:00, 82.05it/s, lr=1e-6, train_loss=0.0145]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 563.39it/s]
+Accuracy: 0.9641880129321064
+F1 score: 0.9666897987508675
+Precision score: 0.961795166858458
+Recall score: 0.9716345036038131
+Train and validation losses: 0.0866696635309342, 0.09601640948751723
+=> Saving checkpoint
+Fold 2: Epoch 22/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.07it/s, lr=1e-6, train_loss=0.0124]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.38it/s]
+Accuracy: 0.96505844317334
+F1 score: 0.9674278428190565
+Precision score: 0.9646324549237171
+Recall score: 0.9702394791908858
+Train and validation losses: 0.08462491931119578, 0.09480868241746
+=> Saving checkpoint
+Fold 2: Epoch 23/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 68.95it/s, lr=1e-6, train_loss=0.0126]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.94it/s]
+Accuracy: 0.9653071375279781
+F1 score: 0.9676521739130435
+Precision score: 0.9650786308973173
+Recall score: 0.9702394791908858
+Train and validation losses: 0.08320131895645494, 0.09369431663893356
+=> Saving checkpoint
+Fold 2: Epoch 24/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.51it/s, lr=1e-6, train_loss=0.183]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.65it/s]
+Accuracy: 0.9649340959960209
+F1 score: 0.9672701949860725
+Precision score: 0.9657010428736964
+Recall score: 0.9688444547779587
+Train and validation losses: 0.08238903109286645, 0.09273560491305356
+=> Saving checkpoint
+Fold 2: Epoch 25/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.15it/s, lr=1e-6, train_loss=0.096]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.78it/s]
+Accuracy: 0.9641880129321064
+F1 score: 0.9665271966527197
+Precision score: 0.9663025795956309
+Recall score: 0.9667519181585678
+Train and validation losses: 0.0796605339227499, 0.09191945823794509
+=> Saving checkpoint
+Fold 2: Epoch 26/300: 100%|████████████████████████████| 2011/2011 [00:29<00:00, 68.02it/s, lr=1e-6, train_loss=0.135]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.58it/s]
+Accuracy: 0.965182790350659
+F1 score: 0.9675023212627669
+Precision score: 0.9659327925840093
+Recall score: 0.9690769588467798
+Train and validation losses: 0.07903086301367702, 0.09080783592557412
+=> Saving checkpoint
+Fold 2: Epoch 27/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.46it/s, lr=1e-6, train_loss=0.0101]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 576.47it/s]
+Accuracy: 0.9660532205918926
+F1 score: 0.9683404847500869
+Precision score: 0.9659879685330865
+Recall score: 0.9707044873285282
+Train and validation losses: 0.07673730991106001, 0.08990471794086677
+=> Saving checkpoint
+Fold 2: Epoch 28/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 69.19it/s, lr=1e-6, train_loss=0.0349]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.16it/s]
+Accuracy: 0.9648097488187019
+F1 score: 0.96710449843078
+Precision score: 0.9669920966992097
+Recall score: 0.9672169262962101
+Train and validation losses: 0.07609077929164834, 0.08930700711413447
+=> Saving checkpoint
+Fold 2: Epoch 29/300: 100%|███████████████████████████| 2011/2011 [00:30<00:00, 66.54it/s, lr=1e-6, train_loss=0.0143]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.29it/s]
+Accuracy: 0.9653071375279781
+F1 score: 0.9675392670157068
+Precision score: 0.9683278993945039
+Recall score: 0.9667519181585678
+Train and validation losses: 0.07451192671173747, 0.08863058320531773
+=> Saving checkpoint
+Fold 2: Epoch 30/300: 100%|██████████████████████████| 2011/2011 [00:30<00:00, 66.58it/s, lr=1e-6, train_loss=0.00271]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.52it/s]
+Accuracy: 0.9655558318826163
+F1 score: 0.9677719604421176
+Precision score: 0.9685607824871915
+Recall score: 0.966984422227389
+Train and validation losses: 0.07264569526214536, 0.08790199608758655
+=> Saving checkpoint
+Fold 2: Epoch 31/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.32it/s, lr=1e-6, train_loss=0.0573]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.99it/s]
+Accuracy: 0.9666749564784879
+F1 score: 0.9688806316767301
+Precision score: 0.9677569009510555
+Recall score: 0.9700069751220647
+Train and validation losses: 0.07159599266964377, 0.0868179517498177
+=> Saving checkpoint
+Fold 2: Epoch 32/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 75.48it/s, lr=1e-6, train_loss=0.0127]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.25it/s]
+Accuracy: 0.9666749564784879
+F1 score: 0.96882996045592
+Precision score: 0.9692808936467303
+Recall score: 0.9683794466403162
+Train and validation losses: 0.07117064166994704, 0.08622418648922524
+=> Saving checkpoint
+Fold 2: Epoch 33/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.96it/s, lr=1e-6, train_loss=0.0116]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.61it/s]
+Accuracy: 0.9675453867197215
+F1 score: 0.9696687972109239
+Precision score: 0.9693308550185874
+Recall score: 0.9700069751220647
+Train and validation losses: 0.06940843815665668, 0.0853934748126953
+=> Saving checkpoint
+Fold 2: Epoch 34/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.14it/s, lr=1e-6, train_loss=0.0457]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.18it/s]
+Accuracy: 0.9676697338970406
+F1 score: 0.9697885196374623
+Precision score: 0.9693379790940767
+Recall score: 0.9702394791908858
+Train and validation losses: 0.0683842726176385, 0.08472069985951643
+=> Saving checkpoint
+Fold 2: Epoch 35/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.37it/s, lr=1e-6, train_loss=0.00617]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 611.86it/s]
+Accuracy: 0.9680427754289977
+F1 score: 0.9701475200371704
+Precision score: 0.9693593314763231
+Recall score: 0.9709369913973495
+Train and validation losses: 0.06674028338924883, 0.08393357113692503
+=> Saving checkpoint
+Fold 2: Epoch 36/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 68.09it/s, lr=1e-6, train_loss=0.0284]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.61it/s]
+Accuracy: 0.9686645113155932
+F1 score: 0.970724907063197
+Precision score: 0.9700487578360808
+Recall score: 0.9714019995349918
+Train and validation losses: 0.06576887731512611, 0.08325229392888739
+=> Saving checkpoint
+Fold 2: Epoch 37/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.90it/s, lr=1e-6, train_loss=0.0694]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 585.18it/s]
+Accuracy: 0.968415816960955
+F1 score: 0.9704788470478847
+Precision score: 0.9702533116430397
+Recall score: 0.9707044873285282
+Train and validation losses: 0.06469752352262376, 0.0827072861055412
+=> Saving checkpoint
+Fold 2: Epoch 38/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 68.57it/s, lr=1e-6, train_loss=0.11]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 582.01it/s]
+Accuracy: 0.9686645113155932
+F1 score: 0.9706908583391486
+Precision score: 0.9711426576681406
+Recall score: 0.9702394791908858
+Train and validation losses: 0.06389231129505679, 0.08219413973796542
+=> Saving checkpoint
+Fold 2: Epoch 39/300: 100%|███████████████████████████| 2011/2011 [00:23<00:00, 86.02it/s, lr=1e-6, train_loss=0.0992]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.11it/s]
+Accuracy: 0.9687888584929122
+F1 score: 0.9707901780519027
+Precision score: 0.9718080149114632
+Recall score: 0.9697744710532434
+Train and validation losses: 0.062484278901323145, 0.08171227139885542
+=> Saving checkpoint
+Fold 2: Epoch 40/300: 100%|███████████████████████████| 2011/2011 [00:23<00:00, 85.46it/s, lr=1e-6, train_loss=0.0022]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.51it/s]
+Accuracy: 0.968415816960955
+F1 score: 0.9704788470478847
+Precision score: 0.9702533116430397
+Recall score: 0.9707044873285282
+Train and validation losses: 0.061607697466700945, 0.0809037795046874
+=> Saving checkpoint
+Fold 2: Epoch 41/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.53it/s, lr=1e-6, train_loss=0.00932]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.67it/s]
+Accuracy: 0.9686645113155932
+F1 score: 0.9707044873285282
+Precision score: 0.9707044873285282
+Recall score: 0.9707044873285282
+Train and validation losses: 0.06034034501242742, 0.08036908818312567
+=> Saving checkpoint
+Fold 2: Epoch 42/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 69.05it/s, lr=1e-6, train_loss=0.33]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 594.17it/s]
+Accuracy: 0.9695349415568266
+F1 score: 0.9715347972580458
+Precision score: 0.9709707385044124
+Recall score: 0.9720995117414555
+Train and validation losses: 0.05983227031720614, 0.07985652246161606
+=> Saving checkpoint
+Fold 2: Epoch 43/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 69.07it/s, lr=1e-6, train_loss=0.0691]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.22it/s]
+Accuracy: 0.9699079830887839
+F1 score: 0.9718539195161665
+Precision score: 0.972306260181522
+Recall score: 0.9714019995349918
+Train and validation losses: 0.058790631637253676, 0.07943635346704934
+=> Saving checkpoint
+Fold 2: Epoch 44/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.99it/s, lr=1e-6, train_loss=0.00403]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.02it/s]
+Accuracy: 0.9696592887341458
+F1 score: 0.9715882626921285
+Precision score: 0.973174714252391
+Recall score: 0.9700069751220647
+Train and validation losses: 0.05725187834898498, 0.07913175490444108
+=> Saving checkpoint
+Fold 2: Epoch 45/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.52it/s, lr=1e-6, train_loss=0.00484]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 585.07it/s]
+Accuracy: 0.970156677443422
+F1 score: 0.9720865317515701
+Precision score: 0.9725389806841983
+Recall score: 0.9716345036038131
+Train and validation losses: 0.0561890155795097, 0.07841672012202856
+=> Saving checkpoint
+Fold 2: Epoch 46/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 69.19it/s, lr=1e-6, train_loss=0.0136]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.27it/s]
+Accuracy: 0.9699079830887839
+F1 score: 0.9718473708701721
+Precision score: 0.9725261932479627
+Recall score: 0.9711694954661707
+Train and validation losses: 0.05595617308265153, 0.0779817918969122
+=> Saving checkpoint
+Fold 2: Epoch 47/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.80it/s, lr=1e-6, train_loss=0.0495]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.10it/s]
+Accuracy: 0.9699079830887839
+F1 score: 0.9718342644320298
+Precision score: 0.9729666744348636
+Recall score: 0.9707044873285282
+Train and validation losses: 0.05383211582585797, 0.07765647631451472
+=> Saving checkpoint
+Fold 2: Epoch 48/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 75.34it/s, lr=1e-6, train_loss=0.0124]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.73it/s]
+Accuracy: 0.9704053717980602
+F1 score: 0.9723320158102767
+Precision score: 0.9723320158102767
+Recall score: 0.9723320158102767
+Train and validation losses: 0.05328017658666207, 0.07710223176463823
+=> Saving checkpoint
+Fold 2: Epoch 49/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.23it/s, lr=1e-6, train_loss=0.0157]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.34it/s]
+Accuracy: 0.9702810246207411
+F1 score: 0.9721542584178027
+Precision score: 0.9743110695936479
+Recall score: 0.9700069751220647
+Train and validation losses: 0.052999216489100665, 0.07689052147010367
+=> Saving checkpoint
+Fold 2: Epoch 50/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 67.27it/s, lr=1e-6, train_loss=0.0967]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.63it/s]
+Accuracy: 0.9706540661526983
+F1 score: 0.9725645198790979
+Precision score: 0.9725645198790979
+Recall score: 0.9725645198790979
+Train and validation losses: 0.05138006752788393, 0.07628629924928507
+=> Saving checkpoint
+Fold 2: Epoch 51/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.51it/s, lr=1e-6, train_loss=0.00998]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 596.83it/s]
+Accuracy: 0.9705297189753792
+F1 score: 0.9723937099592312
+Precision score: 0.9743230625583567
+Recall score: 0.9704719832597071
+Train and validation losses: 0.050922477975297135, 0.0759221445037715
+=> Saving checkpoint
+Fold 2: Epoch 52/300: 100%|███████████████████████████| 2011/2011 [00:30<00:00, 66.75it/s, lr=1e-6, train_loss=0.0121]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.58it/s]
+Accuracy: 0.9704053717980602
+F1 score: 0.972306260181522
+Precision score: 0.9732122059166084
+Recall score: 0.9714019995349918
+Train and validation losses: 0.04946802753239846, 0.07560500156719452
+=> Saving checkpoint
+Fold 2: Epoch 53/300: 100%|████████████████████████████| 2011/2011 [00:25<00:00, 78.41it/s, lr=1e-6, train_loss=0.291]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 588.96it/s]
+Accuracy: 0.9714001492166128
+F1 score: 0.9731934731934732
+Precision score: 0.9756952559009114
+Recall score: 0.9707044873285282
+Train and validation losses: 0.048887686544998255, 0.07531143602832714
+=> Saving checkpoint
+Fold 2: Epoch 54/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.03it/s, lr=1e-6, train_loss=0.065]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.22it/s]
+Accuracy: 0.9716488435712509
+F1 score: 0.9734513274336283
+Precision score: 0.9750408210870072
+Recall score: 0.9718670076726342
+Train and validation losses: 0.04776722996368655, 0.07492548729817033
+=> Saving checkpoint
+Fold 2: Epoch 55/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 68.96it/s, lr=1e-6, train_loss=0.32]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.76it/s]
+Accuracy: 0.9718975379258891
+F1 score: 0.9736473880597015
+Precision score: 0.9766081871345029
+Recall score: 0.9707044873285282
+Train and validation losses: 0.04700831421506802, 0.07479374784275901
+=> Saving checkpoint
+Fold 2: Epoch 56/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.60it/s, lr=1e-6, train_loss=0.00594]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.98it/s]
+Accuracy: 0.9720218851032082
+F1 score: 0.973797601024805
+Precision score: 0.9755016332244517
+Recall score: 0.9720995117414555
+Train and validation losses: 0.04614912847262839, 0.07429748806705751
+=> Saving checkpoint
+Fold 2: Epoch 57/300: 100%|██████████████████████████| 2011/2011 [00:26<00:00, 75.21it/s, lr=1e-6, train_loss=0.00938]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.94it/s]
+Accuracy: 0.9718975379258891
+F1 score: 0.9737025831975797
+Precision score: 0.9746098299557419
+Recall score: 0.9727970239479191
+Train and validation losses: 0.045302994589565375, 0.07409227454144263
+=> Saving checkpoint
+Fold 2: Epoch 58/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 69.74it/s, lr=1e-6, train_loss=0.00852]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.72it/s]
+Accuracy: 0.9718975379258891
+F1 score: 0.9736903376018626
+Precision score: 0.9750524597808347
+Recall score: 0.9723320158102767
+Train and validation losses: 0.04431661441492649, 0.07379047727158153
+=> Saving checkpoint
+Fold 2: Epoch 59/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 75.33it/s, lr=1e-6, train_loss=0.004]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.11it/s]
+Accuracy: 0.9723949266351654
+F1 score: 0.9741499767116907
+Precision score: 0.9757406111499883
+Recall score: 0.9725645198790979
+Train and validation losses: 0.04364890488376239, 0.07359008630818667
+=> Saving checkpoint
+Fold 2: Epoch 60/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.65it/s, lr=1e-6, train_loss=0.00335]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.73it/s]
+Accuracy: 0.9722705794578463
+F1 score: 0.9740244612696564
+Precision score: 0.9759570494864612
+Recall score: 0.9720995117414555
+Train and validation losses: 0.04271924494032705, 0.07333264496812975
+=> Saving checkpoint
+Fold 2: Epoch 61/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.78it/s, lr=1e-6, train_loss=0.0235]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.73it/s]
+Accuracy: 0.9731410096990798
+F1 score: 0.9748193051993471
+Precision score: 0.977554360533084
+Recall score: 0.9720995117414555
+Train and validation losses: 0.042078698354994705, 0.07329395694751199
+=> Saving checkpoint
+Fold 2: Epoch 62/300: 100%|██████████████████████████| 2011/2011 [00:30<00:00, 66.89it/s, lr=1e-6, train_loss=0.00553]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.55it/s]
+Accuracy: 0.9728923153444416
+F1 score: 0.9746039142590867
+Precision score: 0.9766518795236984
+Recall score: 0.9725645198790979
+Train and validation losses: 0.04065201983951583, 0.07313206066758414
+=> Saving checkpoint
+Fold 2: Epoch 63/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.36it/s, lr=1e-6, train_loss=0.0125]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 586.05it/s]
+Accuracy: 0.9731410096990798
+F1 score: 0.9748544819557625
+Precision score: 0.9762182326882723
+Recall score: 0.9734945361543828
+Train and validation losses: 0.04051094313565406, 0.07293214994435482
+=> Saving checkpoint
+Fold 2: Epoch 64/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 75.49it/s, lr=1e-6, train_loss=0.069]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.88it/s]
+Accuracy: 0.9732653568763989
+F1 score: 0.9749796345862912
+Precision score: 0.9760018639328985
+Recall score: 0.9739595442920251
+Train and validation losses: 0.039301163484448336, 0.07296257049343355
+Fold 2: Epoch 65/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.44it/s, lr=1e-6, train_loss=0.00427]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.10it/s]
+Accuracy: 0.9736383984083561
+F1 score: 0.9752740844413342
+Precision score: 0.9784694593962088
+Recall score: 0.9720995117414555
+Train and validation losses: 0.03840933648138485, 0.07282501953701669
+=> Saving checkpoint
+Fold 2: Epoch 66/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 69.75it/s, lr=1e-6, train_loss=0.00221]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.16it/s]
+Accuracy: 0.9741357871176324
+F1 score: 0.9757575757575757
+Precision score: 0.9782659499883151
+Recall score: 0.9732620320855615
+Train and validation losses: 0.03817231593145176, 0.07272465647268618
+=> Saving checkpoint
+Fold 2: Epoch 67/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 68.46it/s, lr=1e-6, train_loss=0.0017]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.32it/s]
+Accuracy: 0.9741357871176324
+F1 score: 0.9757632253553951
+Precision score: 0.9780425134314412
+Recall score: 0.9734945361543828
+Train and validation losses: 0.03723338172363033, 0.07271605602283425
+=> Saving checkpoint
+Fold 2: Epoch 68/300: 100%|███████████████████████████| 2011/2011 [00:25<00:00, 78.04it/s, lr=1e-6, train_loss=0.0574]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.51it/s]
+Accuracy: 0.9733897040537179
+F1 score: 0.975139405204461
+Precision score: 0.974460181100534
+Recall score: 0.9758195768425948
+Train and validation losses: 0.036667517582997765, 0.07324138387947882
+Fold 2: Epoch 69/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.59it/s, lr=1e-6, train_loss=0.00615]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.82it/s]
+Accuracy: 0.9741357871176324
+F1 score: 0.9757688723205965
+Precision score: 0.9778192855475134
+Recall score: 0.9737270402232039
+Train and validation losses: 0.03533622833002812, 0.07281710043531948
+Fold 2: Epoch 70/300: 100%|█████████████████████████| 2011/2011 [00:27<00:00, 73.74it/s, lr=1e-6, train_loss=0.000679]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.05it/s]
+Accuracy: 0.9740114399403134
+F1 score: 0.9756948482381672
+Precision score: 0.9760353652861796
+Recall score: 0.9753545687049523
+Train and validation losses: 0.03485754716745485, 0.07314917267394848
+Early stopping at epoch 70
+Fold 2: Train losses per epoch: [0.689755694152466, 0.684708952755551, 0.6764489930106419, 0.6601463755169418, 0.6308755029024383, 0.5847318090798546, 0.5127901052699523, 0.4061399773170793, 0.28516136714470797, 0.20006343547286293, 0.15693983881239243, 0.13607787337637642, 0.12236237081535593, 0.11417745437041436, 0.10705418579284082, 0.10195248576889786, 0.09783370335239497, 0.09441441233899242, 0.09201856780762972, 0.08850808272278099, 0.0866696635309342, 0.08462491931119578, 0.08320131895645494, 0.08238903109286645, 0.0796605339227499, 0.07903086301367702, 0.07673730991106001, 0.07609077929164834, 0.07451192671173747, 0.07264569526214536, 0.07159599266964377, 0.07117064166994704, 0.06940843815665668, 0.0683842726176385, 0.06674028338924883, 0.06576887731512611, 0.06469752352262376, 0.06389231129505679, 0.062484278901323145, 0.061607697466700945, 0.06034034501242742, 0.05983227031720614, 0.058790631637253676, 0.05725187834898498, 0.0561890155795097, 0.05595617308265153, 0.05383211582585797, 0.05328017658666207, 0.052999216489100665, 0.05138006752788393, 0.050922477975297135, 0.04946802753239846, 0.048887686544998255, 0.04776722996368655, 0.04700831421506802, 0.04614912847262839, 0.045302994589565375, 0.04431661441492649, 0.04364890488376239, 0.04271924494032705, 0.042078698354994705, 0.04065201983951583, 0.04051094313565406, 0.039301163484448336, 0.03840933648138485, 0.03817231593145176, 0.03723338172363033, 0.036667517582997765, 0.03533622833002812, 0.03485754716745485]
+Fold 2: Valid losses per epoch: [0.6863617625672584, 0.6799300189757679, 0.6672427295216509, 0.6436786880313047, 0.6054121573450078, 0.5462841625597558, 0.45371110414415894, 0.3318897342942581, 0.22546273231447098, 0.1695514969661032, 0.14441961734731557, 0.13107599926442204, 0.1221629847211404, 0.11566561863204061, 0.11066950070921694, 0.10666834465163218, 0.10352198438252327, 0.10119272047231644, 0.09899910015218834, 0.09746295064002661, 0.09601640948751723, 0.09480868241746, 0.09369431663893356, 0.09273560491305356, 0.09191945823794509, 0.09080783592557412, 0.08990471794086677, 0.08930700711413447, 0.08863058320531773, 0.08790199608758655, 0.0868179517498177, 0.08622418648922524, 0.0853934748126953, 0.08472069985951643, 0.08393357113692503, 0.08325229392888739, 0.0827072861055412, 0.08219413973796542, 0.08171227139885542, 0.0809037795046874, 0.08036908818312567, 0.07985652246161606, 0.07943635346704934, 0.07913175490444108, 0.07841672012202856, 0.0779817918969122, 0.07765647631451472, 0.07710223176463823, 0.07689052147010367, 0.07628629924928507, 0.0759221445037715, 0.07560500156719452, 0.07531143602832714, 0.07492548729817033, 0.07479374784275901, 0.07429748806705751, 0.07409227454144263, 0.07379047727158153, 0.07359008630818667, 0.07333264496812975, 0.07329395694751199, 0.07313206066758414, 0.07293214994435482, 0.07296257049343355, 0.07282501953701669, 0.07272465647268618, 0.07271605602283425, 0.07324138387947882, 0.07281710043531948, 0.07314917267394848]
+Fold 3/5
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 3: Epoch 1/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 67.17it/s, lr=1e-6, train_loss=0.695]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 589.10it/s]
+Accuracy: 0.534817209649341
+F1 score: 0.6969132301709471
+Precision score: 0.534817209649341
+Recall score: 1.0
+Train and validation losses: 0.6918096925001842, 0.687475550601307
+=> Saving checkpoint
+Fold 3: Epoch 2/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 70.13it/s, lr=1e-6, train_loss=0.722]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 592.69it/s]
+Accuracy: 0.5441432479482716
+F1 score: 0.6995574495984265
+Precision score: 0.5401847867358562
+Recall score: 0.9923273657289002
+Train and validation losses: 0.6869563842697086, 0.6828380357437058
+=> Saving checkpoint
+Fold 3: Epoch 3/300: 100%|█████████████████████████████| 2011/2011 [00:22<00:00, 89.28it/s, lr=1e-6, train_loss=0.633]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.79it/s]
+Accuracy: 0.5926386471027107
+F1 score: 0.7069243156199678
+Precision score: 0.5745237749018467
+Recall score: 0.9186235759125785
+Train and validation losses: 0.6813632212783021, 0.6744716660402879
+=> Saving checkpoint
+Fold 3: Epoch 4/300: 100%|██████████████████████████████| 2011/2011 [00:27<00:00, 73.50it/s, lr=1e-6, train_loss=0.64]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.20it/s]
+Accuracy: 0.6832877393683163
+F1 score: 0.7233626588465298
+Precision score: 0.6787607011822259
+Recall score: 0.7742385491746105
+Train and validation losses: 0.6704141120303632, 0.6571211991442838
+=> Saving checkpoint
+Fold 3: Epoch 5/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 76.86it/s, lr=1e-6, train_loss=0.648]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 584.79it/s]
+Accuracy: 0.7476995772195971
+F1 score: 0.7559831629585088
+Precision score: 0.7830094668659691
+Recall score: 0.7307602883050454
+Train and validation losses: 0.6493594817472654, 0.6265219746242697
+=> Saving checkpoint
+Fold 3: Epoch 6/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 70.01it/s, lr=1e-6, train_loss=0.595]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.48it/s]
+Accuracy: 0.7905993533946779
+F1 score: 0.7802140433307231
+Precision score: 0.8893186551621541
+Recall score: 0.6949546617065798
+Train and validation losses: 0.6143932225602234, 0.5818855998293306
+=> Saving checkpoint
+Fold 3: Epoch 7/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 71.13it/s, lr=1e-6, train_loss=0.595]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 565.10it/s]
+Accuracy: 0.8175826908729172
+F1 score: 0.8104896008267666
+Precision score: 0.9119186046511628
+Recall score: 0.7293652638921181
+Train and validation losses: 0.5647759463643625, 0.5209277956552107
+=> Saving checkpoint
+Fold 3: Epoch 8/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 76.25it/s, lr=1e-6, train_loss=0.292]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 575.83it/s]
+Accuracy: 0.8519025118129818
+F1 score: 0.851736586580356
+Precision score: 0.9166666666666666
+Recall score: 0.7953964194373402
+Train and validation losses: 0.49831533623180363, 0.44203045768718835
+=> Saving checkpoint
+Fold 3: Epoch 9/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 71.54it/s, lr=1e-6, train_loss=0.467]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.40it/s]
+Accuracy: 0.9045013678189505
+F1 score: 0.9101333957406974
+Precision score: 0.9161366313309777
+Recall score: 0.9042083236456638
+Train and validation losses: 0.4109269022600737, 0.3414570587292817
+=> Saving checkpoint
+Fold 3: Epoch 10/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.00it/s, lr=1e-6, train_loss=0.246]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.14it/s]
+Accuracy: 0.9343446903755285
+F1 score: 0.9401631912964642
+Precision score: 0.9170904267079372
+Recall score: 0.9644268774703557
+Train and validation losses: 0.30521363518254074, 0.23763389479568892
+=> Saving checkpoint
+Fold 3: Epoch 11/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 73.96it/s, lr=1e-6, train_loss=0.335]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 571.68it/s]
+Accuracy: 0.9426759512559065
+F1 score: 0.9480797387093141
+Precision score: 0.919397116644823
+Recall score: 0.9786096256684492
+Train and validation losses: 0.21347728287703893, 0.17254502495850768
+=> Saving checkpoint
+Fold 3: Epoch 12/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 71.32it/s, lr=1e-6, train_loss=0.234]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.66it/s]
+Accuracy: 0.95026112907237
+F1 score: 0.9546896239238786
+Precision score: 0.9308592887121714
+Recall score: 0.9797721460125552
+Train and validation losses: 0.16128971093866376, 0.14159193730896438
+=> Saving checkpoint
+Fold 3: Epoch 13/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 72.78it/s, lr=1e-6, train_loss=0.453]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.65it/s]
+Accuracy: 0.9544889331012186
+F1 score: 0.9583996362809729
+Precision score: 0.9375138981543251
+Recall score: 0.9802371541501976
+Train and validation losses: 0.1360368163703257, 0.1259404691880491
+=> Saving checkpoint
+Fold 3: Epoch 14/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.35it/s, lr=1e-6, train_loss=0.087]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.11it/s]
+Accuracy: 0.9589654314847053
+F1 score: 0.9623029472241261
+Precision score: 0.945879182573546
+Recall score: 0.9793071378749129
+Train and validation losses: 0.12133610925082838, 0.11565132641139075
+=> Saving checkpoint
+Fold 3: Epoch 15/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 74.17it/s, lr=1e-6, train_loss=0.00765]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.73it/s]
+Accuracy: 0.9610793334991296
+F1 score: 0.9642081189251
+Precision score: 0.9486948694869487
+Recall score: 0.9802371541501976
+Train and validation losses: 0.11205241840781041, 0.10843066867185427
+=> Saving checkpoint
+Fold 3: Epoch 16/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.80it/s, lr=1e-6, train_loss=0.0183]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 586.40it/s]
+Accuracy: 0.9623228052723203
+F1 score: 0.9652960714694766
+Precision score: 0.9512415349887133
+Recall score: 0.9797721460125552
+Train and validation losses: 0.10511708557225989, 0.10299554564499447
+=> Saving checkpoint
+Fold 3: Epoch 17/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 74.02it/s, lr=1e-6, train_loss=0.0106]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 609.35it/s]
+Accuracy: 0.9633175826908729
+F1 score: 0.9661192144251751
+Precision score: 0.9546073536087154
+Recall score: 0.9779121134619856
+Train and validation losses: 0.09868087929366448, 0.09807421069658893
+=> Saving checkpoint
+Fold 3: Epoch 18/300: 100%|████████████████████████████| 2011/2011 [00:25<00:00, 79.12it/s, lr=1e-6, train_loss=0.141]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.68it/s]
+Accuracy: 0.9645610544640637
+F1 score: 0.9672300793377027
+Precision score: 0.956778889899909
+Recall score: 0.9779121134619856
+Train and validation losses: 0.09357438633456448, 0.09420007924043812
+=> Saving checkpoint
+Fold 3: Epoch 19/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.71it/s, lr=1e-6, train_loss=0.0719]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.95it/s]
+Accuracy: 0.9654314847052972
+F1 score: 0.9679354094579008
+Precision score: 0.9604028381780728
+Recall score: 0.9755870727737735
+Train and validation losses: 0.09005671232676644, 0.09092369196551368
+=> Saving checkpoint
+Fold 3: Epoch 20/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 71.59it/s, lr=1e-6, train_loss=0.094]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 591.47it/s]
+Accuracy: 0.9656801790599353
+F1 score: 0.9681954367365753
+Precision score: 0.9597898103724012
+Recall score: 0.9767495931178796
+Train and validation losses: 0.08642276685869239, 0.08839385441937678
+=> Saving checkpoint
+Fold 3: Epoch 21/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.27it/s, lr=1e-6, train_loss=0.00718]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 596.12it/s]
+Accuracy: 0.9665506093011689
+F1 score: 0.9689484012466812
+Precision score: 0.9621733149931224
+Recall score: 0.9758195768425948
+Train and validation losses: 0.0834636973802506, 0.08620791632920934
+=> Saving checkpoint
+Fold 3: Epoch 22/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 77.34it/s, lr=1e-6, train_loss=0.103]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 609.21it/s]
+Accuracy: 0.9672966923650833
+F1 score: 0.9696199607254246
+Precision score: 0.9634986225895317
+Recall score: 0.9758195768425948
+Train and validation losses: 0.08138416870161409, 0.08433438840768416
+=> Saving checkpoint
+Fold 3: Epoch 23/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.64it/s, lr=1e-6, train_loss=0.0545]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.13it/s]
+Accuracy: 0.9677940810743596
+F1 score: 0.9700889248181084
+Precision score: 0.9637448370812299
+Recall score: 0.9765170890490583
+Train and validation losses: 0.07942117706961441, 0.08279237716419856
+=> Saving checkpoint
+Fold 3: Epoch 24/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 69.39it/s, lr=1e-6, train_loss=0.0285]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.35it/s]
+Accuracy: 0.9680427754289977
+F1 score: 0.9702855821482252
+Precision score: 0.9650413983440662
+Recall score: 0.9755870727737735
+Train and validation losses: 0.07708749556423071, 0.08134676267765092
+=> Saving checkpoint
+Fold 3: Epoch 25/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.88it/s, lr=1e-6, train_loss=0.0362]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.90it/s]
+Accuracy: 0.9689132056702313
+F1 score: 0.9710915818686402
+Precision score: 0.9659535311709225
+Recall score: 0.9762845849802372
+Train and validation losses: 0.07551528151160498, 0.08008645259901126
+=> Saving checkpoint
+Fold 3: Epoch 26/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.36it/s, lr=1e-6, train_loss=0.0101]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.87it/s]
+Accuracy: 0.968415816960955
+F1 score: 0.9706629706629707
+Precision score: 0.9644250631168235
+Recall score: 0.9769820971867008
+Train and validation losses: 0.07367815906753877, 0.07934290491864751
+=> Saving checkpoint
+Fold 3: Epoch 27/300: 100%|████████████████████████████| 2011/2011 [00:29<00:00, 69.14it/s, lr=1e-6, train_loss=0.169]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 580.74it/s]
+Accuracy: 0.9694105943795076
+F1 score: 0.9715541165587419
+Precision score: 0.9664136185875316
+Recall score: 0.9767495931178796
+Train and validation losses: 0.07212408391741665, 0.07799174328622543
+=> Saving checkpoint
+Fold 3: Epoch 28/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 74.97it/s, lr=1e-6, train_loss=0.0602]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.19it/s]
+Accuracy: 0.9694105943795076
+F1 score: 0.9715343670446656
+Precision score: 0.967058281501958
+Recall score: 0.9760520809114159
+Train and validation losses: 0.07054774722422245, 0.07676011852866362
+=> Saving checkpoint
+Fold 3: Epoch 29/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.88it/s, lr=1e-6, train_loss=0.0594]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 567.90it/s]
+Accuracy: 0.9695349415568266
+F1 score: 0.9716468001388728
+Precision score: 0.9672811059907834
+Recall score: 0.9760520809114159
+Train and validation losses: 0.06884993327626877, 0.07590566758620951
+=> Saving checkpoint
+Fold 3: Epoch 30/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.41it/s, lr=1e-6, train_loss=0.064]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 592.83it/s]
+Accuracy: 0.9706540661526983
+F1 score: 0.9726535341830823
+Precision score: 0.9695079695079695
+Recall score: 0.9758195768425948
+Train and validation losses: 0.06711961891748056, 0.07479336168700329
+=> Saving checkpoint
+Fold 3: Epoch 31/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 69.22it/s, lr=1e-6, train_loss=0.0609]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.74it/s]
+Accuracy: 0.9712758020392938
+F1 score: 0.9731925264012997
+Precision score: 0.9715013901760889
+Recall score: 0.9748895605673099
+Train and validation losses: 0.06620370005198381, 0.07380563741115664
+=> Saving checkpoint
+Fold 3: Epoch 32/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 72.40it/s, lr=1e-6, train_loss=0.028]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 596.13it/s]
+Accuracy: 0.9716488435712509
+F1 score: 0.9735498839907193
+Precision score: 0.9715211854595971
+Recall score: 0.9755870727737735
+Train and validation losses: 0.06462971800490186, 0.07305962872176726
+=> Saving checkpoint
+Fold 3: Epoch 33/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.32it/s, lr=1e-6, train_loss=0.0243]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 593.30it/s]
+Accuracy: 0.9720218851032082
+F1 score: 0.9739251361687333
+Precision score: 0.9708872458410351
+Recall score: 0.9769820971867008
+Train and validation losses: 0.06335717134436103, 0.07225447976137798
+=> Saving checkpoint
+Fold 3: Epoch 34/300: 100%|██████████████████████████| 2011/2011 [00:30<00:00, 66.89it/s, lr=1e-6, train_loss=0.00226]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.45it/s]
+Accuracy: 0.9721462322805272
+F1 score: 0.9740018570102136
+Precision score: 0.9724217844727694
+Recall score: 0.9755870727737735
+Train and validation losses: 0.062401713050039574, 0.0713788968486393
+=> Saving checkpoint
+Fold 3: Epoch 35/300: 100%|██████████████████████████| 2011/2011 [00:26<00:00, 75.88it/s, lr=1e-6, train_loss=0.00393]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.73it/s]
+Accuracy: 0.9731410096990798
+F1 score: 0.9749128919860627
+Precision score: 0.9740078904618241
+Recall score: 0.9758195768425948
+Train and validation losses: 0.061429809243568785, 0.0706753385307408
+=> Saving checkpoint
+Fold 3: Epoch 36/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.85it/s, lr=1e-6, train_loss=0.00584]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 603.77it/s]
+Accuracy: 0.9725192738124845
+F1 score: 0.9743768115942029
+Precision score: 0.9717853839037928
+Recall score: 0.9769820971867008
+Train and validation losses: 0.0593801795233255, 0.07015507061230704
+=> Saving checkpoint
+Fold 3: Epoch 37/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 69.43it/s, lr=1e-6, train_loss=0.00941]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.77it/s]
+Accuracy: 0.9723949266351654
+F1 score: 0.9742936544696619
+Precision score: 0.970472895040369
+Recall score: 0.9781446175308068
+Train and validation losses: 0.05893960349674627, 0.0698385034608201
+=> Saving checkpoint
+Fold 3: Epoch 38/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.11it/s, lr=1e-6, train_loss=0.0863]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 590.69it/s]
+Accuracy: 0.9726436209898035
+F1 score: 0.9745370370370371
+Precision score: 0.9702696473841899
+Recall score: 0.9788421297372704
+Train and validation losses: 0.05723890257333111, 0.06947066222799379
+=> Saving checkpoint
+Fold 3: Epoch 39/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.27it/s, lr=1e-6, train_loss=0.00398]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.36it/s]
+Accuracy: 0.9733897040537179
+F1 score: 0.975214269168404
+Precision score: 0.9716132010154628
+Recall score: 0.9788421297372704
+Train and validation losses: 0.05657554134602178, 0.06880707296722885
+=> Saving checkpoint
+Fold 3: Epoch 40/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.17it/s, lr=1e-6, train_loss=0.015]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.19it/s]
+Accuracy: 0.9731410096990798
+F1 score: 0.9749768303985171
+Precision score: 0.9716000923574232
+Recall score: 0.978377121599628
+Train and validation losses: 0.05590646057386203, 0.0682706454429483
+=> Saving checkpoint
+Fold 3: Epoch 41/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.65it/s, lr=1e-6, train_loss=0.0172]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 589.12it/s]
+Accuracy: 0.9737627455856752
+F1 score: 0.9756041160827842
+Precision score: 0.9703311867525299
+Recall score: 0.9809346663566613
+Train and validation losses: 0.05434220244609929, 0.0684754067338044
+Fold 3: Epoch 42/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 74.24it/s, lr=1e-6, train_loss=0.242]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.98it/s]
+Accuracy: 0.9735140512310371
+F1 score: 0.9753386592566864
+Precision score: 0.9714022140221402
+Recall score: 0.9793071378749129
+Train and validation losses: 0.05324190521120936, 0.06761509963141377
+=> Saving checkpoint
+Fold 3: Epoch 43/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.43it/s, lr=1e-6, train_loss=0.0796]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.72it/s]
+Accuracy: 0.9736383984083561
+F1 score: 0.9754459115126245
+Precision score: 0.9718439879990769
+Recall score: 0.9790746338060916
+Train and validation losses: 0.05285727802733161, 0.06721862144552997
+=> Saving checkpoint
+Fold 3: Epoch 44/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.63it/s, lr=1e-6, train_loss=0.0139]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.97it/s]
+Accuracy: 0.9741357871176324
+F1 score: 0.9758980301274623
+Precision score: 0.9727419727419727
+Recall score: 0.9790746338060916
+Train and validation losses: 0.05172530273755911, 0.06681020311302104
+=> Saving checkpoint
+Fold 3: Epoch 45/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.27it/s, lr=1e-6, train_loss=0.0408]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 579.84it/s]
+Accuracy: 0.9742601342949515
+F1 score: 0.9760166840458812
+Precision score: 0.9727482678983834
+Recall score: 0.9793071378749129
+Train and validation losses: 0.05037085772681869, 0.06655852403561167
+=> Saving checkpoint
+Fold 3: Epoch 46/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 74.86it/s, lr=1e-6, train_loss=0.0315]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 591.04it/s]
+Accuracy: 0.9743844814722705
+F1 score: 0.9761242466388502
+Precision score: 0.9731915877051075
+Recall score: 0.9790746338060916
+Train and validation losses: 0.049380583061733846, 0.06623916432356822
+=> Saving checkpoint
+Fold 3: Epoch 47/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.91it/s, lr=1e-6, train_loss=0.00908]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 571.50it/s]
+Accuracy: 0.9751305645361851
+F1 score: 0.9768464922435749
+Precision score: 0.9727922527092461
+Recall score: 0.9809346663566613
+Train and validation losses: 0.048888409772319584, 0.06618217978034924
+=> Saving checkpoint
+Fold 3: Epoch 48/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.59it/s, lr=1e-6, train_loss=0.00349]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.61it/s]
+Accuracy: 0.9746331758269088
+F1 score: 0.9764161849710983
+Precision score: 0.9710278224879283
+Recall score: 0.981864682631946
+Train and validation losses: 0.04761480120473093, 0.06647358336124873
+Fold 3: Epoch 49/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 71.87it/s, lr=1e-6, train_loss=0.264]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.10it/s]
+Accuracy: 0.9752549117135041
+F1 score: 0.9769275362318841
+Precision score: 0.9743293246993524
+Recall score: 0.979539641943734
+Train and validation losses: 0.04670668281069753, 0.06559732478057825
+=> Saving checkpoint
+Fold 3: Epoch 50/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.40it/s, lr=1e-6, train_loss=0.0033]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.55it/s]
+Accuracy: 0.9752549117135041
+F1 score: 0.9769649264961222
+Precision score: 0.9727985246657446
+Recall score: 0.9811671704254824
+Train and validation losses: 0.04515367611329322, 0.06573359905575471
+Fold 3: Epoch 51/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.14it/s, lr=1e-6, train_loss=0.00623]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 580.83it/s]
+Accuracy: 0.9757523004227804
+F1 score: 0.9774644631919566
+Precision score: 0.9717371323529411
+Recall score: 0.9832597070448733
+Train and validation losses: 0.04475376360046722, 0.06602942446140511
+Fold 3: Epoch 52/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.50it/s, lr=1e-6, train_loss=0.0132]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.39it/s]
+Accuracy: 0.9758766476000995
+F1 score: 0.9775254865616312
+Precision score: 0.9741399214961902
+Recall score: 0.9809346663566613
+Train and validation losses: 0.04408110569772245, 0.06533930710037554
+=> Saving checkpoint
+Fold 3: Epoch 53/300: 100%|██████████████████████████| 2011/2011 [00:25<00:00, 80.42it/s, lr=1e-6, train_loss=0.00817]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 588.82it/s]
+Accuracy: 0.9761253419547377
+F1 score: 0.9777623349548298
+Precision score: 0.9741518578352181
+Recall score: 0.9813996744943037
+Train and validation losses: 0.043401980888856134, 0.06517058882802618
+=> Saving checkpoint
+Fold 3: Epoch 54/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.32it/s, lr=1e-6, train_loss=0.00491]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.31it/s]
+Accuracy: 0.9763740363093758
+F1 score: 0.9779990736452061
+Precision score: 0.9741637831603229
+Recall score: 0.981864682631946
+Train and validation losses: 0.042724703047161736, 0.06520709073391816
+Fold 3: Epoch 55/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.72it/s, lr=1e-6, train_loss=0.0873]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.27it/s]
+Accuracy: 0.9760009947774185
+F1 score: 0.9777059027376689
+Precision score: 0.9715335169880625
+Recall score: 0.983957219251337
+Train and validation losses: 0.04180410043447019, 0.06605917994288457
+Fold 3: Epoch 56/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.81it/s, lr=1e-6, train_loss=0.00215]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.13it/s]
+Accuracy: 0.9763740363093758
+F1 score: 0.9780346820809248
+Precision score: 0.9726373879052655
+Recall score: 0.9834922111136944
+Train and validation losses: 0.04123140353635824, 0.06577564427530982
+Early stopping at epoch 56
+Fold 3: Train losses per epoch: [0.6918096925001842, 0.6869563842697086, 0.6813632212783021, 0.6704141120303632, 0.6493594817472654, 0.6143932225602234, 0.5647759463643625, 0.49831533623180363, 0.4109269022600737, 0.30521363518254074, 0.21347728287703893, 0.16128971093866376, 0.1360368163703257, 0.12133610925082838, 0.11205241840781041, 0.10511708557225989, 0.09868087929366448, 0.09357438633456448, 0.09005671232676644, 0.08642276685869239, 0.0834636973802506, 0.08138416870161409, 0.07942117706961441, 0.07708749556423071, 0.07551528151160498, 0.07367815906753877, 0.07212408391741665, 0.07054774722422245, 0.06884993327626877, 0.06711961891748056, 0.06620370005198381, 0.06462971800490186, 0.06335717134436103, 0.062401713050039574, 0.061429809243568785, 0.0593801795233255, 0.05893960349674627, 0.05723890257333111, 0.05657554134602178, 0.05590646057386203, 0.05434220244609929, 0.05324190521120936, 0.05285727802733161, 0.05172530273755911, 0.05037085772681869, 0.049380583061733846, 0.048888409772319584, 0.04761480120473093, 0.04670668281069753, 0.04515367611329322, 0.04475376360046722, 0.04408110569772245, 0.043401980888856134, 0.042724703047161736, 0.04180410043447019, 0.04123140353635824]
+Fold 3: Valid losses per epoch: [0.687475550601307, 0.6828380357437058, 0.6744716660402879, 0.6571211991442838, 0.6265219746242697, 0.5818855998293306, 0.5209277956552107, 0.44203045768718835, 0.3414570587292817, 0.23763389479568892, 0.17254502495850768, 0.14159193730896438, 0.1259404691880491, 0.11565132641139075, 0.10843066867185427, 0.10299554564499447, 0.09807421069658893, 0.09420007924043812, 0.09092369196551368, 0.08839385441937678, 0.08620791632920934, 0.08433438840768416, 0.08279237716419856, 0.08134676267765092, 0.08008645259901126, 0.07934290491864751, 0.07799174328622543, 0.07676011852866362, 0.07590566758620951, 0.07479336168700329, 0.07380563741115664, 0.07305962872176726, 0.07225447976137798, 0.0713788968486393, 0.0706753385307408, 0.07015507061230704, 0.0698385034608201, 0.06947066222799379, 0.06880707296722885, 0.0682706454429483, 0.0684754067338044, 0.06761509963141377, 0.06721862144552997, 0.06681020311302104, 0.06655852403561167, 0.06623916432356822, 0.06618217978034924, 0.06647358336124873, 0.06559732478057825, 0.06573359905575471, 0.06602942446140511, 0.06533930710037554, 0.06517058882802618, 0.06520709073391816, 0.06605917994288457, 0.06577564427530982]
+Fold 4/5
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 4: Epoch 1/300: 100%|█████████████████████████████| 2011/2011 [00:24<00:00, 81.25it/s, lr=1e-6, train_loss=0.689]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.23it/s]
+Accuracy: 0.5631683660780901
+F1 score: 0.6864232794787111
+Precision score: 0.5570849029266879
+Recall score: 0.8939781446175308
+Train and validation losses: 0.6882198097870635, 0.6847042808712832
+=> Saving checkpoint
+Fold 4: Epoch 2/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 69.23it/s, lr=1e-6, train_loss=0.693]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 566.27it/s]
+Accuracy: 0.606316836607809
+F1 score: 0.6878327746006705
+Precision score: 0.5971580208868345
+Recall score: 0.8109741920483609
+Train and validation losses: 0.6823059977553247, 0.6768070635928312
+=> Saving checkpoint
+Fold 4: Epoch 3/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 67.31it/s, lr=1e-6, train_loss=0.652]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 587.25it/s]
+Accuracy: 0.6457348918179557
+F1 score: 0.684810266622414
+Precision score: 0.6532292106373997
+Recall score: 0.7196000930016275
+Train and validation losses: 0.673064402654241, 0.6620565906433652
+=> Saving checkpoint
+Fold 4: Epoch 4/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 69.10it/s, lr=1e-6, train_loss=0.644]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 586.26it/s]
+Accuracy: 0.6900024869435464
+F1 score: 0.7017585835626271
+Precision score: 0.7227698373583046
+Recall score: 0.6819344338525924
+Train and validation losses: 0.6543891026213773, 0.6365686523511443
+=> Saving checkpoint
+Fold 4: Epoch 5/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 71.21it/s, lr=1e-6, train_loss=0.498]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 561.39it/s]
+Accuracy: 0.7447152449639394
+F1 score: 0.7472608642127293
+Precision score: 0.794086865515437
+Recall score: 0.7056498488723553
+Train and validation losses: 0.6243596951621259, 0.5961338137656036
+=> Saving checkpoint
+Fold 4: Epoch 6/300: 100%|█████████████████████████████| 2011/2011 [00:27<00:00, 73.80it/s, lr=1e-6, train_loss=0.564]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.84it/s]
+Accuracy: 0.8032827654812236
+F1 score: 0.8035270740188774
+Precision score: 0.8624366835510531
+Recall score: 0.7521506626365961
+Train and validation losses: 0.5762702239531892, 0.5317406095045936
+=> Saving checkpoint
+Fold 4: Epoch 7/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 70.93it/s, lr=1e-6, train_loss=0.477]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.94it/s]
+Accuracy: 0.8722954488933101
+F1 score: 0.8784183733870013
+Precision score: 0.8948383984563435
+Recall score: 0.8625900953266682
+Train and validation losses: 0.4995326894186789, 0.4328158471148246
+=> Saving checkpoint
+Fold 4: Epoch 8/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 75.30it/s, lr=1e-6, train_loss=0.477]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.49it/s]
+Accuracy: 0.9188012932106441
+F1 score: 0.9255670808161405
+Precision score: 0.907871198568873
+Recall score: 0.9439665194140897
+Train and validation losses: 0.38979377898038886, 0.3111071705699678
+=> Saving checkpoint
+Fold 4: Epoch 9/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 71.71it/s, lr=1e-6, train_loss=0.314]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 592.23it/s]
+Accuracy: 0.9403133548868441
+F1 score: 0.9453053783044667
+Precision score: 0.9269273743016759
+Recall score: 0.9644268774703557
+Train and validation losses: 0.27660564577724733, 0.21355470677256347
+=> Saving checkpoint
+Fold 4: Epoch 10/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 74.17it/s, lr=1e-6, train_loss=0.449]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 612.82it/s]
+Accuracy: 0.9481472270579457
+F1 score: 0.9520964962665135
+Precision score: 0.9409627611262489
+Recall score: 0.9634968611950709
+Train and validation losses: 0.19873535016404342, 0.16211811024288297
+=> Saving checkpoint
+Fold 4: Epoch 11/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.45it/s, lr=1e-6, train_loss=0.0265]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.97it/s]
+Accuracy: 0.9520019895548371
+F1 score: 0.9556525735294118
+Precision score: 0.9445832387008858
+Recall score: 0.966984422227389
+Train and validation losses: 0.15897670905427633, 0.13684285773893828
+=> Saving checkpoint
+Fold 4: Epoch 12/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 76.32it/s, lr=1e-6, train_loss=0.187]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.70it/s]
+Accuracy: 0.9566028351156429
+F1 score: 0.9597044221221568
+Precision score: 0.9532110091743119
+Recall score: 0.9662869100209254
+Train and validation losses: 0.13739270773868636, 0.12355459087841197
+=> Saving checkpoint
+Fold 4: Epoch 13/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.60it/s, lr=1e-6, train_loss=0.0694]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 591.17it/s]
+Accuracy: 0.9589654314847053
+F1 score: 0.9618055555555556
+Precision score: 0.957593915648767
+Recall score: 0.9660544059521041
+Train and validation losses: 0.1248373746258785, 0.11485501237872758
+=> Saving checkpoint
+Fold 4: Epoch 14/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.27it/s, lr=1e-6, train_loss=0.232]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 594.52it/s]
+Accuracy: 0.9609549863218105
+F1 score: 0.9636237256719185
+Precision score: 0.9602863080120064
+Recall score: 0.966984422227389
+Train and validation losses: 0.11683010968807131, 0.10839846887057332
+=> Saving checkpoint
+Fold 4: Epoch 15/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 69.64it/s, lr=1e-6, train_loss=0.309]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.84it/s]
+Accuracy: 0.9630688883362347
+F1 score: 0.9655012196538506
+Precision score: 0.9647168059424327
+Recall score: 0.9662869100209254
+Train and validation losses: 0.1093623194475818, 0.10381490701094832
+=> Saving checkpoint
+Fold 4: Epoch 16/300: 100%|████████████████████████████| 2011/2011 [00:29<00:00, 67.87it/s, lr=1e-6, train_loss=0.135]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.77it/s]
+Accuracy: 0.9641880129321064
+F1 score: 0.9665038381018841
+Precision score: 0.9669536886199674
+Recall score: 0.9660544059521041
+Train and validation losses: 0.10369881977429517, 0.10003103407666412
+=> Saving checkpoint
+Fold 4: Epoch 17/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 69.97it/s, lr=1e-6, train_loss=0.0724]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.99it/s]
+Accuracy: 0.9649340959960209
+F1 score: 0.9671711292200232
+Precision score: 0.9685241314991839
+Recall score: 0.965821901883283
+Train and validation losses: 0.09924431878439842, 0.09682029107711454
+=> Saving checkpoint
+Fold 4: Epoch 18/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 76.84it/s, lr=1e-6, train_loss=0.0332]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.51it/s]
+Accuracy: 0.9653071375279781
+F1 score: 0.9674938832576022
+Precision score: 0.9696403549743111
+Recall score: 0.9653568937456406
+Train and validation losses: 0.0956077501953504, 0.09454186468627711
+=> Saving checkpoint
+Fold 4: Epoch 19/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 71.90it/s, lr=1e-6, train_loss=0.00521]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.05it/s]
+Accuracy: 0.9664262621238497
+F1 score: 0.9685754189944135
+Precision score: 0.9697040316942438
+Recall score: 0.9674494303650314
+Train and validation losses: 0.09261036128887544, 0.0923261914511487
+=> Saving checkpoint
+Fold 4: Epoch 20/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 75.00it/s, lr=1e-6, train_loss=0.0241]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.76it/s]
+Accuracy: 0.9670479980104452
+F1 score: 0.9691178184360797
+Precision score: 0.9714953271028037
+Recall score: 0.9667519181585678
+Train and validation losses: 0.0894357579892704, 0.09079765718222908
+=> Saving checkpoint
+Fold 4: Epoch 21/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 67.41it/s, lr=1e-6, train_loss=0.0383]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.42it/s]
+Accuracy: 0.966923650833126
+F1 score: 0.968990440662159
+Precision score: 0.9717091419219078
+Recall score: 0.9662869100209254
+Train and validation losses: 0.08763758677684515, 0.08968524099836796
+=> Saving checkpoint
+Fold 4: Epoch 22/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.01it/s, lr=1e-6, train_loss=0.00576]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 578.49it/s]
+Accuracy: 0.9671723451877643
+F1 score: 0.9692379398741552
+Precision score: 0.9715019855174025
+Recall score: 0.966984422227389
+Train and validation losses: 0.08589677318021996, 0.08820969748234832
+=> Saving checkpoint
+Fold 4: Epoch 23/300: 100%|███████████████████████████| 2011/2011 [00:25<00:00, 80.13it/s, lr=1e-6, train_loss=0.0326]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.00it/s]
+Accuracy: 0.9677940810743596
+F1 score: 0.9697606538237011
+Precision score: 0.973968105065666
+Recall score: 0.9655893978144617
+Train and validation losses: 0.08351315680079899, 0.08781859650050713
+=> Saving checkpoint
+Fold 4: Epoch 24/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 75.41it/s, lr=1e-6, train_loss=0.036]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 577.73it/s]
+Accuracy: 0.9680427754289977
+F1 score: 0.9700291545189504
+Precision score: 0.973093121197941
+Recall score: 0.966984422227389
+Train and validation losses: 0.08241989363060383, 0.08651510556876496
+=> Saving checkpoint
+Fold 4: Epoch 25/300: 100%|█████████████████████████████| 2011/2011 [00:26<00:00, 77.25it/s, lr=1e-6, train_loss=0.11]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.68it/s]
+Accuracy: 0.9681671226063169
+F1 score: 0.9701074264362447
+Precision score: 0.9744311517710532
+Recall score: 0.965821901883283
+Train and validation losses: 0.08085330291526148, 0.08622486844555166
+=> Saving checkpoint
+Fold 4: Epoch 26/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 74.50it/s, lr=1e-6, train_loss=0.435]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.53it/s]
+Accuracy: 0.9686645113155932
+F1 score: 0.9706362153344209
+Precision score: 0.9729035272132679
+Recall score: 0.9683794466403162
+Train and validation losses: 0.07877237927495104, 0.08500596841567643
+=> Saving checkpoint
+Fold 4: Epoch 27/300: 100%|█████████████████████████████| 2011/2011 [00:27<00:00, 73.48it/s, lr=1e-6, train_loss=0.15]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.03it/s]
+Accuracy: 0.968540164138274
+F1 score: 0.9704404720177591
+Precision score: 0.9753405354626585
+Recall score: 0.9655893978144617
+Train and validation losses: 0.07804107477586052, 0.08533604892579909
+Fold 4: Epoch 28/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 72.57it/s, lr=1e-6, train_loss=0.301]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.34it/s]
+Accuracy: 0.9691619000248695
+F1 score: 0.9710550887021475
+Precision score: 0.9749238340754629
+Recall score: 0.9672169262962101
+Train and validation losses: 0.07685640483433756, 0.08402905484733669
+=> Saving checkpoint
+Fold 4: Epoch 29/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.48it/s, lr=1e-6, train_loss=0.094]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.11it/s]
+Accuracy: 0.9692862472021885
+F1 score: 0.9711617046117922
+Precision score: 0.975375234521576
+Recall score: 0.966984422227389
+Train and validation losses: 0.07518410467631163, 0.0836519706627691
+=> Saving checkpoint
+Fold 4: Epoch 30/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.53it/s, lr=1e-6, train_loss=0.0402]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.14it/s]
+Accuracy: 0.9691619000248695
+F1 score: 0.9710550887021475
+Precision score: 0.9749238340754629
+Recall score: 0.9672169262962101
+Train and validation losses: 0.07403805520647626, 0.08292050666414631
+=> Saving checkpoint
+Fold 4: Epoch 31/300: 100%|████████████████████████████| 2011/2011 [00:29<00:00, 68.44it/s, lr=1e-6, train_loss=0.211]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.43it/s]
+Accuracy: 0.9697836359114648
+F1 score: 0.9716684155299056
+Precision score: 0.974508886810103
+Recall score: 0.9688444547779587
+Train and validation losses: 0.07311014851315799, 0.08215186428454581
+=> Saving checkpoint
+Fold 4: Epoch 32/300: 100%|██████████████████████████| 2011/2011 [00:24<00:00, 81.32it/s, lr=1e-6, train_loss=0.00854]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.46it/s]
+Accuracy: 0.9700323302661029
+F1 score: 0.9718556580637627
+Precision score: 0.9763022055373064
+Recall score: 0.9674494303650314
+Train and validation losses: 0.07197413271990494, 0.08198629619431484
+=> Saving checkpoint
+Fold 4: Epoch 33/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 74.07it/s, lr=1e-6, train_loss=0.0102]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.29it/s]
+Accuracy: 0.9696592887341458
+F1 score: 0.9715152930189119
+Precision score: 0.9756154747948418
+Recall score: 0.9674494303650314
+Train and validation losses: 0.07075383948920085, 0.08124608516269113
+=> Saving checkpoint
+Fold 4: Epoch 34/300: 100%|██████████████████████████| 2011/2011 [00:25<00:00, 79.70it/s, lr=1e-6, train_loss=0.00509]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.88it/s]
+Accuracy: 0.9697836359114648
+F1 score: 0.9716287215411559
+Precision score: 0.975844277673546
+Recall score: 0.9674494303650314
+Train and validation losses: 0.07082105201314987, 0.0807819775135347
+=> Saving checkpoint
+Fold 4: Epoch 35/300: 100%|████████████████████████████| 2011/2011 [00:22<00:00, 91.33it/s, lr=1e-6, train_loss=0.156]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.74it/s]
+Accuracy: 0.970156677443422
+F1 score: 0.972027972027972
+Precision score: 0.9745267585884553
+Recall score: 0.9695419669844222
+Train and validation losses: 0.06861314066620437, 0.08013234067537912
+=> Saving checkpoint
+Fold 4: Epoch 36/300: 100%|███████████████████████████| 2011/2011 [00:22<00:00, 89.71it/s, lr=1e-6, train_loss=0.0823]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.00it/s]
+Accuracy: 0.9704053717980602
+F1 score: 0.9722675367047309
+Precision score: 0.9745386591917776
+Recall score: 0.9700069751220647
+Train and validation losses: 0.0682444841545844, 0.07963134455272398
+=> Saving checkpoint
+Fold 4: Epoch 37/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.61it/s, lr=1e-6, train_loss=0.0124]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.92it/s]
+Accuracy: 0.9704053717980602
+F1 score: 0.9722546048029844
+Precision score: 0.9749824643441665
+Recall score: 0.9695419669844222
+Train and validation losses: 0.06668305101294777, 0.07923352067769833
+=> Saving checkpoint
+Fold 4: Epoch 38/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.48it/s, lr=1e-6, train_loss=0.00267]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.48it/s]
+Accuracy: 0.9706540661526983
+F1 score: 0.9724877593844719
+Precision score: 0.9752162730886135
+Recall score: 0.9697744710532434
+Train and validation losses: 0.06597229195024665, 0.07880201950534127
+=> Saving checkpoint
+Fold 4: Epoch 39/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.49it/s, lr=1e-6, train_loss=0.0276]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.85it/s]
+Accuracy: 0.970156677443422
+F1 score: 0.9720344907946865
+Precision score: 0.9743050689091334
+Recall score: 0.9697744710532434
+Train and validation losses: 0.06502742706617402, 0.07838937615888715
+=> Saving checkpoint
+Fold 4: Epoch 40/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 69.84it/s, lr=1e-6, train_loss=0.0643]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 587.95it/s]
+Accuracy: 0.9711514548619746
+F1 score: 0.972998137802607
+Precision score: 0.9741319039850851
+Recall score: 0.9718670076726342
+Train and validation losses: 0.06380180104304298, 0.07797268059250026
+=> Saving checkpoint
+Fold 4: Epoch 41/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 75.02it/s, lr=1e-6, train_loss=0.0324]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.19it/s]
+Accuracy: 0.9712758020392938
+F1 score: 0.9731176539043408
+Precision score: 0.9741379310344828
+Recall score: 0.9720995117414555
+Train and validation losses: 0.0630225207870986, 0.07764572377671222
+=> Saving checkpoint
+Fold 4: Epoch 42/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.43it/s, lr=1e-6, train_loss=0.00514]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 585.07it/s]
+Accuracy: 0.97177319074857
+F1 score: 0.9735708464314822
+Precision score: 0.9750466417910447
+Recall score: 0.9720995117414555
+Train and validation losses: 0.06243466465615388, 0.07727507768508055
+=> Saving checkpoint
+Fold 4: Epoch 43/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.31it/s, lr=1e-6, train_loss=0.00291]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 572.57it/s]
+Accuracy: 0.9714001492166128
+F1 score: 0.973199720344908
+Precision score: 0.9754730203223546
+Recall score: 0.9709369913973495
+Train and validation losses: 0.060706588011147006, 0.0771291942340757
+=> Saving checkpoint
+Fold 4: Epoch 44/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.57it/s, lr=1e-6, train_loss=0.00802]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.39it/s]
+Accuracy: 0.9720218851032082
+F1 score: 0.97375481161787
+Precision score: 0.9770599250936329
+Recall score: 0.9704719832597071
+Train and validation losses: 0.060117549607266264, 0.0769228062068925
+=> Saving checkpoint
+Fold 4: Epoch 45/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.76it/s, lr=1e-6, train_loss=0.00533]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 589.66it/s]
+Accuracy: 0.9721462322805272
+F1 score: 0.9738684087727485
+Precision score: 0.9772886911730274
+Recall score: 0.9704719832597071
+Train and validation losses: 0.05894730739563626, 0.07670536871525509
+=> Saving checkpoint
+Fold 4: Epoch 46/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.33it/s, lr=1e-6, train_loss=0.0206]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 610.60it/s]
+Accuracy: 0.9723949266351654
+F1 score: 0.9741138059701493
+Precision score: 0.9770760233918129
+Recall score: 0.9711694954661707
+Train and validation losses: 0.05773476562257819, 0.07635466819263395
+=> Saving checkpoint
+Fold 4: Epoch 47/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 71.91it/s, lr=1e-6, train_loss=0.0133]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 611.42it/s]
+Accuracy: 0.9728923153444416
+F1 score: 0.9745861506178597
+Precision score: 0.9773205517886369
+Recall score: 0.9718670076726342
+Train and validation losses: 0.057137593936973055, 0.07611865695648333
+=> Saving checkpoint
+Fold 4: Epoch 48/300: 100%|███████████████████████████| 2011/2011 [00:24<00:00, 80.85it/s, lr=1e-6, train_loss=0.0188]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.39it/s]
+Accuracy: 0.9727679681671226
+F1 score: 0.9744844459979028
+Precision score: 0.9766464269033162
+Recall score: 0.9723320158102767
+Train and validation losses: 0.056695672176192015, 0.07579555259101003
+=> Saving checkpoint
+Fold 4: Epoch 49/300: 100%|████████████████████████████| 2011/2011 [00:26<00:00, 75.21it/s, lr=1e-6, train_loss=0.482]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 582.81it/s]
+Accuracy: 0.9726436209898035
+F1 score: 0.9743529960363722
+Precision score: 0.9770867430441899
+Recall score: 0.9716345036038131
+Train and validation losses: 0.055443452193757424, 0.07571389464542055
+=> Saving checkpoint
+Fold 4: Epoch 50/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 70.32it/s, lr=1e-6, train_loss=0.00296]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 573.99it/s]
+Accuracy: 0.9727679681671226
+F1 score: 0.9744784990094395
+Precision score: 0.9768691588785047
+Recall score: 0.9720995117414555
+Train and validation losses: 0.054826010091903875, 0.07549631034897059
+=> Saving checkpoint
+Fold 4: Epoch 51/300: 100%|███████████████████████████| 2011/2011 [00:25<00:00, 77.92it/s, lr=1e-6, train_loss=0.0951]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 578.96it/s]
+Accuracy: 0.9730166625217608
+F1 score: 0.9747292418772563
+Precision score: 0.9764349043397107
+Recall score: 0.9730295280167403
+Train and validation losses: 0.053928547258343416, 0.07533919310338877
+=> Saving checkpoint
+Fold 4: Epoch 52/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.41it/s, lr=1e-6, train_loss=0.0044]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.24it/s]
+Accuracy: 0.9731410096990798
+F1 score: 0.9748251748251748
+Precision score: 0.9773311521383501
+Recall score: 0.9723320158102767
+Train and validation losses: 0.05319728611906863, 0.07514188399517105
+=> Saving checkpoint
+Fold 4: Epoch 53/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.99it/s, lr=1e-6, train_loss=0.0101]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.53it/s]
+Accuracy: 0.9732653568763989
+F1 score: 0.9749388040564169
+Precision score: 0.9775596072931276
+Recall score: 0.9723320158102767
+Train and validation losses: 0.05209688785929818, 0.07505852082664624
+=> Saving checkpoint
+Fold 4: Epoch 54/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 69.38it/s, lr=1e-6, train_loss=0.027]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 609.01it/s]
+Accuracy: 0.9735140512310371
+F1 score: 0.975195062303482
+Precision score: 0.9769015398973402
+Recall score: 0.9734945361543828
+Train and validation losses: 0.05147332252845657, 0.07507899983635147
+Fold 4: Epoch 55/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.26it/s, lr=1e-6, train_loss=0.00481]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.57it/s]
+Accuracy: 0.9731410096990798
+F1 score: 0.9748193051993471
+Precision score: 0.977554360533084
+Recall score: 0.9720995117414555
+Train and validation losses: 0.049715206415265334, 0.0749787422330776
+=> Saving checkpoint
+Fold 4: Epoch 56/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.88it/s, lr=1e-6, train_loss=0.00339]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.87it/s]
+Accuracy: 0.9742601342949515
+F1 score: 0.9759162303664921
+Precision score: 0.9767116907312529
+Recall score: 0.9751220646361312
+Train and validation losses: 0.049068267669467126, 0.07512171726690506
+Fold 4: Epoch 57/300: 100%|██████████████████████████| 2011/2011 [00:24<00:00, 82.22it/s, lr=1e-6, train_loss=0.00443]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.31it/s]
+Accuracy: 0.9731410096990798
+F1 score: 0.9747957992998834
+Precision score: 0.9784492855469665
+Recall score: 0.9711694954661707
+Train and validation losses: 0.049134215766372745, 0.07502209731351277
+Fold 4: Epoch 58/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.63it/s, lr=1e-6, train_loss=0.00944]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.89it/s]
+Accuracy: 0.9745088286495897
+F1 score: 0.9761378186474218
+Precision score: 0.9773892773892774
+Recall score: 0.9748895605673099
+Train and validation losses: 0.04738191450157118, 0.07512745984668416
+Early stopping at epoch 58
+Fold 4: Train losses per epoch: [0.6882198097870635, 0.6823059977553247, 0.673064402654241, 0.6543891026213773, 0.6243596951621259, 0.5762702239531892, 0.4995326894186789, 0.38979377898038886, 0.27660564577724733, 0.19873535016404342, 0.15897670905427633, 0.13739270773868636, 0.1248373746258785, 0.11683010968807131, 0.1093623194475818, 0.10369881977429517, 0.09924431878439842, 0.0956077501953504, 0.09261036128887544, 0.0894357579892704, 0.08763758677684515, 0.08589677318021996, 0.08351315680079899, 0.08241989363060383, 0.08085330291526148, 0.07877237927495104, 0.07804107477586052, 0.07685640483433756, 0.07518410467631163, 0.07403805520647626, 0.07311014851315799, 0.07197413271990494, 0.07075383948920085, 0.07082105201314987, 0.06861314066620437, 0.0682444841545844, 0.06668305101294777, 0.06597229195024665, 0.06502742706617402, 0.06380180104304298, 0.0630225207870986, 0.06243466465615388, 0.060706588011147006, 0.060117549607266264, 0.05894730739563626, 0.05773476562257819, 0.057137593936973055, 0.056695672176192015, 0.055443452193757424, 0.054826010091903875, 0.053928547258343416, 0.05319728611906863, 0.05209688785929818, 0.05147332252845657, 0.049715206415265334, 0.049068267669467126, 0.049134215766372745, 0.04738191450157118]
+Fold 4: Valid losses per epoch: [0.6847042808712832, 0.6768070635928312, 0.6620565906433652, 0.6365686523511443, 0.5961338137656036, 0.5317406095045936, 0.4328158471148246, 0.3111071705699678, 0.21355470677256347, 0.16211811024288297, 0.13684285773893828, 0.12355459087841197, 0.11485501237872758, 0.10839846887057332, 0.10381490701094832, 0.10003103407666412, 0.09682029107711454, 0.09454186468627711, 0.0923261914511487, 0.09079765718222908, 0.08968524099836796, 0.08820969748234832, 0.08781859650050713, 0.08651510556876496, 0.08622486844555166, 0.08500596841567643, 0.08533604892579909, 0.08402905484733669, 0.0836519706627691, 0.08292050666414631, 0.08215186428454581, 0.08198629619431484, 0.08124608516269113, 0.0807819775135347, 0.08013234067537912, 0.07963134455272398, 0.07923352067769833, 0.07880201950534127, 0.07838937615888715, 0.07797268059250026, 0.07764572377671222, 0.07727507768508055, 0.0771291942340757, 0.0769228062068925, 0.07670536871525509, 0.07635466819263395, 0.07611865695648333, 0.07579555259101003, 0.07571389464542055, 0.07549631034897059, 0.07533919310338877, 0.07514188399517105, 0.07505852082664624, 0.07507899983635147, 0.0749787422330776, 0.07512171726690506, 0.07502209731351277, 0.07512745984668416]
+Fold 5/5
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 5: Epoch 1/300: 100%|██████████████████████████████| 2011/2011 [00:27<00:00, 72.41it/s, lr=1e-6, train_loss=0.66]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 586.08it/s]
+Accuracy: 0.534817209649341
+F1 score: 0.6969132301709471
+Precision score: 0.534817209649341
+Recall score: 1.0
+Train and validation losses: 0.6902806189805936, 0.6879206349551085
+=> Saving checkpoint
+Fold 5: Epoch 2/300: 100%|█████████████████████████████| 2011/2011 [00:22<00:00, 89.74it/s, lr=1e-6, train_loss=0.685]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 589.38it/s]
+Accuracy: 0.534817209649341
+F1 score: 0.6969132301709471
+Precision score: 0.534817209649341
+Recall score: 1.0
+Train and validation losses: 0.6873069139394755, 0.6840903439057276
+=> Saving checkpoint
+Fold 5: Epoch 3/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 70.69it/s, lr=1e-6, train_loss=0.694]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 593.54it/s]
+Accuracy: 0.5555831882616264
+F1 score: 0.7027611443779108
+Precision score: 0.5470672018645604
+Recall score: 0.9823296907695884
+Train and validation losses: 0.6823625819473229, 0.6773588992729339
+=> Saving checkpoint
+Fold 5: Epoch 4/300: 100%|█████████████████████████████| 2011/2011 [00:25<00:00, 78.96it/s, lr=1e-6, train_loss=0.644]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 606.68it/s]
+Accuracy: 0.6308132305396668
+F1 score: 0.7219777132690327
+Precision score: 0.6044214487300094
+Recall score: 0.8963031853057428
+Train and validation losses: 0.6739970235786646, 0.6645836389325485
+=> Saving checkpoint
+Fold 5: Epoch 5/300: 100%|███████████████████████████████| 2011/2011 [00:27<00:00, 73.21it/s, lr=1e-6, train_loss=0.7]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 578.12it/s]
+Accuracy: 0.7041780651579209
+F1 score: 0.7373882326967657
+Precision score: 0.7019756200084069
+Recall score: 0.7765635898628226
+Train and validation losses: 0.6569627991426886, 0.6407177138992143
+=> Saving checkpoint
+Fold 5: Epoch 6/300: 100%|█████████████████████████████| 2011/2011 [00:29<00:00, 69.17it/s, lr=1e-6, train_loss=0.548]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.45it/s]
+Accuracy: 0.7651081820442676
+F1 score: 0.7690991321354358
+Precision score: 0.8108247422680412
+Recall score: 0.731457800511509
+Train and validation losses: 0.627387549496598, 0.6028754983697212
+=> Saving checkpoint
+Fold 5: Epoch 7/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 69.59it/s, lr=1e-6, train_loss=0.515]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.61it/s]
+Accuracy: 0.8027853767719473
+F1 score: 0.7994436014162873
+Precision score: 0.876351538674799
+Recall score: 0.7349453615438271
+Train and validation losses: 0.5839405284776787, 0.5490569532154569
+=> Saving checkpoint
+Fold 5: Epoch 8/300: 100%|█████████████████████████████| 2011/2011 [00:27<00:00, 72.17it/s, lr=1e-6, train_loss=0.518]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.91it/s]
+Accuracy: 0.8380999751305646
+F1 score: 0.8363910530283991
+Precision score: 0.910035548263604
+Recall score: 0.7737735410369682
+Train and validation losses: 0.5248151567965109, 0.479767623703712
+=> Saving checkpoint
+Fold 5: Epoch 9/300: 100%|█████████████████████████████| 2011/2011 [00:28<00:00, 69.89it/s, lr=1e-6, train_loss=0.474]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.40it/s]
+Accuracy: 0.8837353892066651
+F1 score: 0.8878762441539753
+Precision score: 0.9167904903417533
+Recall score: 0.8607300627760985
+Train and validation losses: 0.4501464651598378, 0.39471614538556776
+=> Saving checkpoint
+Fold 5: Epoch 10/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.33it/s, lr=1e-6, train_loss=0.317]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.03it/s]
+Accuracy: 0.9145734891817956
+F1 score: 0.9198646914732299
+Precision score: 0.9229868913857678
+Recall score: 0.9167635433620088
+Train and validation losses: 0.36246118843851843, 0.3027237883619001
+=> Saving checkpoint
+Fold 5: Epoch 11/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 69.77it/s, lr=1e-6, train_loss=0.251]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.65it/s]
+Accuracy: 0.9340959960208903
+F1 score: 0.9394285714285714
+Precision score: 0.9238031018206339
+Recall score: 0.9555917228551499
+Train and validation losses: 0.273841916577458, 0.22192408485156642
+=> Saving checkpoint
+Fold 5: Epoch 12/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 75.46it/s, lr=1e-6, train_loss=0.0843]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.58it/s]
+Accuracy: 0.9450385476249689
+F1 score: 0.9494741655235482
+Precision score: 0.9338880143917248
+Recall score: 0.9655893978144617
+Train and validation losses: 0.20464322362363724, 0.16896977525197013
+=> Saving checkpoint
+Fold 5: Epoch 13/300: 100%|████████████████████████████| 2011/2011 [00:25<00:00, 79.23it/s, lr=1e-6, train_loss=0.128]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 584.22it/s]
+Accuracy: 0.9505098234270082
+F1 score: 0.9543368517668656
+Precision score: 0.9420158550396376
+Recall score: 0.966984422227389
+Train and validation losses: 0.16278734368798686, 0.14025138848818558
+=> Saving checkpoint
+Fold 5: Epoch 14/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.01it/s, lr=1e-6, train_loss=0.0841]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.49it/s]
+Accuracy: 0.9541158915692614
+F1 score: 0.9575422851225406
+Precision score: 0.9478359908883827
+Recall score: 0.9674494303650314
+Train and validation losses: 0.1393319745846778, 0.12419684578999729
+=> Saving checkpoint
+Fold 5: Epoch 15/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 71.61it/s, lr=1e-6, train_loss=0.441]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 598.02it/s]
+Accuracy: 0.9572245710022382
+F1 score: 0.9604597701149425
+Precision score: 0.9497613093884973
+Recall score: 0.9714019995349918
+Train and validation losses: 0.12408844793649795, 0.11365298699831987
+=> Saving checkpoint
+Fold 5: Epoch 16/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.25it/s, lr=1e-6, train_loss=0.0276]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.11it/s]
+Accuracy: 0.9597115145486197
+F1 score: 0.962681409813407
+Precision score: 0.953891805523853
+Recall score: 0.9716345036038131
+Train and validation losses: 0.11479523303084471, 0.1062699477308639
+=> Saving checkpoint
+Fold 5: Epoch 17/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 72.84it/s, lr=1e-6, train_loss=0.152]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 573.66it/s]
+Accuracy: 0.9610793334991296
+F1 score: 0.9639109881240632
+Precision score: 0.9560841720036597
+Recall score: 0.9718670076726342
+Train and validation losses: 0.10717394710937538, 0.10051796741498482
+=> Saving checkpoint
+Fold 5: Epoch 18/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.72it/s, lr=1e-6, train_loss=0.233]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.19it/s]
+Accuracy: 0.9633175826908729
+F1 score: 0.965978549186945
+Precision score: 0.9583524027459954
+Recall score: 0.9737270402232039
+Train and validation losses: 0.10097167467766069, 0.09572892902126429
+=> Saving checkpoint
+Fold 5: Epoch 19/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 69.96it/s, lr=1e-6, train_loss=0.0347]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.26it/s]
+Accuracy: 0.9643123601094256
+F1 score: 0.966862948851172
+Precision score: 0.9603211009174312
+Recall score: 0.9734945361543828
+Train and validation losses: 0.09574662186997313, 0.09182980252155816
+=> Saving checkpoint
+Fold 5: Epoch 20/300: 100%|████████████████████████████| 2011/2011 [00:29<00:00, 67.87it/s, lr=1e-6, train_loss=0.365]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.88it/s]
+Accuracy: 0.9666749564784879
+F1 score: 0.9691244239631336
+Precision score: 0.9604932633021238
+Recall score: 0.9779121134619856
+Train and validation losses: 0.09171105820124331, 0.08879440342850065
+=> Saving checkpoint
+Fold 5: Epoch 21/300: 100%|███████████████████████████| 2011/2011 [00:30<00:00, 66.95it/s, lr=1e-6, train_loss=0.0251]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 590.43it/s]
+Accuracy: 0.9671723451877643
+F1 score: 0.9695290858725761
+Precision score: 0.962640385056154
+Recall score: 0.9765170890490583
+Train and validation losses: 0.08815908133437138, 0.08594924898653349
+=> Saving checkpoint
+Fold 5: Epoch 22/300: 100%|████████████████████████████| 2011/2011 [00:29<00:00, 68.52it/s, lr=1e-6, train_loss=0.248]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 608.46it/s]
+Accuracy: 0.9675453867197215
+F1 score: 0.9698927211904487
+Precision score: 0.9624542124542125
+Recall score: 0.9774471053243432
+Train and validation losses: 0.08482611066583509, 0.08377386907496995
+=> Saving checkpoint
+Fold 5: Epoch 23/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 67.40it/s, lr=1e-6, train_loss=0.00404]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.94it/s]
+Accuracy: 0.9680427754289977
+F1 score: 0.9702718334297281
+Precision score: 0.9654696132596685
+Recall score: 0.9751220646361312
+Train and validation losses: 0.08173579848216303, 0.08195306045497595
+=> Saving checkpoint
+Fold 5: Epoch 24/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.66it/s, lr=1e-6, train_loss=0.00718]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 591.25it/s]
+Accuracy: 0.968415816960955
+F1 score: 0.9706697459584296
+Precision score: 0.9642119752236752
+Recall score: 0.977214601255522
+Train and validation losses: 0.08003971537168511, 0.08029081396180877
+=> Saving checkpoint
+Fold 5: Epoch 25/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 73.46it/s, lr=1e-6, train_loss=0.165]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.71it/s]
+Accuracy: 0.9692862472021885
+F1 score: 0.9714615829000578
+Precision score: 0.9655489205328434
+Recall score: 0.9774471053243432
+Train and validation losses: 0.0781997620618533, 0.0788888577043188
+=> Saving checkpoint
+Fold 5: Epoch 26/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 69.27it/s, lr=1e-6, train_loss=0.00852]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 595.10it/s]
+Accuracy: 0.9699079830887839
+F1 score: 0.9720618794735627
+Precision score: 0.9653749140105481
+Recall score: 0.9788421297372704
+Train and validation losses: 0.07618321479570948, 0.0777746504774432
+=> Saving checkpoint
+Fold 5: Epoch 27/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 71.33it/s, lr=1e-6, train_loss=0.0191]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 565.22it/s]
+Accuracy: 0.9704053717980602
+F1 score: 0.9724537037037037
+Precision score: 0.9681954367365753
+Recall score: 0.9767495931178796
+Train and validation losses: 0.07499383570413809, 0.0765221466103876
+=> Saving checkpoint
+Fold 5: Epoch 28/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.94it/s, lr=1e-6, train_loss=0.0179]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.73it/s]
+Accuracy: 0.9709027605073365
+F1 score: 0.9729354614850798
+Precision score: 0.9680092059838895
+Recall score: 0.9779121134619856
+Train and validation losses: 0.07290479987677953, 0.07549136626315683
+=> Saving checkpoint
+Fold 5: Epoch 29/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 73.19it/s, lr=1e-6, train_loss=0.0158]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 573.70it/s]
+Accuracy: 0.9714001492166128
+F1 score: 0.9733734660801111
+Precision score: 0.9693336407655061
+Recall score: 0.9774471053243432
+Train and validation losses: 0.07098736142862842, 0.07448490641670483
+=> Saving checkpoint
+Fold 5: Epoch 30/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.60it/s, lr=1e-6, train_loss=0.316]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 571.93it/s]
+Accuracy: 0.9712758020392938
+F1 score: 0.9732793522267207
+Precision score: 0.9684622467771639
+Recall score: 0.9781446175308068
+Train and validation losses: 0.06986260612104839, 0.07364718591198177
+=> Saving checkpoint
+Fold 5: Epoch 31/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.13it/s, lr=1e-6, train_loss=0.00325]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.76it/s]
+Accuracy: 0.9718975379258891
+F1 score: 0.9738486461467253
+Precision score: 0.9693618981801428
+Recall score: 0.978377121599628
+Train and validation losses: 0.06822570928588717, 0.07279282825823992
+=> Saving checkpoint
+Fold 5: Epoch 32/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 71.96it/s, lr=1e-6, train_loss=0.0114]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.62it/s]
+Accuracy: 0.9720218851032082
+F1 score: 0.973967372440125
+Precision score: 0.9693689543988945
+Recall score: 0.9786096256684492
+Train and validation losses: 0.0668262144218281, 0.07203281535091208
+=> Saving checkpoint
+Fold 5: Epoch 33/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 70.45it/s, lr=1e-6, train_loss=0.161]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.86it/s]
+Accuracy: 0.9721462322805272
+F1 score: 0.9740560574473014
+Precision score: 0.9704592660973921
+Recall score: 0.9776796093931643
+Train and validation losses: 0.0652122688223851, 0.07123368227008219
+=> Saving checkpoint
+Fold 5: Epoch 34/300: 100%|████████████████████████████| 2011/2011 [00:27<00:00, 72.97it/s, lr=1e-6, train_loss=0.143]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 584.53it/s]
+Accuracy: 0.9728923153444416
+F1 score: 0.9747860282211427
+Precision score: 0.9698504027617951
+Recall score: 0.9797721460125552
+Train and validation losses: 0.06446525252331325, 0.07066594795985832
+=> Saving checkpoint
+Fold 5: Epoch 35/300: 100%|███████████████████████████| 2011/2011 [00:27<00:00, 72.48it/s, lr=1e-6, train_loss=0.0451]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.61it/s]
+Accuracy: 0.9730166625217608
+F1 score: 0.9748522424382895
+Precision score: 0.9718114602587801
+Recall score: 0.9779121134619856
+Train and validation losses: 0.06298429582859397, 0.06975919764375992
+=> Saving checkpoint
+Fold 5: Epoch 36/300: 100%|███████████████████████████| 2011/2011 [00:26<00:00, 76.08it/s, lr=1e-6, train_loss=0.0028]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 605.29it/s]
+Accuracy: 0.9735140512310371
+F1 score: 0.9753272327116878
+Precision score: 0.9718374884579871
+Recall score: 0.9788421297372704
+Train and validation losses: 0.06153871294050577, 0.06917244510051182
+=> Saving checkpoint
+Fold 5: Epoch 37/300: 100%|████████████████████████████| 2011/2011 [00:29<00:00, 68.07it/s, lr=1e-6, train_loss=0.151]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.08it/s]
+Accuracy: 0.9737627455856752
+F1 score: 0.975581529915519
+Precision score: 0.9711981566820277
+Recall score: 0.9800046500813764
+Train and validation losses: 0.06010235744886923, 0.06873869520975888
+=> Saving checkpoint
+Fold 5: Epoch 38/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 69.48it/s, lr=1e-6, train_loss=0.00479]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.89it/s]
+Accuracy: 0.9740114399403134
+F1 score: 0.9758241758241758
+Precision score: 0.9709944751381215
+Recall score: 0.98070216228784
+Train and validation losses: 0.059404166180534866, 0.06825640723877632
+=> Saving checkpoint
+Fold 5: Epoch 39/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 69.86it/s, lr=1e-6, train_loss=0.033]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.98it/s]
+Accuracy: 0.9746331758269088
+F1 score: 0.976399814900509
+Precision score: 0.9716785632051578
+Recall score: 0.9811671704254824
+Train and validation losses: 0.05789347512751479, 0.06777311749404544
+=> Saving checkpoint
+Fold 5: Epoch 40/300: 100%|███████████████████████████| 2011/2011 [00:24<00:00, 81.86it/s, lr=1e-6, train_loss=0.0302]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.69it/s]
+Accuracy: 0.9746331758269088
+F1 score: 0.9763779527559056
+Precision score: 0.9725490196078431
+Recall score: 0.9802371541501976
+Train and validation losses: 0.05686429114678846, 0.06707133881532018
+=> Saving checkpoint
+Fold 5: Epoch 41/300: 100%|██████████████████████████| 2011/2011 [00:23<00:00, 85.58it/s, lr=1e-6, train_loss=0.00352]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 607.96it/s]
+Accuracy: 0.9746331758269088
+F1 score: 0.9763615295480881
+Precision score: 0.9732039732039732
+Recall score: 0.979539641943734
+Train and validation losses: 0.055715005384148655, 0.06657434644424737
+=> Saving checkpoint
+Fold 5: Epoch 42/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 71.32it/s, lr=1e-6, train_loss=0.00402]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 597.56it/s]
+Accuracy: 0.9751305645361851
+F1 score: 0.9768303985171455
+Precision score: 0.9734472408219811
+Recall score: 0.9802371541501976
+Train and validation losses: 0.054712969345209195, 0.06616421431121573
+=> Saving checkpoint
+Fold 5: Epoch 43/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 67.11it/s, lr=1e-6, train_loss=0.00817]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 572.95it/s]
+Accuracy: 0.9756279532454614
+F1 score: 0.9773567467652495
+Precision score: 0.9712973593570609
+Recall score: 0.9834922111136944
+Train and validation losses: 0.0533354989489057, 0.06628868007864877
+Fold 5: Epoch 44/300: 100%|█████████████████████████████| 2011/2011 [00:27<00:00, 72.22it/s, lr=1e-6, train_loss=0.84]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.19it/s]
+Accuracy: 0.9761253419547377
+F1 score: 0.9778034682080925
+Precision score: 0.9724074499885031
+Recall score: 0.9832597070448733
+Train and validation losses: 0.052400528249896515, 0.06578134808033913
+=> Saving checkpoint
+Fold 5: Epoch 45/300: 100%|███████████████████████████| 2011/2011 [00:29<00:00, 69.18it/s, lr=1e-6, train_loss=0.0089]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.44it/s]
+Accuracy: 0.9755036060681422
+F1 score: 0.977264858626659
+Precision score: 0.9702108157653528
+Recall score: 0.9844222273889793
+Train and validation losses: 0.051352914953016186, 0.06596530071866123
+Fold 5: Epoch 46/300: 100%|████████████████████████████| 2011/2011 [00:30<00:00, 66.96it/s, lr=1e-6, train_loss=0.011]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 570.29it/s]
+Accuracy: 0.9748818701815469
+F1 score: 0.9765932792584009
+Precision score: 0.9734349734349734
+Recall score: 0.9797721460125552
+Train and validation losses: 0.050318062927412754, 0.06485208962390396
+=> Saving checkpoint
+Fold 5: Epoch 47/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.37it/s, lr=1e-6, train_loss=0.00497]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 584.45it/s]
+Accuracy: 0.9762496891320567
+F1 score: 0.977911414363363
+Precision score: 0.9728485964104924
+Recall score: 0.9830272029760521
+Train and validation losses: 0.04928641876967972, 0.06478987273340767
+=> Saving checkpoint
+Fold 5: Epoch 48/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 73.09it/s, lr=1e-6, train_loss=0.00482]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 601.99it/s]
+Accuracy: 0.9758766476000995
+F1 score: 0.9776033248672362
+Precision score: 0.9708782389360239
+Recall score: 0.9844222273889793
+Train and validation losses: 0.04817970784387168, 0.06504653030696324
+Fold 5: Epoch 49/300: 100%|██████████████████████████| 2011/2011 [00:29<00:00, 68.55it/s, lr=1e-6, train_loss=0.00363]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 600.98it/s]
+Accuracy: 0.9758766476000995
+F1 score: 0.9775929775929776
+Precision score: 0.9713105347716319
+Recall score: 0.983957219251337
+Train and validation losses: 0.04742026794814699, 0.064763213752581
+=> Saving checkpoint
+Fold 5: Epoch 50/300: 100%|██████████████████████████| 2011/2011 [00:28<00:00, 69.89it/s, lr=1e-6, train_loss=0.00454]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 578.73it/s]
+Accuracy: 0.9760009947774185
+F1 score: 0.9777059027376689
+Precision score: 0.9715335169880625
+Recall score: 0.983957219251337
+Train and validation losses: 0.0461177935662345, 0.06459652517575523
+=> Saving checkpoint
+Fold 5: Epoch 51/300: 100%|███████████████████████████| 2011/2011 [00:28<00:00, 70.58it/s, lr=1e-6, train_loss=0.0275]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 592.36it/s]
+Accuracy: 0.9760009947774185
+F1 score: 0.9776594513253849
+Precision score: 0.9734900875979714
+Recall score: 0.981864682631946
+Train and validation losses: 0.04546450892827334, 0.06403071408414154
+=> Saving checkpoint
+Fold 5: Epoch 52/300: 100%|████████████████████████████| 2011/2011 [00:28<00:00, 71.05it/s, lr=1e-6, train_loss=0.226]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 602.53it/s]
+Accuracy: 0.976747077841333
+F1 score: 0.9784089597044221
+Precision score: 0.971788990825688
+Recall score: 0.985119739595443
+Train and validation losses: 0.044589439649720716, 0.06485536902986475
+Fold 5: Epoch 53/300: 100%|███████████████████████████| 2011/2011 [00:22<00:00, 89.69it/s, lr=1e-6, train_loss=0.0023]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 599.51it/s]
+Accuracy: 0.9761253419547377
+F1 score: 0.9778085991678225
+Precision score: 0.9721903010802114
+Recall score: 0.9834922111136944
+Train and validation losses: 0.04370578077889438, 0.06433617332721107
+Fold 5: Epoch 54/300: 100%|██████████████████████████| 2011/2011 [00:27<00:00, 72.94it/s, lr=1e-6, train_loss=0.00409]
+Evaluating valid dataset of 8042 instances: 100%|██████████████████████████████████| 503/503 [00:00<00:00, 604.28it/s]
+Accuracy: 0.976622730664014
+F1 score: 0.9782608695652174
+Precision score: 0.9730848861283644
+Recall score: 0.9834922111136944
+Train and validation losses: 0.042762077516802756, 0.0642889316329616
+Early stopping at epoch 54
+Fold 5: Train losses per epoch: [0.6902806189805936, 0.6873069139394755, 0.6823625819473229, 0.6739970235786646, 0.6569627991426886, 0.627387549496598, 0.5839405284776787, 0.5248151567965109, 0.4501464651598378, 0.36246118843851843, 0.273841916577458, 0.20464322362363724, 0.16278734368798686, 0.1393319745846778, 0.12408844793649795, 0.11479523303084471, 0.10717394710937538, 0.10097167467766069, 0.09574662186997313, 0.09171105820124331, 0.08815908133437138, 0.08482611066583509, 0.08173579848216303, 0.08003971537168511, 0.0781997620618533, 0.07618321479570948, 0.07499383570413809, 0.07290479987677953, 0.07098736142862842, 0.06986260612104839, 0.06822570928588717, 0.0668262144218281, 0.0652122688223851, 0.06446525252331325, 0.06298429582859397, 0.06153871294050577, 0.06010235744886923, 0.059404166180534866, 0.05789347512751479, 0.05686429114678846, 0.055715005384148655, 0.054712969345209195, 0.0533354989489057, 0.052400528249896515, 0.051352914953016186, 0.050318062927412754, 0.04928641876967972, 0.04817970784387168, 0.04742026794814699, 0.0461177935662345, 0.04546450892827334, 0.044589439649720716, 0.04370578077889438, 0.042762077516802756]
+Fold 5: Valid losses per epoch: [0.6879206349551085, 0.6840903439057276, 0.6773588992729339, 0.6645836389325485, 0.6407177138992143, 0.6028754983697212, 0.5490569532154569, 0.479767623703712, 0.39471614538556776, 0.3027237883619001, 0.22192408485156642, 0.16896977525197013, 0.14025138848818558, 0.12419684578999729, 0.11365298699831987, 0.1062699477308639, 0.10051796741498482, 0.09572892902126429, 0.09182980252155816, 0.08879440342850065, 0.08594924898653349, 0.08377386907496995, 0.08195306045497595, 0.08029081396180877, 0.0788888577043188, 0.0777746504774432, 0.0765221466103876, 0.07549136626315683, 0.07448490641670483, 0.07364718591198177, 0.07279282825823992, 0.07203281535091208, 0.07123368227008219, 0.07066594795985832, 0.06975919764375992, 0.06917244510051182, 0.06873869520975888, 0.06825640723877632, 0.06777311749404544, 0.06707133881532018, 0.06657434644424737, 0.06616421431121573, 0.06628868007864877, 0.06578134808033913, 0.06596530071866123, 0.06485208962390396, 0.06478987273340767, 0.06504653030696324, 0.064763213752581, 0.06459652517575523, 0.06403071408414154, 0.06485536902986475, 0.06433617332721107, 0.0642889316329616]
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+=> Loading checkpoint
+Fold 1: Evaluating test dataset of 10052 instances: 100%|██████████████████████████| 629/629 [00:03<00:00, 163.45it/s]
+Fold 1: Accuracy: 0.9717469160366097
+Fold 1: F1 score: 0.973561720350028
+Fold 1: Precision score: 0.9744688781215057
+Fold 1: Recall score: 0.97265625
+=> Loading checkpoint
+Fold 2: Evaluating test dataset of 10052 instances: 100%|██████████████████████████| 629/629 [00:03<00:00, 164.76it/s]
+Fold 2: Accuracy: 0.9741345005968961
+Fold 2: F1 score: 0.9757959411655185
+Fold 2: Precision score: 0.9767051807677972
+Fold 2: Recall score: 0.9748883928571429
+=> Loading checkpoint
+Fold 3: Evaluating test dataset of 10052 instances: 100%|██████████████████████████| 629/629 [00:03<00:00, 165.37it/s]
+Fold 3: Accuracy: 0.9767210505372065
+Fold 3: F1 score: 0.9782608695652174
+Fold 3: Precision score: 0.9771714922048997
+Fold 3: Recall score: 0.9793526785714286
+=> Loading checkpoint
+Fold 4: Evaluating test dataset of 10052 instances: 100%|██████████████████████████| 629/629 [00:03<00:00, 165.42it/s]
+Fold 4: Accuracy: 0.9715479506565857
+Fold 4: F1 score: 0.9733804914370812
+Fold 4: Precision score: 0.9741058122205664
+Fold 4: Recall score: 0.97265625
+=> Loading checkpoint
+Fold 5: Evaluating test dataset of 10052 instances: 100%|██████████████████████████| 629/629 [00:03<00:00, 165.41it/s]
+Fold 5: Accuracy: 0.9754277755670513
+Fold 5: F1 score: 0.9770040033516433
+Fold 5: Precision score: 0.9780055917986953
+Fold 5: Recall score: 0.9760044642857143
+Cross Validation Accuracy: 0.9751293274970155
+Cross Validation F1-score: 0.9767485119047619
+Cross Validation Precision: 0.9767485119047619
+Cross Validation Recall: 0.9767485119047619
+Trained GRU with Attention model in 8903.7593 seconds

@@ -1,0 +1,397 @@
+BiLSTMWithAttentionWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::lstm': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.009445376 GFLOPs
+Total Parameters: 24.823299 Million
+Peak GPU Memory: 0.1756448745727539 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiGRUWithAttentionWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::gru': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.009445376 GFLOPs
+Total Parameters: 24.593411 Million
+Peak GPU Memory: 0.1684889793395996 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiLSTMWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::lstm': 1})
+Approx. FLOPs: 0.008921088 GFLOPs
+Total Parameters: 24.823042 Million
+Peak GPU Memory: 0.1756434440612793 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiGRUWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::gru': 1})
+Approx. FLOPs: 0.008921088 GFLOPs
+Total Parameters: 24.593154 Million
+Peak GPU Memory: 0.1676311492919922 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+LSTMWithAttentionWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::lstm': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.008658944 GFLOPs
+Total Parameters: 24.330627 Million
+Peak GPU Memory: 0.1549215316772461 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+GRUWithAttentionWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::gru': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.008658944 GFLOPs
+Total Parameters: 24.215683 Million
+Peak GPU Memory: 0.14828109741210938 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+LSTMWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::lstm': 1})
+Approx. FLOPs: 0.0083968 GFLOPs
+Total Parameters: 24.330498 Million
+Peak GPU Memory: 0.15406417846679688 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+GRUWithbertEmbeddings
+Unsupported operator aten::add encountered 2 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 3, 'aten::add': 2, 'aten::add_': 1, 'aten::gru': 1})
+Approx. FLOPs: 0.0083968 GFLOPs
+Total Parameters: 24.215554 Million
+Peak GPU Memory: 0.14828014373779297 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiLSTMWithAttentionWithgloveEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.001581056 GFLOPs
+Total Parameters: 0.508383 Million
+Peak GPU Memory: 0.06576871871948242 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+BiGRUWithAttentionWithgloveEmbeddings
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.001581056 GFLOPs
+Total Parameters: 0.398303 Million
+Peak GPU Memory: 0.05940961837768555 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+BiLSTMWithgloveEmbeddings
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1})
+Approx. FLOPs: 0.001056768 GFLOPs
+Total Parameters: 0.508126 Million
+Peak GPU Memory: 0.06576728820800781 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiGRUWithgloveEmbeddings
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1})
+Approx. FLOPs: 0.001056768 GFLOPs
+Total Parameters: 0.398046 Million
+Peak GPU Memory: 0.05940818786621094 GB
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+LSTMWithAttentionWithgloveEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.000794624 GFLOPs
+Total Parameters: 0.255327 Million
+Peak GPU Memory: 0.046324729919433594 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+GRUWithAttentionWithgloveEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.000794624 GFLOPs
+Total Parameters: 0.200287 Million
+Peak GPU Memory: 0.04098701477050781 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+LSTMWithgloveEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1})
+Approx. FLOPs: 0.00053248 GFLOPs
+Total Parameters: 0.255198 Million
+Peak GPU Memory: 0.04632377624511719 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+GRUWithgloveEmbeddings
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1})
+Approx. FLOPs: 0.00053248 GFLOPs
+Total Parameters: 0.200158 Million
+Peak GPU Memory: 0.040986061096191406 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiLSTMWithAttentionWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.001581056 GFLOPs
+Total Parameters: 0.509883 Million
+Peak GPU Memory: 0.06577444076538086 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiGRUWithAttentionWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.001581056 GFLOPs
+Total Parameters: 0.399803 Million
+Peak GPU Memory: 0.0590052604675293 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiLSTMWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1})
+Approx. FLOPs: 0.001056768 GFLOPs
+Total Parameters: 0.509626 Million
+Peak GPU Memory: 0.06577301025390625 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+BiGRUWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1})
+Approx. FLOPs: 0.001056768 GFLOPs
+Total Parameters: 0.399546 Million
+Peak GPU Memory: 0.05900382995605469 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+LSTMWithAttentionWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.000794624 GFLOPs
+Total Parameters: 0.256827 Million
+Peak GPU Memory: 0.04633045196533203 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+GRUWithAttentionWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported operator aten::softmax encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::sum encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1, 'aten::softmax': 1, 'aten::mul': 1, 'aten::sum': 1})
+Approx. FLOPs: 0.000794624 GFLOPs
+Total Parameters: 0.201787 Million
+Peak GPU Memory: 0.04099273681640625 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+LSTMWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::lstm encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::lstm': 1})
+Approx. FLOPs: 0.00053248 GFLOPs
+Total Parameters: 0.256698 Million
+Peak GPU Memory: 0.046329498291015625 GB
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\torch\nn\modules\rnn.py:123: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn(
+GRUWithword2vecEmbeddings
+Unsupported operator aten::embedding encountered 1 time(s)
+Unsupported operator aten::gru encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::embedding': 1, 'aten::gru': 1})
+Approx. FLOPs: 0.00053248 GFLOPs
+Total Parameters: 0.201658 Million
+Peak GPU Memory: 0.040991783142089844 GB
+Load full RoBERTA
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Unsupported operator aten::rsub encountered 1 time(s)
+Unsupported operator aten::mul encountered 2 time(s)
+Unsupported operator aten::ne encountered 1 time(s)
+Unsupported operator aten::cumsum encountered 1 time(s)
+Unsupported operator aten::add encountered 39 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::div encountered 12 time(s)
+Unsupported operator aten::softmax encountered 12 time(s)
+Unsupported operator aten::gelu encountered 12 time(s)
+Unsupported operator aten::tanh encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::add': 39, 'aten::div': 12, 'aten::softmax': 12, 'aten::gelu': 12, 'aten::embedding': 3, 'aten::mul': 2, 'aten::rsub': 1, 'aten::ne': 1, 'aten::cumsum': 1, 'aten::add_': 1, 'aten::tanh': 1})
+Approx. FLOPs: 178.984083456 GFLOPs
+Total Parameters: 124.64717 Million
+Peak GPU Memory: 1.7570242881774902 GB
+Load full BERT
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Unsupported operator aten::rsub encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::add encountered 38 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::div encountered 12 time(s)
+Unsupported operator aten::softmax encountered 12 time(s)
+Unsupported operator aten::gelu encountered 12 time(s)
+Unsupported operator aten::tanh encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::add': 38, 'aten::div': 12, 'aten::softmax': 12, 'aten::gelu': 12, 'aten::embedding': 3, 'aten::rsub': 1, 'aten::mul': 1, 'aten::add_': 1, 'aten::tanh': 1})
+Approx. FLOPs: 178.984083456 GFLOPs
+Total Parameters: 109.483778 Million
+Peak GPU Memory: 1.716966152191162 GB
+Load full DistilBERT
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of DistilBertForSequenceClassification were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['classifier.bias', 'classifier.weight', 'pre_classifier.bias', 'pre_classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Unsupported operator aten::embedding encountered 2 time(s)
+Unsupported operator aten::add encountered 13 time(s)
+Unsupported operator aten::div encountered 6 time(s)
+Unsupported operator aten::expand_as encountered 6 time(s)
+Unsupported operator aten::softmax encountered 6 time(s)
+Unsupported operator aten::gelu encountered 6 time(s)
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Unsupported ops detected: Counter({'aten::add': 13, 'aten::div': 6, 'aten::expand_as': 6, 'aten::softmax': 6, 'aten::gelu': 6, 'aten::embedding': 2})
+Approx. FLOPs: 89.500704768 GFLOPs
+Total Parameters: 66.95501 Million
+Peak GPU Memory: 0.9104170799255371 GB
+Load full ALBERT
+Some weights of AlbertForSequenceClassification were not initialized from the model checkpoint at albert-base-v2 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Unsupported operator aten::rsub encountered 1 time(s)
+Unsupported operator aten::mul encountered 49 time(s)
+Unsupported operator aten::add encountered 62 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::div encountered 12 time(s)
+Unsupported operator aten::softmax encountered 12 time(s)
+Unsupported operator aten::pow encountered 12 time(s)
+Unsupported operator aten::tanh encountered 13 time(s)
+The following submodules of the model were never called during the trace of the graph. They may be unused, or they were accessed by direct calls to .forward() or via other python methods. In the latter case they will have zeros for statistics, though their statistics will still contribute to their parent calling module.
+albert.encoder.albert_layer_groups.0.albert_layers.0.dropout
+Unsupported ops detected: Counter({'aten::add': 62, 'aten::mul': 49, 'aten::tanh': 13, 'aten::div': 12, 'aten::softmax': 12, 'aten::pow': 12, 'aten::embedding': 3, 'aten::rsub': 1, 'aten::add_': 1})
+Approx. FLOPs: 179.178856448 GFLOPs
+Total Parameters: 11.685122 Million
+Peak GPU Memory: 2.177365779876709 GB
+Load full Electra
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of ElectraForSequenceClassification were not initialized from the model checkpoint at google/electra-base-discriminator and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Unsupported operator aten::rsub encountered 1 time(s)
+Unsupported operator aten::mul encountered 1 time(s)
+Unsupported operator aten::add encountered 38 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::add_ encountered 1 time(s)
+Unsupported operator aten::div encountered 12 time(s)
+Unsupported operator aten::softmax encountered 12 time(s)
+Unsupported operator aten::gelu encountered 13 time(s)
+Unsupported ops detected: Counter({'aten::add': 38, 'aten::gelu': 13, 'aten::div': 12, 'aten::softmax': 12, 'aten::embedding': 3, 'aten::rsub': 1, 'aten::mul': 1, 'aten::add_': 1})
+Approx. FLOPs: 178.984083456 GFLOPs
+Total Parameters: 109.483778 Million
+Peak GPU Memory: 1.7164931297302246 GB
+Load full Sentence-BERT
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of MPNetForSequenceClassification were not initialized from the model checkpoint at sentence-transformers/all-mpnet-base-v2 and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Unsupported operator aten::rsub encountered 1 time(s)
+Unsupported operator aten::mul encountered 4 time(s)
+Unsupported operator aten::ne encountered 1 time(s)
+Unsupported operator aten::cumsum encountered 1 time(s)
+Unsupported operator aten::add encountered 40 time(s)
+Unsupported operator aten::embedding encountered 3 time(s)
+Unsupported operator aten::sub encountered 1 time(s)
+Unsupported operator aten::neg encountered 1 time(s)
+Unsupported operator aten::lt encountered 2 time(s)
+Unsupported operator aten::abs encountered 1 time(s)
+Unsupported operator aten::div encountered 14 time(s)
+Unsupported operator aten::log encountered 1 time(s)
+Unsupported operator aten::min encountered 1 time(s)
+Unsupported operator aten::where encountered 1 time(s)
+Unsupported operator aten::add_ encountered 13 time(s)
+Unsupported operator aten::softmax encountered 12 time(s)
+Unsupported operator aten::gelu encountered 12 time(s)
+Unsupported operator aten::tanh encountered 1 time(s)
+Unsupported ops detected: Counter({'aten::add': 40, 'aten::div': 14, 'aten::add_': 13, 'aten::softmax': 12, 'aten::gelu': 12, 'aten::mul': 4, 'aten::embedding': 3, 'aten::lt': 2, 'aten::rsub': 1, 'aten::ne': 1, 'aten::cumsum': 1, 'aten::sub': 1, 'aten::neg': 1, 'aten::abs': 1, 'aten::log': 1, 'aten::min': 1, 'aten::where': 1, 'aten::tanh': 1})
+Approx. FLOPs: 178.984083456 GFLOPs
+Total Parameters: 109.488002 Million
+Peak GPU Memory: 1.7139220237731934 GB
